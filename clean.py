@@ -53,9 +53,37 @@ def filter_individual_accuracy(df):
             submissions_new.append(s)
         correct_count = 0
     df = df[df['submission_id'].isin(submissions_new)]
-    print(df)
     return df
 
+
+def delete_question_rows(df):
+    df2 = df[df['correct_answer'].isna()]
+    return df2
+
+
+def create_columns_word_number_word_rt(df):
+    df2 = df.drop('phrase', axis=1).join(df['phrase'].str.split(' ', expand=True).stack().reset_index(level=1,
+                                                                                                 drop=True).rename(
+        'phrase'))
+    df2 = df2.reset_index()
+    df2['word_number'] = 1
+    initial_row_setting = df2['setting'].iloc[0]
+    count = 1
+    for i, row in df2.iterrows():
+        if row['setting'] != initial_row_setting:
+            initial_row_setting = row['setting']
+            count = 1
+        df2.at[i, 'word_number'] = count
+        count += 1
+
+    df3 = df.drop('times', axis=1).join(df['times'].str.split('|', expand=True).stack().reset_index(level=1,
+                                                                                                 drop=True).rename(
+        'rt'))
+    df3 = df3['rt']
+    df3 = df3.reset_index()
+    return pd.concat([df2, df3], axis=1)
+
+def create_region_number(df):
 
 if __name__ == "__main__":
     csv_path = 'https://magpie-demo.herokuapp.com/experiments/301/retrieve'
@@ -77,6 +105,15 @@ if __name__ == "__main__":
     items = get_items(df)
     print("All the items are: ", items)
 
+    """Delete question rows"""
+    df = delete_question_rows(df)
+
+    """Create columns [word_number, word, rt]"""
+    df = create_columns_word_number_word_rt(df)
+
+    """Create columns [region_number]"""
+    df = create_region_number(df)
+    
     """Save the processed csv file"""
     save_csv(save_path)
 
