@@ -1,0 +1,193 @@
+,submission_id,correct_answer,experiment_duration,experiment_end_time,experiment_start_time,itemID,phrase,phrase_length,qud,question,response,response_time,setting,times,type
+4,3280,,814944,1645733172356,1645732357412,3,"This morning, I heard about an important meeting with the manager.",11.0,,,,6387,partial,420|436|372|371|373|355|526|426|454|378|677,context
+5,3280,,814944,1645733172356,1645732357412,3,Some of the company’s accountants were there.,7.0,,,,13091,scalar,461|411|350|587|1028|515|2614,trigger
+6,3280,,814944,1645733172356,1645732357412,3,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,,,,23179,complement,434|374|683|412|756|629|387|445|507|381|547|517|467|493|603|437|451|597,continuation
+7,3280,yes,814944,1645733172356,1645732357412,3,,,,Did the manager have a meeting with any of the accountants?,yes,3418,,,
+11,3280,,814944,1645733172356,1645732357412,11,"After my house was burglarized, I carefully inventoried my wine collection.",11.0,,,,8620,full,835|421|340|364|1755|373|379|381|619|381|507,context
+12,3280,,814944,1645733172356,1645732357412,11,Only some of the bottles of Chardonnay were missing.,9.0,,,,13921,focused,453|363|301|323|301|331|373|539|1197,trigger
+13,3280,,814944,1645733172356,1645732357412,11,The rest were safe but I was still extremely upset.,10.0,,,,18349,complement,405|379|405|339|325|355|341|315|373|467,continuation
+14,3280,no,814944,1645733172356,1645732357412,11,,,,Were all of my bottles of wine safe in the basement?,no,4384,,,
+18,3280,,814944,1645733172356,1645732357412,8,"After the furniture sale, I catalogued all the merchandise in the store.",12.0,,,,6769,full,307|309|339|365|771|349|523|342|786|413|427|989,context
+19,3280,,814944,1645733172356,1645732357412,8,Only some of the leather couches had been sold.,9.0,,,,10913,focused,413|315|309|339|277|339|501|387|405,trigger
+20,3280,,814944,1645733172356,1645732357412,8,The rest were going to be stored in the warehouse until the following season.,14.0,,,,17113,complement,243|277|515|325|299|405|347|357|395|341|427|397|435|549,continuation
+21,3280,no,814944,1645733172356,1645732357412,8,,,,Had all of the leather couches been sold out before the furniture sale?,no,4860,,,
+36,3280,,814944,1645733172356,1645732357412,7,"Earlier today, I passed by a group of tourists looking at sights downtown.",13.0,,,,5108,partial,356|300|356|287|329|349|307|316|300|412|355|309|403,context
+37,3280,,814944,1645733172356,1645732357412,7,Some of the tourists got soaked by the rain storm.,10.0,,,,9189,scalar,308|364|285|347|332|347|357|363|333|315,trigger
+38,3280,,814944,1645733172356,1645732357412,7,"In fact, they all did because they had forgotten their umbrellas.",11.0,,,,14387,cancelation,285|315|325|298|318|355|413|355|349|347|1125,continuation
+39,3280,no,814944,1645733172356,1645732357412,7,,,,Have all tourists managed to stay dry during the rainstorm?,no,3948,,,
+40,3280,,814944,1645733172356,1645732357412,5,"At my client’s request, I meticulously compiled the investment report.",10.0,,,,4259,full,341|339|355|326|370|317|403|413|356|436,context
+41,3280,,814944,1645733172356,1645732357412,5,Only some of the real estate investments lost money.,9.0,,,,8068,focused,307|277|330|341|371|333|364|373|370,trigger
+42,3280,,814944,1645733172356,1645732357412,5,The others were successful despite the recent economic downturn.,9.0,,,,12521,complement,316|299|421|459|388|644|300|444|428,continuation
+43,3280,no,814944,1645733172356,1645732357412,5,,,,Did all real estate investments increase in value in spite an the economic downturn?,no,5036,,,
+44,3280,,814944,1645733172356,1645732357412,14,"To check on the progress of my research, I quickly scanned the experiments in the lab.",16.0,,,,6765,partial,373|324|324|355|326|362|309|339|365|323|333|523|357|363|341|459,context
+45,3280,,814944,1645733172356,1645732357412,14,Only some of my predictions were correct.,7.0,,,,10381,focused,347|349|346|333|395|317|458,trigger
+46,3280,,814944,1645733172356,1645732357412,14,The rest were wrong so my theory must be mistaken.,10.0,,,,15109,complement,253|378|638|443|341|347|405|371|333|387,continuation
+47,3280,yes,814944,1645733172356,1645732357412,14,,,,Were any of my predictions confirmed by my research?,no,5458,,,
+48,3280,,814944,1645733172356,1645732357412,1,I carefully inspected the new shipment of jewelry.,8.0,,,,4051,full,371|325|331|429|340|316|419|357,context
+49,3280,,814944,1645733172356,1645732357412,1,Some of the gold watches were fakes.,7.0,,,,7918,scalar,370|349|372|340|364|612|666,trigger
+50,3280,,814944,1645733172356,1645732357412,1,"In fact, they all were, so the company is planning to sue.",12.0,,,,13453,cancelation,420|308|372|355|357|347|324|668|364|349|387|396,continuation
+51,3280,yes,814944,1645733172356,1645732357412,1,,,,Did the new shipment of jewelery contain gold watches that were fake?,yes,4573,,,
+52,3280,,814944,1645733172356,1645732357412,18,"At a friend’s suggestion, I read a review of a new math textbook.",13.0,,,,5640,partial,392|332|605|284|427|309|355|317|338|317|331|349|355,context
+53,3280,,814944,1645733172356,1645732357412,18,Some of its problems were difficult.,6.0,,,,8648,scalar,309|331|294|330|597|411,trigger
+54,3280,,814944,1645733172356,1645732357412,18,The others were straightforward and I feel like I learned a lot.,12.0,,,,13608,complement,301|323|317|363|485|363|325|363|341|315|357|355,continuation
+55,3280,yes,814944,1645733172356,1645732357412,18,,,,Have there been difficult problems within the textbook?,yes,2693,,,
+56,3280,,814944,1645733172356,1645732357412,15,"When they returned, I reviewed each of the receipts for my family’s trip to Europe.",15.0,,,,9678,full,387|333|378|349|411|373|427|349|347|405|299|357|283|301|323,context
+57,3280,,814944,1645733172356,1645732357412,15,Some of their hotels were expensive.,6.0,,,,12678,scalar,325|379|309|323|397|323,trigger
+58,3280,,814944,1645733172356,1645732357412,15,The rest were cheap despite my family’s love for luxurious holidays.,11.0,,,,17187,complement,413|331|301|363|293|315|293|299|309|323|501,continuation
+59,3280,no,814944,1645733172356,1645732357412,15,,,,Did my family save money by entirely avoiding expensive hotels?,no,8388,,,
+60,3280,,814944,1645733172356,1645732357412,9,"Last week, I tasted every dish at a family potluck.",10.0,,,,4057,full,332|308|316|301|338|317|339|253|298|277,context
+61,3280,,814944,1645733172356,1645732357412,9,Some of the dishes were spicy.,6.0,,,,6858,scalar,315|253|316|284|404|381,trigger
+62,3280,,814944,1645733172356,1645732357412,9,"In fact, they all were but fortunately I love spicy food.",11.0,,,,10965,cancelation,283|294|307|309|299|285|315|357|355|308|324,continuation
+63,3280,yes,814944,1645733172356,1645732357412,9,,,,Have there been spicy dishes at the family potluck?,yes,3473,,,
+64,3280,,814944,1645733172356,1645732357412,21,The librarian told me about how annoying it was to reorganize the reference section.,14.0,,,,5610,partial,523|252|444|629|291|269|307|349|307|309|307|309|307|397,context
+65,3280,,814944,1645733172356,1645732357412,21,Only some of the dictionaries were labeled incorrectly.,8.0,,,,8698,focused,307|237|331|245|259|438|290|349,trigger
+66,3280,,814944,1645733172356,1645732357412,21,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,,,,15174,complement,300|260|245|291|340|412|507|453|275|349|307|285|332|412|307|357|364,continuation
+67,3280,no,814944,1645733172356,1645732357412,21,,,,Had all of the dictionaries at the library been labeled correctly?,no,3144,,,
+68,3280,,814944,1645733172356,1645732357412,4,I was the chief medic overseeing the bus accident on the side of the highway.,15.0,,,,6178,full,284|218|229|235|221|1187|333|340|309|323|284|399|321|316|300,context
+69,3280,,814944,1645733172356,1645732357412,4,Some of the passengers were still alive.,7.0,,,,9301,scalar,324|340|308|364|306|358|355,trigger
+70,3280,,814944,1645733172356,1645732357412,4,"In fact, they all were and none were critically injured.",10.0,,,,13310,cancelation,348|284|284|316|309|299|293|371|389|355,continuation
+71,3280,yes,814944,1645733172356,1645732357412,4,,,,Did any passenger survive the bus accident on the highway?,yes,3665,,,
+76,3280,,814944,1645733172356,1645732357412,12,"While working in the veterinary clinic, I caught a glimpse of a large bulldog.",14.0,,,,5918,partial,316|259|277|259|270|962|365|348|340|372|364|348|340|404,context
+77,3280,,814944,1645733172356,1645732357412,12,Only some of the dog’s teeth were missing.,8.0,,,,9517,focused,332|348|340|323|341|323|357|355,trigger
+78,3280,,814944,1645733172356,1645732357412,12,The rest were intact so it should still be able to eat solid food.,14.0,,,,15222,complement,364|309|387|332|365|379|364|339|390|347|341|363|381|379,continuation
+79,3280,yes,814944,1645733172356,1645732357412,12,,,,Was there a dog in the veterinary clinic?,yes,3033,,,
+91,3280,,814944,1645733172356,1645732357412,17,I examined the damage after I dropped a bowling ball down the stairs.,13.0,,,,6030,full,853|324|378|325|348|325|330|317|316|348|323|388|316,context
+92,3280,,814944,1645733172356,1645732357412,17,Some of the steps were damaged.,6.0,,,,8475,scalar,322|357|307|326|330|293,trigger
+93,3280,,814944,1645733172356,1645732357412,17,The others were fine so the repairs shouldn’t be too expensive.,11.0,,,,13163,complement,381|339|365|331|349|339|333|339|412|356|317,continuation
+94,3280,yes,814944,1645733172356,1645732357412,17,,,,Do any of the steps have to be repaired due to a dropped bowling ball?,yes,5723,,,
+95,3280,,814944,1645733172356,1645732357412,6,"As the office’s main technician, I had to check each computer for the dangerous new virus.",16.0,,,,6594,full,395|277|315|309|403|365|307|285|331|341|275|404|339|309|411|325,context
+96,3280,,814944,1645733172356,1645732357412,6,Some of our computers were infected.,6.0,,,,9530,scalar,275|373|347|421|331|333,trigger
+97,3280,,814944,1645733172356,1645732357412,6,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,,,,15050,cancelation,437|324|348|346|302|379|358|338|341|627|373|355|341,continuation
+98,3280,yes,814944,1645733172356,1645732357412,6,,,,Has there been damaging software on any computers at the office?,yes,4772,,,
+99,3280,,814944,1645733172356,1645732357412,20,My daughter told me about the awards assembly at her school.,11.0,,,,6981,partial,339|1726|459|348|349|435|514|670|307|341|419,context
+100,3280,,814944,1645733172356,1645732357412,20,Some of the honors students received prizes.,7.0,,,,10831,scalar,627|309|323|677|364|699|332,trigger
+101,3280,,814944,1645733172356,1645732357412,20,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,,,,17029,cancelation,398|307|330|269|316|276|299|285|307|309|323|309|306|350|299|309|363,continuation
+102,3280,yes,814944,1645733172356,1645732357412,20,,,,Have there been honors students at the assembly?,yes,2455,,,
+114,3280,,814944,1645733172356,1645732357412,2,"Before the hurricane landed, I checked every house in town.",10.0,,,,5330,full,339|341|299|437|331|277|379|285|331|285,context
+115,3280,,814944,1645733172356,1645732357412,2,Some of the residents had evacuated.,6.0,,,,7898,scalar,283|309|307|309|379|324,trigger
+116,3280,,814944,1645733172356,1645732357412,2,The rest stayed at home and foolishly risked their lives.,10.0,,,,12098,complement,267|277|363|317|323|293|308|492|380|340,continuation
+117,3280,no,814944,1645733172356,1645732357412,2,,,,Were all of the residents in their town when the hurricane landed?,no,6429,,,
+133,3280,,814944,1645733172356,1645732357412,24,"While eating breakfast, I had lots of time to pore over the stock prices from yesterday.",16.0,,,,6546,full,315|461|347|292|307|261|283|285|299|293|275|465|327|525|420|380,context
+134,3280,,814944,1645733172356,1645732357412,24,Only some of my stocks went up.,7.0,,,,9723,focused,342|363|453|324|300|435|350,trigger
+135,3280,,814944,1645733172356,1645732357412,24,The others were relatively steady but my portfolio was still down for the year.,14.0,,,,15651,complement,340|276|316|324|427|608|401|332|420|285|363|341|355|325,continuation
+136,3280,no,814944,1645733172356,1645732357412,24,,,,Did all the stock prices go down?,no,2933,,,
+145,3280,,814944,1645733172356,1645732357412,13,"In the school parking lot, I carefully inspected an old bus.",11.0,,,,4562,full,373|259|365|314|414|347|309|355|437|291|301,context
+146,3280,,814944,1645733172356,1645732357412,13,Some of its tires were flat.,6.0,,,,7258,scalar,291|269|299|301|499|285,trigger
+147,3280,,814944,1645733172356,1645732357412,13,The others were fine so it would not cost too much to fix it.,14.0,,,,12298,complement,324|260|267|293|331|293|283|245|291|309|331|319|394|396,continuation
+148,3280,yes,814944,1645733172356,1645732357412,13,,,,Did the old bus have flat tires?,yes,2501,,,
+149,3280,,814944,1645733172356,1645732357412,19,"To keep the laboratory well stocked, I occasionally look at which chemicals are being used.",15.0,,,,6154,partial,429|380|324|304|352|299|341|316|260|451|373|332|380|307|597,context
+150,3280,,814944,1645733172356,1645732357412,19,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,,,,11805,scalar,316|396|475|478|451|501|764|339|476|341|362,trigger
+151,3280,,814944,1645733172356,1645732357412,19,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,,,,17421,cancelation,412|284|284|260|172|203|205|325|332|354|340|324|261|339|300|428,continuation
+152,3280,no,814944,1645733172356,1645732357412,19,,,,Have all liquid nitrogen containers been full?,yes,5769,,,
+153,3280,,814944,1645733172356,1645732357412,16,"After the babysitter left, I went to my liquor collection and made a drink.",14.0,,,,6434,partial,299|317|258|774|411|453|438|306|347|437|315|309|267|317,context
+154,3280,,814944,1645733172356,1645732357412,16,Some of my new bottles of vodka were opened.,9.0,,,,10301,scalar,315|301|226|285|323|301|291|365|835,trigger
+155,3280,,814944,1645733172356,1645732357412,16,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,,,,16394,complement,294|362|293|371|437|324|301|314|373|347|350|467|316|476|340,continuation
+156,3280,no,814944,1645733172356,1645732357412,16,,,,Have all new bottles of vodka been untouched?,no,5996,,,
+157,3280,,814944,1645733172356,1645732357412,23,I had little time to prepare for my Spanish test so I quickly glanced at the new vocabulary items.,19.0,,,,6276,partial,363|285|251|261|251|237|275|236|252|260|252|260|267|228|275|286|242|253|299,context
+158,3280,,814944,1645733172356,1645732357412,23,Only some of the words sounded like they do in English.,11.0,,,,9802,focused,229|259|292|244|237|267|301|291|253|267|269,trigger
+159,3280,,814944,1645733172356,1645732357412,23,The others were totally unfamiliar which made the test somewhat challenging.,11.0,,,,13469,complement,226|237|243|245|251|294|306|301|339|261|314,continuation
+160,3280,yes,814944,1645733172356,1645732357412,23,,,,Do any Spanish vocabulary items have similarities with English words?,yes,4155,,,
+165,3280,,814944,1645733172356,1645732357412,22,I ran into a friend who started telling how my old high school football team did last season.,18.0,,,,6441,partial,299|277|290|287|266|269|268|259|275|292|291|277|283|549|331|277|307|292,context
+166,3280,,814944,1645733172356,1645732357412,22,Some of their losses were close.,6.0,,,,8841,scalar,274|261|299|285|331|333,trigger
+167,3280,,814944,1645733172356,1645732357412,22,"In fact, they all were which made the games stressful to watch.",12.0,,,,12953,cancelation,291|237|267|277|267|253|251|277|299|237|299|317,continuation
+168,3280,no,814944,1645733172356,1645732357412,22,,,,Did the football team win each of their matches?,yes,4277,,,
+169,3280,,814944,1645733172356,1645732357412,10,"When I visited Disney World, I quickly walked around the amusement park.",12.0,,,,4489,partial,260|276|275|253|260|380|275|292|267|341|275|381,context
+170,3280,,814944,1645733172356,1645732357412,10,Some of my favorite rides were still running.,8.0,,,,7636,scalar,332|283|309|315|285|355|285|315,trigger
+171,3280,,814944,1645733172356,1645732357412,10,The rest were shut down since they were no longer popular.,11.0,,,,12025,complement,301|275|293|292|292|333|276|603|316|316|331,continuation
+172,3280,no,814944,1645733172356,1645732357412,10,,,,Had all of my favorite rides at Disney World been closed?,yes,3837,,,
+181,3279,,587409,1645700041346,1645699453937,3,"This morning, I heard about an important meeting with the manager.",11.0,,,,3983,partial,205|428|301|269|280|284|296|292|295|255|297,context
+182,3279,,587409,1645700041346,1645699453937,3,Only some of the company’s accountants were there.,8.0,,,,8871,focused,318|340|313|323|337|350|354|1641,trigger
+183,3279,,587409,1645700041346,1645699453937,3,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,,,,14403,complement,247|303|252|291|251|282|279|267|257|268|267|290|252|295|265|248|271|251,continuation
+184,3279,yes,587409,1645700041346,1645699453937,3,,,,Did the manager have a meeting with any of the accountants?,yes,4074,,,
+185,3279,,587409,1645700041346,1645699453937,7,"Earlier today, I passed by a group of tourists looking at sights downtown.",13.0,,,,4179,partial,467|269|244|238|262|237|236|243|227|261|316|304|271,context
+186,3279,,587409,1645700041346,1645699453937,7,Some of the tourists got soaked by the rain storm.,10.0,,,,7914,scalar,329|283|286|305|303|320|313|278|265|251,trigger
+187,3279,,587409,1645700041346,1645699453937,7,The rest were dry because they had remembered their umbrellas.,10.0,,,,11883,complement,305|251|303|297|291|282|318|372|349|451,continuation
+188,3279,no,587409,1645700041346,1645699453937,7,,,,Have all tourists managed to stay dry during the rainstorm?,no,4196,,,
+189,3279,,587409,1645700041346,1645699453937,11,"After my house was burglarized, I briefly checked the basement.",10.0,,,,4107,partial,377|312|290|278|298|316|311|330|341|259,context
+190,3279,,587409,1645700041346,1645699453937,11,Some of the bottles of Chardonnay were missing.,8.0,,,,7490,scalar,326|317|318|329|347|341|320|322,trigger
+191,3279,,587409,1645700041346,1645699453937,11,The rest were safe but I was still extremely upset.,10.0,,,,11163,complement,284|285|271|346|291|279|281|275|306|370,continuation
+192,3279,no,587409,1645700041346,1645699453937,11,,,,Were all of my bottles of wine safe in the basement?,yes,4340,,,
+193,3279,,587409,1645700041346,1645699453937,2,"Before the hurricane landed, I volunteered to help out in town.",11.0,,,,4170,partial,286|284|256|318|304|287|325|311|300|303|343,context
+194,3279,,587409,1645700041346,1645699453937,2,Only some of the residents had evacuated.,7.0,,,,6992,focused,284|316|313|286|309|298|322,trigger
+195,3279,,587409,1645700041346,1645699453937,2,The rest stayed at home and foolishly risked their lives.,10.0,,,,10538,complement,272|285|264|281|278|284|310|321|291|304,continuation
+196,3279,no,587409,1645700041346,1645699453937,2,,,,Were all of the residents in their town when the hurricane landed?,no,3374,,,
+200,3279,,587409,1645700041346,1645699453937,5,"At my client’s request, I meticulously compiled the investment report.",10.0,,,,3608,full,290|276|275|287|293|290|290|279|277|298,context
+201,3279,,587409,1645700041346,1645699453937,5,Some of the real estate investments lost money.,8.0,,,,6614,scalar,283|284|293|282|265|306|315|301,trigger
+202,3279,,587409,1645700041346,1645699453937,5,The others were successful despite the recent economic downturn.,9.0,,,,10602,complement,264|300|620|310|313|378|296|439|411,continuation
+203,3279,no,587409,1645700041346,1645699453937,5,,,,Did all real estate investments increase in value in spite an the economic downturn?,yes,1349,,,
+204,3279,,587409,1645700041346,1645699453937,19,"To keep the laboratory well stocked, I write down exactly how much of the chemicals are used every night.",19.0,,,,6355,full,312|273|261|255|260|281|248|278|252|263|265|287|263|294|270|312|266|294|809,context
+205,3279,,587409,1645700041346,1645699453937,19,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,,,,10396,scalar,310|268|255|278|291|309|338|318|285|296|319,trigger
+206,3279,,587409,1645700041346,1645699453937,19,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,,,,16042,cancelation,265|260|274|318|274|280|310|298|308|319|303|286|297|309|270|284,continuation
+207,3279,no,587409,1645700041346,1645699453937,19,,,,Have all liquid nitrogen containers been full?,no,1705,,,
+208,3279,,587409,1645700041346,1645699453937,22,I am a huge fan of my old high school football team and attended every game last season.,18.0,,,,5940,full,292|264|266|281|362|277|271|267|259|280|274|322|289|332|322|332|318|301,context
+209,3279,,587409,1645700041346,1645699453937,22,Some of their losses were close.,6.0,,,,8444,scalar,315|268|304|310|308|294,trigger
+210,3279,,587409,1645700041346,1645699453937,22,The others were blowouts which made the games boring to watch.,11.0,,,,12780,complement,327|406|337|304|322|328|301|302|341|323|330,continuation
+211,3279,no,587409,1645700041346,1645699453937,22,,,,Did the football team win each of their matches?,no,1625,,,
+226,3279,,587409,1645700041346,1645699453937,13,"In the school parking lot, I passed by an old bus.",11.0,,,,3831,partial,285|264|339|314|290|282|319|282|264|272|297,context
+227,3279,,587409,1645700041346,1645699453937,13,Some of its tires were flat.,6.0,,,,6357,scalar,267|275|287|403|313|302,trigger
+228,3279,,587409,1645700041346,1645699453937,13,The others were fine so it would not cost too much to fix it.,14.0,,,,11953,complement,590|305|307|334|335|325|315|301|303|326|356|312|298|347,continuation
+229,3279,yes,587409,1645700041346,1645699453937,13,,,,Did the old bus have flat tires?,yes,1629,,,
+230,3279,,587409,1645700041346,1645699453937,9,"Last week, I attended a family potluck.",7.0,,,,4693,partial,325|1006|320|351|395|321|547,context
+231,3279,,587409,1645700041346,1645699453937,9,Some of the dishes were spicy.,6.0,,,,7040,scalar,279|257|262|274|254|278,trigger
+232,3279,,587409,1645700041346,1645699453937,9,"In fact, they all were but fortunately I love spicy food.",11.0,,,,10795,cancelation,252|238|226|253|268|285|305|277|263|310|332,continuation
+233,3279,yes,587409,1645700041346,1645699453937,9,,,,Have there been spicy dishes at the family potluck?,yes,1652,,,
+234,3279,,587409,1645700041346,1645699453937,24,"While eating breakfast, I had lots of time to pore over the stock prices from yesterday.",16.0,,,,4912,full,273|261|264|271|264|258|257|241|272|260|299|264|272|262|287|263,context
+235,3279,,587409,1645700041346,1645699453937,24,Some of my stocks went up.,6.0,,,,7109,scalar,231|265|254|264|279|287,trigger
+236,3279,,587409,1645700041346,1645699453937,24,"In fact, they all did but my portfolio was still down for the year.",14.0,,,,11887,cancelation,268|264|290|280|270|278|273|269|294|295|303|361|332|316,continuation
+237,3279,no,587409,1645700041346,1645699453937,24,,,,Did all the stock prices go down?,no,3958,,,
+241,3279,,587409,1645700041346,1645699453937,4,I was the chief medic overseeing the bus accident on the side of the highway.,15.0,,,,4692,full,325|236|238|252|264|246|286|281|289|309|293|271|263|284|281,context
+242,3279,,587409,1645700041346,1645699453937,4,Some of the passengers were still alive.,7.0,,,,7557,scalar,277|289|314|363|326|356|242,trigger
+243,3279,,587409,1645700041346,1645699453937,4,The others were killed on impact and there was no opportunity to save them.,14.0,,,,12721,complement,280|295|316|314|363|335|352|354|367|296|302|301|305|292,continuation
+244,3279,yes,587409,1645700041346,1645699453937,4,,,,Did any passenger survive the bus accident on the highway?,yes,3984,,,
+245,3279,,587409,1645700041346,1645699453937,8,"After the furniture sale, I catalogued all the merchandise in the store.",12.0,,,,3924,full,321|245|256|261|251|269|271|264|268|275|285|272,context
+246,3279,,587409,1645700041346,1645699453937,8,Only some of the leather couches had been sold.,9.0,,,,6945,focused,245|267|261|255|243|260|270|274|306,trigger
+247,3279,,587409,1645700041346,1645699453937,8,The rest were going to be stored in the warehouse until the following season.,14.0,,,,11746,complement,262|277|266|296|293|256|317|380|345|343|308|302|277|287,continuation
+248,3279,no,587409,1645700041346,1645699453937,8,,,,Had all of the leather couches been sold out before the furniture sale?,no,1692,,,
+256,3279,,587409,1645700041346,1645699453937,1,I carefully inspected the new shipment of jewelry.,8.0,,,,2709,full,311|210|307|260|253|246|262|236,context
+257,3279,,587409,1645700041346,1645699453937,1,Some of the gold watches were fakes.,7.0,,,,5028,scalar,237|253|250|232|249|235|242,trigger
+258,3279,,587409,1645700041346,1645699453937,1,"In fact, they all were, so the company is planning to sue.",12.0,,,,9410,cancelation,255|258|248|247|319|585|302|316|272|269|357|357,continuation
+259,3279,yes,587409,1645700041346,1645699453937,1,,,,Did the new shipment of jewelery contain gold watches that were fake?,yes,1927,,,
+268,3279,,587409,1645700041346,1645699453937,20,The PTA picked me to organize every award for the assembly at my daughter’s school.,15.0,,,,4455,full,262|264|243|250|226|245|233|268|255|262|266|256|253|254|269,context
+269,3279,,587409,1645700041346,1645699453937,20,Some of the honors students received prizes.,7.0,,,,6841,scalar,242|274|245|252|244|264|276,trigger
+270,3279,,587409,1645700041346,1645699453937,20,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,,,,12703,complement,264|359|375|317|332|284|255|283|287|261|273|288|280|283|270|273|464,continuation
+271,3279,yes,587409,1645700041346,1645699453937,20,,,,Have there been honors students at the assembly?,yes,3093,,,
+272,3279,,587409,1645700041346,1645699453937,10,"When I entered Disney World, I asked about the status of each of the rides.",15.0,,,,4690,full,532|245|269|253|241|237|240|240|244|244|254|258|237|257|255,context
+273,3279,,587409,1645700041346,1645699453937,10,Only some of my favorite rides were still running.,9.0,,,,7511,focused,252|232|213|248|249|250|251|238|233,trigger
+274,3279,,587409,1645700041346,1645699453937,10,The rest were shut down since they were no longer popular.,11.0,,,,11139,complement,252|249|249|250|250|258|246|253|254|245|284,continuation
+275,3279,no,587409,1645700041346,1645699453937,10,,,,Had all of my favorite rides at Disney World been closed?,no,2350,,,
+288,3279,,587409,1645700041346,1645699453937,17,I heard that my friend dropped a bowling ball down the stairs.,12.0,,,,4062,partial,241|251|212|256|236|247|246|248|232|238|222|255,context
+289,3279,,587409,1645700041346,1645699453937,17,Only some of the steps were damaged.,7.0,,,,6499,focused,229|228|237|236|235|264|255,trigger
+290,3279,,587409,1645700041346,1645699453937,17,The others were fine so the repairs shouldn’t be too expensive.,11.0,,,,9969,complement,246|230|234|244|269|280|292|246|277|260|247,continuation
+291,3279,yes,587409,1645700041346,1645699453937,17,,,,Do any of the steps have to be repaired due to a dropped bowling ball?,yes,2189,,,
+302,3279,,587409,1645700041346,1645699453937,21,"As the new librarian, it was my responsibility to catalog every book in the reference section.",16.0,,,,4608,full,253|255|233|233|296|271|235|248|262|254|246|248|243|249|255|275,context
+303,3279,,587409,1645700041346,1645699453937,21,Only some of the dictionaries were labeled incorrectly.,8.0,,,,7468,focused,230|271|257|284|241|301|278|311,trigger
+304,3279,,587409,1645700041346,1645699453937,21,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,,,,13284,complement,273|546|264|317|264|327|321|321|274|273|288|256|268|278|284|306|312,continuation
+305,3279,no,587409,1645700041346,1645699453937,21,,,,Had all of the dictionaries at the library been labeled correctly?,no,2170,,,
+310,3279,,587409,1645700041346,1645699453937,12,"While working in the veterinary clinic, I closely examined the mouth of a large bulldog.",15.0,,,,4606,full,222|220|230|226|235|216|271|251|270|286|294|279|244|279|218,context
+311,3279,,587409,1645700041346,1645699453937,12,Some of the dog’s teeth were missing.,7.0,,,,7313,scalar,251|495|220|232|242|221|263,trigger
+312,3279,,587409,1645700041346,1645699453937,12,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,,,,11642,cancelation,228|251|224|481|236|240|248|256|229|289|405|303|293,continuation
+313,3279,yes,587409,1645700041346,1645699453937,12,,,,Was there a dog in the veterinary clinic?,yes,1340,,,
+318,3279,,587409,1645700041346,1645699453937,16,"After the babysitter left, I went to my liquor collection and made a drink.",14.0,,,,4129,partial,253|252|235|318|300|257|235|229|255|259|232|252|245|236,context
+319,3279,,587409,1645700041346,1645699453937,16,Some of my new bottles of vodka were opened.,9.0,,,,7014,scalar,250|200|249|229|241|236|265|265|287,trigger
+320,3279,,587409,1645700041346,1645699453937,16,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,,,,13082,cancelation,273|250|235|242|234|227|224|254|263|258|211|237|254|242|232|257|253|241|267|250|278|296,continuation
+321,3279,no,587409,1645700041346,1645699453937,16,,,,Have all new bottles of vodka been untouched?,no,4004,,,
+322,3279,,587409,1645700041346,1645699453937,15,"When they returned, my family told me about their trip to Europe.",12.0,,,,4475,partial,264|276|243|244|256|251|238|748|265|273|261|247,context
+323,3279,,587409,1645700041346,1645699453937,15,Some of their hotels were expensive.,6.0,,,,6931,scalar,253|271|280|264|311|312,trigger
+324,3279,,587409,1645700041346,1645699453937,15,The rest were cheap despite my family’s love for luxurious holidays.,11.0,,,,10864,complement,248|235|226|225|255|232|254|256|287|459|656,continuation
+325,3279,no,587409,1645700041346,1645699453937,15,,,,Did my family save money by entirely avoiding expensive hotels?,yes,4013,,,
+330,3279,,587409,1645700041346,1645699453937,23,I had little time to prepare for my Spanish test so I quickly glanced at the new vocabulary items.,19.0,,,,5394,partial,246|241|219|218|215|214|400|219|212|218|229|207|229|226|238|254|246|237|346,context
+331,3279,,587409,1645700041346,1645699453937,23,Some of the words sounded like they do in English.,10.0,,,,8715,scalar,265|215|272|242|247|268|298|270|266|277,trigger
+332,3279,,587409,1645700041346,1645699453937,23,"In fact, they all did which made the test somewhat easier.",11.0,,,,12440,cancelation,302|237|229|247|256|232|270|273|255|262|431,continuation
+333,3279,yes,587409,1645700041346,1645699453937,23,,,,Do any Spanish vocabulary items have similarities with English words?,yes,2085,,,
+334,3279,,587409,1645700041346,1645699453937,6,"As the office’s main technician, I had been alerted to the dangerous new virus.",14.0,,,,4240,partial,546|225|224|182|183|221|233|209|217|230|212|199|250|239,context
+335,3279,,587409,1645700041346,1645699453937,6,Only some of our computers were infected.,7.0,,,,6324,focused,229|215|203|192|208|217|248,trigger
+336,3279,,587409,1645700041346,1645699453937,6,The rest were clean because their owners had been very cautious.,11.0,,,,10392,complement,204|237|188|436|233|628|399|299|255|252|325,continuation
+337,3279,yes,587409,1645700041346,1645699453937,6,,,,Has there been damaging software on any computers at the office?,yes,2938,,,
+338,3279,,587409,1645700041346,1645699453937,14,"To check on the progress of my research, I quickly scanned the experiments in the lab.",16.0,,,,4513,partial,225|227|232|220|204|222|208|208|202|241|249|219|235|243|239|247,context
+339,3279,,587409,1645700041346,1645699453937,14,Some of my predictions were correct.,6.0,,,,6795,scalar,239|216|214|423|267|270,trigger
+340,3279,,587409,1645700041346,1645699453937,14,"In fact, they all were so I should be able to publish the results.",14.0,,,,11009,cancelation,235|239|230|238|250|241|257|241|250|243|236|266|309|279,continuation
+341,3279,yes,587409,1645700041346,1645699453937,14,,,,Were any of my predictions confirmed by my research?,yes,1831,,,
+342,3279,,587409,1645700041346,1645699453937,18,"At a friend’s suggestion, I completely worked through an entire math textbook.",12.0,,,,3622,full,226|203|221|222|224|229|249|222|238|240|242|269,context
+343,3279,,587409,1645700041346,1645699453937,18,Only some of its problems were difficult.,7.0,,,,6067,focused,234|241|214|263|235|272|241,trigger
+344,3279,,587409,1645700041346,1645699453937,18,The others were straightforward and I feel like I learned a lot.,12.0,,,,9820,complement,225|252|215|231|277|280|251|251|241|255|258|288,continuation
+345,3279,yes,587409,1645700041346,1645699453937,18,,,,Have there been difficult problems within the textbook?,yes,2416,,,
