@@ -11,6 +11,11 @@ The repository for our online experiments can be found at : https://github.com/n
 
 In current repository, the core part are one Python script to preprocess data and one R script to build linear mixed effect regression models.
 
+### Data processing
+
+- Global and local accuracies are checked.
+- Reading Time (RT) are log-transformed.
+- Extreme RTs are not excluded yet which will be dealed after discussion.
 
 ### Mixed effect regression models
 
