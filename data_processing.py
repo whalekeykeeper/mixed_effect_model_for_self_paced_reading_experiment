@@ -193,11 +193,17 @@ def quantifier_or_not(df):
     return df
 
 
-def scalar_or_not(df):
-    df['scalar'] = ''
+def scalar_in_item_or_not(df):
+    df['scalar_in_item_or_not'] = ''
+
+    flag = True
     for i, row in df.iterrows():
+        if row['type'] == 'trigger' and row['setting'] != 'scalar':
+            flag = False
         if row['setting'] == 'scalar':
-            df.at[i, 'scalar'] = 'scalar'
+            flag = True
+        if flag:
+            df.at[i, 'scalar_in_item_or_not'] = 'scalar'
     return df
 
 
@@ -246,7 +252,7 @@ if __name__ == "__main__":
     df_quantifier_or_not = quantifier_or_not(df_full_or_partial)
 
     """quantifier region or not"""
-    df_final = scalar_or_not(df_quantifier_or_not)
+    df_final = scalar_in_item_or_not(df_quantifier_or_not)
 
     """Save the processed csv file"""
     print("The final table have the following columns: \n", df_final.columns)
