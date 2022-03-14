@@ -5,7 +5,7 @@ This repository contains the data analysis part of a replication of the self-pac
 
 A hosted version of this repository can be found at: https://keen-mahavira-61eb1c.netlify.app/
 
-The repository for the online experiments can be found at : https://github.com/nmeisinger/self-paced-reading-magpie
+The repository for our online experiments can be found at : https://github.com/nmeisinger/self-paced-reading-magpie
 
 ### Repository structure
 
