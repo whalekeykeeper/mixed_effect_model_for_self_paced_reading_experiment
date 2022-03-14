@@ -193,6 +193,14 @@ def quantifier_or_not(df):
     return df
 
 
+def scalar_or_not(df):
+    df['scalar'] = ''
+    for i, row in df.iterrows():
+        if row['setting'] == 'scalar':
+            df.at[i, 'scalar'] = 'scalar'
+    return df
+
+
 if __name__ == "__main__":
     csv_path = 'https://magpie-demo.herokuapp.com/experiments/301/retrieve'
     save_path = 'data_processed.csv'
@@ -225,7 +233,6 @@ if __name__ == "__main__":
     df_processed = df[['setting', 'submission_id', 'word_number', 'word', 'rt', 'region', 'type', 'itemID', 'phrase',
                        'phrase_length']]
     df_processed = df_processed.reset_index()
-
     print("The intermediate-processed table have the following columns: \n", df_processed.columns)
 
     """Get average rt for regions"""
@@ -236,9 +243,10 @@ if __name__ == "__main__":
 
 
     """quantifier region or not"""
-    df_final = quantifier_or_not(df_full_or_partial)
-    print(df.region.unique())
+    df_quantifier_or_not = quantifier_or_not(df_full_or_partial)
 
+    """quantifier region or not"""
+    df_final = scalar_or_not(df_quantifier_or_not)
 
     """Save the processed csv file"""
     print("The final table have the following columns: \n", df_final.columns)
