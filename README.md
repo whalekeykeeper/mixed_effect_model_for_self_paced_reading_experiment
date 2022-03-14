@@ -16,7 +16,7 @@ In current repository, the core part are one Python script to preprocess data an
 
 The **linear mixed effect regression models** using analysis of variance(**ANOVA**) with:
 
-**Fixed effects**: Speaker knowledge (full vs. partial), trigger-type (scaler vs. focused)
+- **Fixed effects**: Speaker knowledge (full vs. partial), trigger-type (scaler vs. focused)
 
-**Random effects**: Participants and items.
+- **Random effects**: Participants and items.
 
