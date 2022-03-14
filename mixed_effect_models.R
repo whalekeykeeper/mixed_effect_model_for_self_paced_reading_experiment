@@ -8,6 +8,14 @@ df = read.csv("https://raw.githubusercontent.com/whalekeykeeper/mixed_effect_mod
 df$avg_rt=log(df$avg_rt)
 head(df)
 
+# Residual plot to check assumptions
+xmdl= lm(avg_rt ~ full_or_partial, df)
+summary(xmdl)
+plot(fitted(xmdl), residuals(xmdl)) # This one is a bit weird
+hist(residuals(xmdl)) # Looks okay
+qqnorm(residuals(xmdl)) # Looks okay
+
+
 # Trigger Sentence
 select_trigger <- df %>%
   filter(type == "trigger")
