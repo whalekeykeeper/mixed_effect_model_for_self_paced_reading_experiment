@@ -4,9 +4,13 @@ library(lme4)
 # read data
 df = read.csv("https://raw.githubusercontent.com/whalekeykeeper/mixed_effect_model_for_self_paced_reading_experiment/main/data_processed.csv?token=GHSAT0AAAAAABP4G2PFOSIHFSNYUWBYLI7KYRX75MA")
 
+
+
 # Log-transform data
 df$avg_rt=log(df$avg_rt)
 head(df)
+
+
 
 # Residual plot to check assumptions
 xmdl= lm(avg_rt ~ full_or_partial, df)
@@ -16,6 +20,7 @@ hist(residuals(xmdl)) # Looks okay
 qqnorm(residuals(xmdl)) # Looks okay
 
 
+
 # Trigger Sentence
 select_trigger <- df %>%
   filter(type == "trigger")
@@ -23,6 +28,8 @@ head(select_trigger)
 
 boxplot(avg_rt ~ full_or_partial*setting,
         col=c("white","lightblue"),select_trigger)
+
+
 
 # H1: full-knowledge caused longer RT over the scalar quantifier of scalar trigger sentences than partial-knowledge
 select_scalar_quantifier <- df %>%
@@ -40,6 +47,8 @@ summary(df.model)
 anova(df.null, df.model)
 coef(df.model)
 
+
+
 # H2: full-knowledge caused shorter RT over the anaphor part in complement sentences than partial-knowledge
 select_complement_anaphor <- df %>%
   filter(setting == "complement", region == "c_anaphor")
@@ -55,6 +64,7 @@ df.model = lmer(avg_rt ~ full_or_partial +
 summary(df.model)
 anova(df.null, df.model)  # It shows that the full-knowledge relates to shorter RT which does not support this H1
 coef(df.model) 
+
 
 
 # H3: full-knowledge show no significant different effect over the "focus particle" than partial-knowledge in focused trigger sentence 
@@ -74,6 +84,7 @@ anova(df.null, df.model)  # Differences are small but the p-value is not signifi
 coef(df.model) 
 
 
+
 # H4: No matter full-knowledge or partial knowledge, for scalar trigger, 
 # RTs over all the regions are similar in complement sentences and cancellation sentences
 select_continuation <- df %>%
@@ -90,6 +101,7 @@ df.model = lmer(avg_rt ~ full_or_partial +
 summary(df.model)
 anova(df.null, df.model)  # The p-value is still not significant but much better than earlier ones
 coef(df.model) 
+
 
 
 # Other explores
