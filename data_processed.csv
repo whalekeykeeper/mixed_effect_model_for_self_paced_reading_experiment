@@ -1,1619 +1,353 @@
-,setting,submission_id,word_number,word,rt,phrase,region,type,phrase_length
-0,partial,3280,1,This,420,,-,context,11.0
-1,partial,3280,2,"morning,",436,,-,context,11.0
-2,partial,3280,3,I,372,,-,context,11.0
-3,partial,3280,4,heard,371,,-,context,11.0
-4,partial,3280,5,about,373,"This morning, I heard about an important meeting with the manager.",-,context,11.0
-5,partial,3280,6,an,355,Some of the company’s accountants were there.,-,context,11.0
-6,partial,3280,7,important,526,The rest were missing because they had to audit the company’s finances before the end of the quarter.,-,context,11.0
-7,partial,3280,8,meeting,426,,-,context,11.0
-8,partial,3280,9,with,454,,-,context,11.0
-9,partial,3280,10,the,378,,-,context,11.0
-10,partial,3280,11,manager.,677,,-,context,11.0
-11,scalar,3280,1,Some,461,"After my house was burglarized, I carefully inventoried my wine collection.",quantifier_s,trigger,7.0
-12,scalar,3280,2,of,411,Only some of the bottles of Chardonnay were missing.,quantifier_s,trigger,7.0
-13,scalar,3280,3,the,350,The rest were safe but I was still extremely upset.,ntw_1,trigger,7.0
-14,scalar,3280,4,company’s,587,,ntw_1,trigger,7.0
-15,scalar,3280,5,accountants,1028,,ntw_2,trigger,7.0
-16,scalar,3280,6,were,515,,ntw_2,trigger,7.0
-17,scalar,3280,7,there.,2614,,-,trigger,7.0
-18,complement,3280,1,The,434,"After the furniture sale, I catalogued all the merchandise in the store.",anaphor,continuation,18.0
-19,complement,3280,2,rest,374,Only some of the leather couches had been sold.,anaphor,continuation,18.0
-20,complement,3280,3,were,683,The rest were going to be stored in the warehouse until the following season.,predicate,continuation,18.0
-21,complement,3280,4,missing,412,,predicate,continuation,18.0
-22,complement,3280,5,because,756,,clause_boundary,continuation,18.0
-23,complement,3280,6,they,629,,ntw_1,continuation,18.0
-24,complement,3280,7,had,387,,ntw_1,continuation,18.0
-25,complement,3280,8,to,445,,-,continuation,18.0
-26,complement,3280,9,audit,507,,-,continuation,18.0
-27,complement,3280,10,the,381,,-,continuation,18.0
-28,complement,3280,11,company’s,547,,-,continuation,18.0
-29,complement,3280,12,finances,517,,-,continuation,18.0
-30,complement,3280,13,before,467,,-,continuation,18.0
-31,complement,3280,14,the,493,,-,continuation,18.0
-32,complement,3280,15,end,603,,-,continuation,18.0
-33,complement,3280,16,of,437,,-,continuation,18.0
-34,complement,3280,17,the,451,,-,continuation,18.0
-35,complement,3280,18,quarter.,597,,-,continuation,18.0
-36,full,3280,1,After,835,"Earlier today, I passed by a group of tourists looking at sights downtown.",-,context,11.0
-37,full,3280,2,my,421,Some of the tourists got soaked by the rain storm.,-,context,11.0
-38,full,3280,3,house,340,"In fact, they all did because they had forgotten their umbrellas.",-,context,11.0
-39,full,3280,4,was,364,,-,context,11.0
-40,full,3280,5,"burglarized,",1755,"At my client’s request, I meticulously compiled the investment report.",-,context,11.0
-41,full,3280,6,I,373,Only some of the real estate investments lost money.,-,context,11.0
-42,full,3280,7,carefully,379,The others were successful despite the recent economic downturn.,-,context,11.0
-43,full,3280,8,inventoried,381,,-,context,11.0
-44,full,3280,9,my,619,"To check on the progress of my research, I quickly scanned the experiments in the lab.",-,context,11.0
-45,full,3280,10,wine,381,Only some of my predictions were correct.,-,context,11.0
-46,full,3280,11,collection.,507,The rest were wrong so my theory must be mistaken.,-,context,11.0
-47,focused,3280,1,Only,453,,focus_particle,trigger,9.0
-48,focused,3280,2,some,363,I carefully inspected the new shipment of jewelry.,quantifier_f,trigger,9.0
-49,focused,3280,3,of,301,Some of the gold watches were fakes.,quantifier_f,trigger,9.0
-50,focused,3280,4,the,323,"In fact, they all were, so the company is planning to sue.",ntw_1,trigger,9.0
-51,focused,3280,5,bottles,301,,ntw_1,trigger,9.0
-52,focused,3280,6,of,331,"At a friend’s suggestion, I read a review of a new math textbook.",ntw_2,trigger,9.0
-53,focused,3280,7,Chardonnay,373,Some of its problems were difficult.,ntw_2,trigger,9.0
-54,focused,3280,8,were,539,The others were straightforward and I feel like I learned a lot.,-,trigger,9.0
-55,focused,3280,9,missing.,1197,,-,trigger,9.0
-56,complement,3280,1,The,405,"When they returned, I reviewed each of the receipts for my family’s trip to Europe.",anaphor,continuation,10.0
-57,complement,3280,2,rest,379,Some of their hotels were expensive.,anaphor,continuation,10.0
-58,complement,3280,3,were,405,The rest were cheap despite my family’s love for luxurious holidays.,predicate,continuation,10.0
-59,complement,3280,4,safe,339,,predicate,continuation,10.0
-60,complement,3280,5,but,325,"Last week, I tasted every dish at a family potluck.",clause_boundary,continuation,10.0
-61,complement,3280,6,I,355,Some of the dishes were spicy.,ntw_1,continuation,10.0
-62,complement,3280,7,was,341,"In fact, they all were but fortunately I love spicy food.",ntw_1,continuation,10.0
-63,complement,3280,8,still,315,,-,continuation,10.0
-64,complement,3280,9,extremely,373,The librarian told me about how annoying it was to reorganize the reference section.,-,continuation,10.0
-65,complement,3280,10,upset.,467,Only some of the dictionaries were labeled incorrectly.,-,continuation,10.0
-66,full,3280,1,After,307,The others were labeled appropriately though a few of them had been shelved in the wrong place.,-,context,12.0
-67,full,3280,2,the,309,,-,context,12.0
-68,full,3280,3,furniture,339,I was the chief medic overseeing the bus accident on the side of the highway.,-,context,12.0
-69,full,3280,4,"sale,",365,Some of the passengers were still alive.,-,context,12.0
-70,full,3280,5,I,771,"In fact, they all were and none were critically injured.",-,context,12.0
-71,full,3280,6,catalogued,349,,-,context,12.0
-72,full,3280,7,all,523,,-,context,12.0
-73,full,3280,8,the,342,,-,context,12.0
-74,full,3280,9,merchandise,786,,-,context,12.0
-75,full,3280,10,in,413,,-,context,12.0
-76,full,3280,11,the,427,"While working in the veterinary clinic, I caught a glimpse of a large bulldog.",-,context,12.0
-77,full,3280,12,store.,989,Only some of the dog’s teeth were missing.,-,context,12.0
-78,focused,3280,1,Only,413,The rest were intact so it should still be able to eat solid food.,focus_particle,trigger,9.0
-79,focused,3280,2,some,315,,quantifier_f,trigger,9.0
-80,focused,3280,3,of,309,,quantifier_f,trigger,9.0
-81,focused,3280,4,the,339,,ntw_1,trigger,9.0
-82,focused,3280,5,leather,277,,ntw_1,trigger,9.0
-83,focused,3280,6,couches,339,,ntw_2,trigger,9.0
-84,focused,3280,7,had,501,,ntw_2,trigger,9.0
-85,focused,3280,8,been,387,,-,trigger,9.0
-86,focused,3280,9,sold.,405,,-,trigger,9.0
-87,complement,3280,1,The,243,,anaphor,continuation,14.0
-88,complement,3280,2,rest,277,,anaphor,continuation,14.0
-89,complement,3280,3,were,515,,predicate,continuation,14.0
-90,complement,3280,4,going,325,,predicate,continuation,14.0
-91,complement,3280,5,to,299,I examined the damage after I dropped a bowling ball down the stairs.,predicate,continuation,14.0
-92,complement,3280,6,be,405,Some of the steps were damaged.,predicate,continuation,14.0
-93,complement,3280,7,stored,347,The others were fine so the repairs shouldn’t be too expensive.,predicate,continuation,14.0
-94,complement,3280,8,in,357,,predicate,continuation,14.0
-95,complement,3280,9,the,395,"As the office’s main technician, I had to check each computer for the dangerous new virus.",predicate,continuation,14.0
-96,complement,3280,10,warehouse,341,Some of our computers were infected.,predicate,continuation,14.0
-97,complement,3280,11,until,427,"In fact, they all were and the virus nearly destroyed the whole system.",clause_boundary,continuation,14.0
-98,complement,3280,12,the,397,,ntw_1,continuation,14.0
-99,complement,3280,13,following,435,My daughter told me about the awards assembly at her school.,ntw_1,continuation,14.0
-100,complement,3280,14,season.,549,Some of the honors students received prizes.,-,continuation,14.0
-101,partial,3280,1,Earlier,356,"In fact, they all did because the teachers didn’t want any of them to feel left out.",-,context,13.0
-102,partial,3280,2,"today,",300,,-,context,13.0
-103,partial,3280,3,I,356,,-,context,13.0
-104,partial,3280,4,passed,287,,-,context,13.0
-105,partial,3280,5,by,329,,-,context,13.0
-106,partial,3280,6,a,349,,-,context,13.0
-107,partial,3280,7,group,307,,-,context,13.0
-108,partial,3280,8,of,316,,-,context,13.0
-109,partial,3280,9,tourists,300,,-,context,13.0
-110,partial,3280,10,looking,412,,-,context,13.0
-111,partial,3280,11,at,355,,-,context,13.0
-112,partial,3280,12,sights,309,,-,context,13.0
-113,partial,3280,13,downtown.,403,,-,context,13.0
-114,scalar,3280,1,Some,308,"Before the hurricane landed, I checked every house in town.",quantifier_s,trigger,10.0
-115,scalar,3280,2,of,364,Some of the residents had evacuated.,quantifier_s,trigger,10.0
-116,scalar,3280,3,the,285,The rest stayed at home and foolishly risked their lives.,ntw_1,trigger,10.0
-117,scalar,3280,4,tourists,347,,ntw_1,trigger,10.0
-118,scalar,3280,5,got,332,,ntw_2,trigger,10.0
-119,scalar,3280,6,soaked,347,,ntw_2,trigger,10.0
-120,scalar,3280,7,by,357,,-,trigger,10.0
-121,scalar,3280,8,the,363,,-,trigger,10.0
-122,scalar,3280,9,rain,333,,-,trigger,10.0
-123,scalar,3280,10,storm.,315,,-,trigger,10.0
-124,cancelation,3280,1,In,285,,in_fact,continuation,11.0
-125,cancelation,3280,2,"fact,",315,,in_fact,continuation,11.0
-126,cancelation,3280,3,they,325,,they_all,continuation,11.0
-127,cancelation,3280,4,all,298,,they_all,continuation,11.0
-128,cancelation,3280,5,did,318,,did,continuation,11.0
-129,cancelation,3280,6,because,355,,word6,continuation,11.0
-130,cancelation,3280,7,they,413,,-,continuation,11.0
-131,cancelation,3280,8,had,355,,-,continuation,11.0
-132,cancelation,3280,9,forgotten,349,,-,continuation,11.0
-133,cancelation,3280,10,their,347,"While eating breakfast, I had lots of time to pore over the stock prices from yesterday.",-,continuation,11.0
-134,cancelation,3280,11,umbrellas.,1125,Only some of my stocks went up.,-,continuation,11.0
-135,full,3280,1,At,341,The others were relatively steady but my portfolio was still down for the year.,-,context,10.0
-136,full,3280,2,my,339,,-,context,10.0
-137,full,3280,3,client’s,355,,-,context,10.0
-138,full,3280,4,"request,",326,,-,context,10.0
-139,full,3280,5,I,370,,-,context,10.0
-140,full,3280,6,meticulously,317,,-,context,10.0
-141,full,3280,7,compiled,403,,-,context,10.0
-142,full,3280,8,the,413,,-,context,10.0
-143,full,3280,9,investment,356,,-,context,10.0
-144,full,3280,10,report.,436,,-,context,10.0
-145,focused,3280,1,Only,307,"In the school parking lot, I carefully inspected an old bus.",focus_particle,trigger,9.0
-146,focused,3280,2,some,277,Some of its tires were flat.,quantifier_f,trigger,9.0
-147,focused,3280,3,of,330,The others were fine so it would not cost too much to fix it.,quantifier_f,trigger,9.0
-148,focused,3280,4,the,341,,ntw_1,trigger,9.0
-149,focused,3280,5,real,371,"To keep the laboratory well stocked, I occasionally look at which chemicals are being used.",ntw_1,trigger,9.0
-150,focused,3280,6,estate,333,"Today, some of the liquid nitrogen containers needed to be refilled.",ntw_2,trigger,9.0
-151,focused,3280,7,investments,364,"In fact, they all did which confused me because we hadn’t used a lot this morning.",ntw_2,trigger,9.0
-152,focused,3280,8,lost,373,,-,trigger,9.0
-153,focused,3280,9,money.,370,"After the babysitter left, I went to my liquor collection and made a drink.",-,trigger,9.0
-154,complement,3280,1,The,316,Some of my new bottles of vodka were opened.,anaphor,continuation,9.0
-155,complement,3280,2,others,299,"The others were untouched, but I was still concerned and decided to call her parents.",anaphor,continuation,9.0
-156,complement,3280,3,were,421,,predicate,continuation,9.0
-157,complement,3280,4,successful,459,I had little time to prepare for my Spanish test so I quickly glanced at the new vocabulary items.,predicate,continuation,9.0
-158,complement,3280,5,despite,388,Only some of the words sounded like they do in English.,clause_boundary,continuation,9.0
-159,complement,3280,6,the,644,The others were totally unfamiliar which made the test somewhat challenging.,ntw_1,continuation,9.0
-160,complement,3280,7,recent,300,,ntw_1,continuation,9.0
-161,complement,3280,8,economic,444,,-,continuation,9.0
-162,complement,3280,9,downturn.,428,,-,continuation,9.0
-163,partial,3280,1,To,373,,-,context,16.0
-164,partial,3280,2,check,324,,-,context,16.0
-165,partial,3280,3,on,324,I ran into a friend who started telling how my old high school football team did last season.,-,context,16.0
-166,partial,3280,4,the,355,Some of their losses were close.,-,context,16.0
-167,partial,3280,5,progress,326,"In fact, they all were which made the games stressful to watch.",-,context,16.0
-168,partial,3280,6,of,362,,-,context,16.0
-169,partial,3280,7,my,309,"When I visited Disney World, I quickly walked around the amusement park.",-,context,16.0
-170,partial,3280,8,"research,",339,Some of my favorite rides were still running.,-,context,16.0
-171,partial,3280,9,I,365,The rest were shut down since they were no longer popular.,-,context,16.0
-172,partial,3280,10,quickly,323,,-,context,16.0
-173,partial,3280,11,scanned,333,,-,context,16.0
-174,partial,3280,12,the,523,,-,context,16.0
-175,partial,3280,13,experiments,357,,-,context,16.0
-176,partial,3280,14,in,363,,-,context,16.0
-177,partial,3280,15,the,341,,-,context,16.0
-178,partial,3280,16,lab.,459,,-,context,16.0
-179,focused,3280,1,Only,347,,focus_particle,trigger,7.0
-180,focused,3280,2,some,349,,quantifier_f,trigger,7.0
-181,focused,3280,3,of,346,"This morning, I heard about an important meeting with the manager.",quantifier_f,trigger,7.0
-182,focused,3280,4,my,333,Only some of the company’s accountants were there.,ntw_1,trigger,7.0
-183,focused,3280,5,predictions,395,The rest were missing because they had to audit the company’s finances before the end of the quarter.,ntw_1,trigger,7.0
-184,focused,3280,6,were,317,,ntw_2,trigger,7.0
-185,focused,3280,7,correct.,458,"Earlier today, I passed by a group of tourists looking at sights downtown.",ntw_2,trigger,7.0
-186,complement,3280,1,The,253,Some of the tourists got soaked by the rain storm.,anaphor,continuation,10.0
-187,complement,3280,2,rest,378,The rest were dry because they had remembered their umbrellas.,anaphor,continuation,10.0
-188,complement,3280,3,were,638,,predicate,continuation,10.0
-189,complement,3280,4,wrong,443,"After my house was burglarized, I briefly checked the basement.",predicate,continuation,10.0
-190,complement,3280,5,so,341,Some of the bottles of Chardonnay were missing.,clause_boundary,continuation,10.0
-191,complement,3280,6,my,347,The rest were safe but I was still extremely upset.,ntw_1,continuation,10.0
-192,complement,3280,7,theory,405,,ntw_1,continuation,10.0
-193,complement,3280,8,must,371,"Before the hurricane landed, I volunteered to help out in town.",-,continuation,10.0
-194,complement,3280,9,be,333,Only some of the residents had evacuated.,-,continuation,10.0
-195,complement,3280,10,mistaken.,387,The rest stayed at home and foolishly risked their lives.,-,continuation,10.0
-196,full,3280,1,I,371,,-,context,8.0
-197,full,3280,2,carefully,325,,-,context,8.0
-198,full,3280,3,inspected,331,,-,context,8.0
-199,full,3280,4,the,429,,-,context,8.0
-200,full,3280,5,new,340,"At my client’s request, I meticulously compiled the investment report.",-,context,8.0
-201,full,3280,6,shipment,316,Some of the real estate investments lost money.,-,context,8.0
-202,full,3280,7,of,419,The others were successful despite the recent economic downturn.,-,context,8.0
-203,full,3280,8,jewelry.,357,,-,context,8.0
-204,scalar,3280,1,Some,370,"To keep the laboratory well stocked, I write down exactly how much of the chemicals are used every night.",quantifier_s,trigger,7.0
-205,scalar,3280,2,of,349,"Today, some of the liquid nitrogen containers needed to be refilled.",quantifier_s,trigger,7.0
-206,scalar,3280,3,the,372,"In fact, they all did which confused me because we hadn’t used a lot this morning.",ntw_1,trigger,7.0
-207,scalar,3280,4,gold,340,,ntw_1,trigger,7.0
-208,scalar,3280,5,watches,364,I am a huge fan of my old high school football team and attended every game last season.,ntw_2,trigger,7.0
-209,scalar,3280,6,were,612,Some of their losses were close.,ntw_2,trigger,7.0
-210,scalar,3280,7,fakes.,666,The others were blowouts which made the games boring to watch.,-,trigger,7.0
-211,cancelation,3280,1,In,420,,in_fact,continuation,12.0
-212,cancelation,3280,2,"fact,",308,,in_fact,continuation,12.0
-213,cancelation,3280,3,they,372,,they_all,continuation,12.0
-214,cancelation,3280,4,all,355,,they_all,continuation,12.0
-215,cancelation,3280,5,"were,",357,,did,continuation,12.0
-216,cancelation,3280,6,so,347,,word6,continuation,12.0
-217,cancelation,3280,7,the,324,,-,continuation,12.0
-218,cancelation,3280,8,company,668,,-,continuation,12.0
-219,cancelation,3280,9,is,364,,-,continuation,12.0
-220,cancelation,3280,10,planning,349,,-,continuation,12.0
-221,cancelation,3280,11,to,387,,-,continuation,12.0
-222,cancelation,3280,12,sue.,396,,-,continuation,12.0
-223,partial,3280,1,At,392,,-,context,13.0
-224,partial,3280,2,a,332,,-,context,13.0
-225,partial,3280,3,friend’s,605,,-,context,13.0
-226,partial,3280,4,"suggestion,",284,"In the school parking lot, I passed by an old bus.",-,context,13.0
-227,partial,3280,5,I,427,Some of its tires were flat.,-,context,13.0
-228,partial,3280,6,read,309,The others were fine so it would not cost too much to fix it.,-,context,13.0
-229,partial,3280,7,a,355,,-,context,13.0
-230,partial,3280,8,review,317,"Last week, I attended a family potluck.",-,context,13.0
-231,partial,3280,9,of,338,Some of the dishes were spicy.,-,context,13.0
-232,partial,3280,10,a,317,"In fact, they all were but fortunately I love spicy food.",-,context,13.0
-233,partial,3280,11,new,331,,-,context,13.0
-234,partial,3280,12,math,349,"While eating breakfast, I had lots of time to pore over the stock prices from yesterday.",-,context,13.0
-235,partial,3280,13,textbook.,355,Some of my stocks went up.,-,context,13.0
-236,scalar,3280,1,Some,309,"In fact, they all did but my portfolio was still down for the year.",quantifier_s,trigger,6.0
-237,scalar,3280,2,of,331,,quantifier_s,trigger,6.0
-238,scalar,3280,3,its,294,,ntw_1,trigger,6.0
-239,scalar,3280,4,problems,330,,ntw_1,trigger,6.0
-240,scalar,3280,5,were,597,,ntw_2,trigger,6.0
-241,scalar,3280,6,difficult.,411,I was the chief medic overseeing the bus accident on the side of the highway.,ntw_2,trigger,6.0
-242,complement,3280,1,The,301,Some of the passengers were still alive.,anaphor,continuation,12.0
-243,complement,3280,2,others,323,The others were killed on impact and there was no opportunity to save them.,anaphor,continuation,12.0
-244,complement,3280,3,were,317,,predicate,continuation,12.0
-245,complement,3280,4,straightforward,363,"After the furniture sale, I catalogued all the merchandise in the store.",predicate,continuation,12.0
-246,complement,3280,5,and,485,Only some of the leather couches had been sold.,clause_boundary,continuation,12.0
-247,complement,3280,6,I,363,The rest were going to be stored in the warehouse until the following season.,ntw_1,continuation,12.0
-248,complement,3280,7,feel,325,,ntw_1,continuation,12.0
-249,complement,3280,8,like,363,,-,continuation,12.0
-250,complement,3280,9,I,341,,-,continuation,12.0
-251,complement,3280,10,learned,315,,-,continuation,12.0
-252,complement,3280,11,a,357,,-,continuation,12.0
-253,complement,3280,12,lot.,355,,-,continuation,12.0
-254,full,3280,1,When,387,,-,context,15.0
-255,full,3280,2,they,333,,-,context,15.0
-256,full,3280,3,"returned,",378,I carefully inspected the new shipment of jewelry.,-,context,15.0
-257,full,3280,4,I,349,Some of the gold watches were fakes.,-,context,15.0
-258,full,3280,5,reviewed,411,"In fact, they all were, so the company is planning to sue.",-,context,15.0
-259,full,3280,6,each,373,,-,context,15.0
-260,full,3280,7,of,427,,-,context,15.0
-261,full,3280,8,the,349,,-,context,15.0
-262,full,3280,9,receipts,347,,-,context,15.0
-263,full,3280,10,for,405,,-,context,15.0
-264,full,3280,11,my,299,,-,context,15.0
-265,full,3280,12,family’s,357,,-,context,15.0
-266,full,3280,13,trip,283,,-,context,15.0
-267,full,3280,14,to,301,,-,context,15.0
-268,full,3280,15,Europe.,323,The PTA picked me to organize every award for the assembly at my daughter’s school.,-,context,15.0
-269,scalar,3280,1,Some,325,Some of the honors students received prizes.,quantifier_s,trigger,6.0
-270,scalar,3280,2,of,379,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,quantifier_s,trigger,6.0
-271,scalar,3280,3,their,309,,ntw_1,trigger,6.0
-272,scalar,3280,4,hotels,323,"When I entered Disney World, I asked about the status of each of the rides.",ntw_1,trigger,6.0
-273,scalar,3280,5,were,397,Only some of my favorite rides were still running.,ntw_2,trigger,6.0
-274,scalar,3280,6,expensive.,323,The rest were shut down since they were no longer popular.,ntw_2,trigger,6.0
-275,complement,3280,1,The,413,,anaphor,continuation,11.0
-276,complement,3280,2,rest,331,,anaphor,continuation,11.0
-277,complement,3280,3,were,301,,predicate,continuation,11.0
-278,complement,3280,4,cheap,363,,predicate,continuation,11.0
-279,complement,3280,5,despite,293,,clause_boundary,continuation,11.0
-280,complement,3280,6,my,315,,ntw_1,continuation,11.0
-281,complement,3280,7,family’s,293,,ntw_1,continuation,11.0
-282,complement,3280,8,love,299,,-,continuation,11.0
-283,complement,3280,9,for,309,,-,continuation,11.0
-284,complement,3280,10,luxurious,323,,-,continuation,11.0
-285,complement,3280,11,holidays.,501,,-,continuation,11.0
-286,full,3280,1,Last,332,,-,context,10.0
-287,full,3280,2,"week,",308,,-,context,10.0
-288,full,3280,3,I,316,I heard that my friend dropped a bowling ball down the stairs.,-,context,10.0
-289,full,3280,4,tasted,301,Only some of the steps were damaged.,-,context,10.0
-290,full,3280,5,every,338,The others were fine so the repairs shouldn’t be too expensive.,-,context,10.0
-291,full,3280,6,dish,317,,-,context,10.0
-292,full,3280,7,at,339,,-,context,10.0
-293,full,3280,8,a,253,,-,context,10.0
-294,full,3280,9,family,298,,-,context,10.0
-295,full,3280,10,potluck.,277,,-,context,10.0
-296,scalar,3280,1,Some,315,,quantifier_s,trigger,6.0
-297,scalar,3280,2,of,253,,quantifier_s,trigger,6.0
-298,scalar,3280,3,the,316,,ntw_1,trigger,6.0
-299,scalar,3280,4,dishes,284,,ntw_1,trigger,6.0
-300,scalar,3280,5,were,404,,ntw_2,trigger,6.0
-301,scalar,3280,6,spicy.,381,,ntw_2,trigger,6.0
-302,cancelation,3280,1,In,283,"As the new librarian, it was my responsibility to catalog every book in the reference section.",in_fact,continuation,11.0
-303,cancelation,3280,2,"fact,",294,Only some of the dictionaries were labeled incorrectly.,in_fact,continuation,11.0
-304,cancelation,3280,3,they,307,The others were labeled appropriately though a few of them had been shelved in the wrong place.,they_all,continuation,11.0
-305,cancelation,3280,4,all,309,,they_all,continuation,11.0
-306,cancelation,3280,5,were,299,,did,continuation,11.0
-307,cancelation,3280,6,but,285,,word6,continuation,11.0
-308,cancelation,3280,7,fortunately,315,,-,continuation,11.0
-309,cancelation,3280,8,I,357,,-,continuation,11.0
-310,cancelation,3280,9,love,355,"While working in the veterinary clinic, I closely examined the mouth of a large bulldog.",-,continuation,11.0
-311,cancelation,3280,10,spicy,308,Some of the dog’s teeth were missing.,-,continuation,11.0
-312,cancelation,3280,11,food.,324,"In fact, they all were because its owners completely neglected its oral hygiene.",-,continuation,11.0
-313,partial,3280,1,The,523,,-,context,14.0
-314,partial,3280,2,librarian,252,,-,context,14.0
-315,partial,3280,3,told,444,,-,context,14.0
-316,partial,3280,4,me,629,,-,context,14.0
-317,partial,3280,5,about,291,,-,context,14.0
-318,partial,3280,6,how,269,"After the babysitter left, I went to my liquor collection and made a drink.",-,context,14.0
-319,partial,3280,7,annoying,307,Some of my new bottles of vodka were opened.,-,context,14.0
-320,partial,3280,8,it,349,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",-,context,14.0
-321,partial,3280,9,was,307,,-,context,14.0
-322,partial,3280,10,to,309,"When they returned, my family told me about their trip to Europe.",-,context,14.0
-323,partial,3280,11,reorganize,307,Some of their hotels were expensive.,-,context,14.0
-324,partial,3280,12,the,309,The rest were cheap despite my family’s love for luxurious holidays.,-,context,14.0
-325,partial,3280,13,reference,307,,-,context,14.0
-326,partial,3280,14,section.,397,,-,context,14.0
-327,focused,3280,1,Only,307,,focus_particle,trigger,8.0
-328,focused,3280,2,some,237,,quantifier_f,trigger,8.0
-329,focused,3280,3,of,331,,quantifier_f,trigger,8.0
-330,focused,3280,4,the,245,I had little time to prepare for my Spanish test so I quickly glanced at the new vocabulary items.,ntw_1,trigger,8.0
-331,focused,3280,5,dictionaries,259,Some of the words sounded like they do in English.,ntw_1,trigger,8.0
-332,focused,3280,6,were,438,"In fact, they all did which made the test somewhat easier.",ntw_2,trigger,8.0
-333,focused,3280,7,labeled,290,,ntw_2,trigger,8.0
-334,focused,3280,8,incorrectly.,349,"As the office’s main technician, I had been alerted to the dangerous new virus.",-,trigger,8.0
-335,complement,3280,1,The,300,Only some of our computers were infected.,anaphor,continuation,17.0
-336,complement,3280,2,others,260,The rest were clean because their owners had been very cautious.,anaphor,continuation,17.0
-337,complement,3280,3,were,245,,predicate,continuation,17.0
-338,complement,3280,4,labeled,291,"To check on the progress of my research, I quickly scanned the experiments in the lab.",predicate,continuation,17.0
-339,complement,3280,5,appropriately,340,Some of my predictions were correct.,predicate,continuation,17.0
-340,complement,3280,6,though,412,"In fact, they all were so I should be able to publish the results.",clause_boundary,continuation,17.0
-341,complement,3280,7,a,507,,ntw_1,continuation,17.0
-342,complement,3280,8,few,453,"At a friend’s suggestion, I completely worked through an entire math textbook.",ntw_1,continuation,17.0
-343,complement,3280,9,of,275,Only some of its problems were difficult.,-,continuation,17.0
-344,complement,3280,10,them,349,The others were straightforward and I feel like I learned a lot.,-,continuation,17.0
-345,complement,3280,11,had,307,,-,continuation,17.0
-346,complement,3280,12,been,285,,-,continuation,17.0
-347,complement,3280,13,shelved,332,,-,continuation,17.0
-348,complement,3280,14,in,412,,-,continuation,17.0
-349,complement,3280,15,the,307,,-,continuation,17.0
-350,complement,3280,16,wrong,357,,-,continuation,17.0
-351,complement,3280,17,place.,364,,-,continuation,17.0
-352,full,3280,1,I,284,,-,context,15.0
-353,full,3280,2,was,218,,-,context,15.0
-354,full,3280,3,the,229,,-,context,15.0
-355,full,3280,4,chief,235,,-,context,15.0
-356,full,3280,5,medic,221,,-,context,15.0
-357,full,3280,6,overseeing,1187,,-,context,15.0
-358,full,3280,7,the,333,,-,context,15.0
-359,full,3280,8,bus,340,,-,context,15.0
-360,full,3280,9,accident,309,,-,context,15.0
-361,full,3280,10,on,323,,-,context,15.0
-362,full,3280,11,the,284,,-,context,15.0
-363,full,3280,12,side,399,,-,context,15.0
-364,full,3280,13,of,321,,-,context,15.0
-365,full,3280,14,the,316,,-,context,15.0
-366,full,3280,15,highway.,300,,-,context,15.0
-367,scalar,3280,1,Some,324,,quantifier_s,trigger,7.0
-368,scalar,3280,2,of,340,,quantifier_s,trigger,7.0
-369,scalar,3280,3,the,308,,ntw_1,trigger,7.0
-370,scalar,3280,4,passengers,364,,ntw_1,trigger,7.0
-371,scalar,3280,5,were,306,,ntw_2,trigger,7.0
-372,scalar,3280,6,still,358,,ntw_2,trigger,7.0
-373,scalar,3280,7,alive.,355,,-,trigger,7.0
-374,cancelation,3280,1,In,348,,in_fact,continuation,10.0
-375,cancelation,3280,2,"fact,",284,,in_fact,continuation,10.0
-376,cancelation,3280,3,they,284,,they_all,continuation,10.0
-377,cancelation,3280,4,all,316,,they_all,continuation,10.0
-378,cancelation,3280,5,were,309,,did,continuation,10.0
-379,cancelation,3280,6,and,299,,word6,continuation,10.0
-380,cancelation,3280,7,none,293,,-,continuation,10.0
-381,cancelation,3280,8,were,371,,-,continuation,10.0
-382,cancelation,3280,9,critically,389,,-,continuation,10.0
-383,cancelation,3280,10,injured.,355,,-,continuation,10.0
-384,partial,3280,1,While,316,,-,context,14.0
-385,partial,3280,2,working,259,,-,context,14.0
-386,partial,3280,3,in,277,,-,context,14.0
-387,partial,3280,4,the,259,,-,context,14.0
-388,partial,3280,5,veterinary,270,,-,context,14.0
-389,partial,3280,6,"clinic,",962,,-,context,14.0
-390,partial,3280,7,I,365,,-,context,14.0
-391,partial,3280,8,caught,348,,-,context,14.0
-392,partial,3280,9,a,340,,-,context,14.0
-393,partial,3280,10,glimpse,372,,-,context,14.0
-394,partial,3280,11,of,364,,-,context,14.0
-395,partial,3280,12,a,348,,-,context,14.0
-396,partial,3280,13,large,340,,-,context,14.0
-397,partial,3280,14,bulldog.,404,,-,context,14.0
-398,focused,3280,1,Only,332,,focus_particle,trigger,8.0
-399,focused,3280,2,some,348,,quantifier_f,trigger,8.0
-400,focused,3280,3,of,340,,quantifier_f,trigger,8.0
-401,focused,3280,4,the,323,,ntw_1,trigger,8.0
-402,focused,3280,5,dog’s,341,,ntw_1,trigger,8.0
-403,focused,3280,6,teeth,323,,ntw_2,trigger,8.0
-404,focused,3280,7,were,357,,ntw_2,trigger,8.0
-405,focused,3280,8,missing.,355,,-,trigger,8.0
-406,complement,3280,1,The,364,,anaphor,continuation,14.0
-407,complement,3280,2,rest,309,,anaphor,continuation,14.0
-408,complement,3280,3,were,387,,predicate,continuation,14.0
-409,complement,3280,4,intact,332,,predicate,continuation,14.0
-410,complement,3280,5,so,365,,clause_boundary,continuation,14.0
-411,complement,3280,6,it,379,,ntw_1,continuation,14.0
-412,complement,3280,7,should,364,,ntw_1,continuation,14.0
-413,complement,3280,8,still,339,,-,continuation,14.0
-414,complement,3280,9,be,390,,-,continuation,14.0
-415,complement,3280,10,able,347,,-,continuation,14.0
-416,complement,3280,11,to,341,,-,continuation,14.0
-417,complement,3280,12,eat,363,,-,continuation,14.0
-418,complement,3280,13,solid,381,,-,continuation,14.0
-419,complement,3280,14,food.,379,,-,continuation,14.0
-420,full,3280,1,I,853,,-,context,13.0
-421,full,3280,2,examined,324,,-,context,13.0
-422,full,3280,3,the,378,,-,context,13.0
-423,full,3280,4,damage,325,,-,context,13.0
-424,full,3280,5,after,348,,-,context,13.0
-425,full,3280,6,I,325,,-,context,13.0
-426,full,3280,7,dropped,330,,-,context,13.0
-427,full,3280,8,a,317,,-,context,13.0
-428,full,3280,9,bowling,316,,-,context,13.0
-429,full,3280,10,ball,348,,-,context,13.0
-430,full,3280,11,down,323,,-,context,13.0
-431,full,3280,12,the,388,,-,context,13.0
-432,full,3280,13,stairs.,316,,-,context,13.0
-433,scalar,3280,1,Some,322,,quantifier_s,trigger,6.0
-434,scalar,3280,2,of,357,,quantifier_s,trigger,6.0
-435,scalar,3280,3,the,307,,ntw_1,trigger,6.0
-436,scalar,3280,4,steps,326,,ntw_1,trigger,6.0
-437,scalar,3280,5,were,330,,ntw_2,trigger,6.0
-438,scalar,3280,6,damaged.,293,,ntw_2,trigger,6.0
-439,complement,3280,1,The,381,,anaphor,continuation,11.0
-440,complement,3280,2,others,339,,anaphor,continuation,11.0
-441,complement,3280,3,were,365,,predicate,continuation,11.0
-442,complement,3280,4,fine,331,,predicate,continuation,11.0
-443,complement,3280,5,so,349,,clause_boundary,continuation,11.0
-444,complement,3280,6,the,339,,ntw_1,continuation,11.0
-445,complement,3280,7,repairs,333,,ntw_1,continuation,11.0
-446,complement,3280,8,shouldn’t,339,,-,continuation,11.0
-447,complement,3280,9,be,412,,-,continuation,11.0
-448,complement,3280,10,too,356,,-,continuation,11.0
-449,complement,3280,11,expensive.,317,,-,continuation,11.0
-450,full,3280,1,As,395,,-,context,16.0
-451,full,3280,2,the,277,,-,context,16.0
-452,full,3280,3,office’s,315,,-,context,16.0
-453,full,3280,4,main,309,,-,context,16.0
-454,full,3280,5,"technician,",403,,-,context,16.0
-455,full,3280,6,I,365,,-,context,16.0
-456,full,3280,7,had,307,,-,context,16.0
-457,full,3280,8,to,285,,-,context,16.0
-458,full,3280,9,check,331,,-,context,16.0
-459,full,3280,10,each,341,,-,context,16.0
-460,full,3280,11,computer,275,,-,context,16.0
-461,full,3280,12,for,404,,-,context,16.0
-462,full,3280,13,the,339,,-,context,16.0
-463,full,3280,14,dangerous,309,,-,context,16.0
-464,full,3280,15,new,411,,-,context,16.0
-465,full,3280,16,virus.,325,,-,context,16.0
-466,scalar,3280,1,Some,275,,quantifier_s,trigger,6.0
-467,scalar,3280,2,of,373,,quantifier_s,trigger,6.0
-468,scalar,3280,3,our,347,,ntw_1,trigger,6.0
-469,scalar,3280,4,computers,421,,ntw_1,trigger,6.0
-470,scalar,3280,5,were,331,,ntw_2,trigger,6.0
-471,scalar,3280,6,infected.,333,,ntw_2,trigger,6.0
-472,cancelation,3280,1,In,437,,in_fact,continuation,13.0
-473,cancelation,3280,2,"fact,",324,,in_fact,continuation,13.0
-474,cancelation,3280,3,they,348,,they_all,continuation,13.0
-475,cancelation,3280,4,all,346,,they_all,continuation,13.0
-476,cancelation,3280,5,were,302,,did,continuation,13.0
-477,cancelation,3280,6,and,379,,word6,continuation,13.0
-478,cancelation,3280,7,the,358,,-,continuation,13.0
-479,cancelation,3280,8,virus,338,,-,continuation,13.0
-480,cancelation,3280,9,nearly,341,,-,continuation,13.0
-481,cancelation,3280,10,destroyed,627,,-,continuation,13.0
-482,cancelation,3280,11,the,373,,-,continuation,13.0
-483,cancelation,3280,12,whole,355,,-,continuation,13.0
-484,cancelation,3280,13,system.,341,,-,continuation,13.0
-485,partial,3280,1,My,339,,-,context,11.0
-486,partial,3280,2,daughter,1726,,-,context,11.0
-487,partial,3280,3,told,459,,-,context,11.0
-488,partial,3280,4,me,348,,-,context,11.0
-489,partial,3280,5,about,349,,-,context,11.0
-490,partial,3280,6,the,435,,-,context,11.0
-491,partial,3280,7,awards,514,,-,context,11.0
-492,partial,3280,8,assembly,670,,-,context,11.0
-493,partial,3280,9,at,307,,-,context,11.0
-494,partial,3280,10,her,341,,-,context,11.0
-495,partial,3280,11,school.,419,,-,context,11.0
-496,scalar,3280,1,Some,627,,quantifier_s,trigger,7.0
-497,scalar,3280,2,of,309,,quantifier_s,trigger,7.0
-498,scalar,3280,3,the,323,,ntw_1,trigger,7.0
-499,scalar,3280,4,honors,677,,ntw_1,trigger,7.0
-500,scalar,3280,5,students,364,,ntw_2,trigger,7.0
-501,scalar,3280,6,received,699,,ntw_2,trigger,7.0
-502,scalar,3280,7,prizes.,332,,-,trigger,7.0
-503,cancelation,3280,1,In,398,,in_fact,continuation,17.0
-504,cancelation,3280,2,"fact,",307,,in_fact,continuation,17.0
-505,cancelation,3280,3,they,330,,they_all,continuation,17.0
-506,cancelation,3280,4,all,269,,they_all,continuation,17.0
-507,cancelation,3280,5,did,316,,did,continuation,17.0
-508,cancelation,3280,6,because,276,,word6,continuation,17.0
-509,cancelation,3280,7,the,299,,-,continuation,17.0
-510,cancelation,3280,8,teachers,285,,-,continuation,17.0
-511,cancelation,3280,9,didn’t,307,,-,continuation,17.0
-512,cancelation,3280,10,want,309,,-,continuation,17.0
-513,cancelation,3280,11,any,323,,-,continuation,17.0
-514,cancelation,3280,12,of,309,,-,continuation,17.0
-515,cancelation,3280,13,them,306,,-,continuation,17.0
-516,cancelation,3280,14,to,350,,-,continuation,17.0
-517,cancelation,3280,15,feel,299,,-,continuation,17.0
-518,cancelation,3280,16,left,309,,-,continuation,17.0
-519,cancelation,3280,17,out.,363,,-,continuation,17.0
-520,full,3280,1,Before,339,,-,context,10.0
-521,full,3280,2,the,341,,-,context,10.0
-522,full,3280,3,hurricane,299,,-,context,10.0
-523,full,3280,4,"landed,",437,,-,context,10.0
-524,full,3280,5,I,331,,-,context,10.0
-525,full,3280,6,checked,277,,-,context,10.0
-526,full,3280,7,every,379,,-,context,10.0
-527,full,3280,8,house,285,,-,context,10.0
-528,full,3280,9,in,331,,-,context,10.0
-529,full,3280,10,town.,285,,-,context,10.0
-530,scalar,3280,1,Some,283,,quantifier_s,trigger,6.0
-531,scalar,3280,2,of,309,,quantifier_s,trigger,6.0
-532,scalar,3280,3,the,307,,ntw_1,trigger,6.0
-533,scalar,3280,4,residents,309,,ntw_1,trigger,6.0
-534,scalar,3280,5,had,379,,ntw_2,trigger,6.0
-535,scalar,3280,6,evacuated.,324,,ntw_2,trigger,6.0
-536,complement,3280,1,The,267,,anaphor,continuation,10.0
-537,complement,3280,2,rest,277,,anaphor,continuation,10.0
-538,complement,3280,3,stayed,363,,predicate,continuation,10.0
-539,complement,3280,4,at,317,,predicate,continuation,10.0
-540,complement,3280,5,home,323,,predicate,continuation,10.0
-541,complement,3280,6,and,293,,clause_boundary,continuation,10.0
-542,complement,3280,7,foolishly,308,,ntw_1,continuation,10.0
-543,complement,3280,8,risked,492,,ntw_1,continuation,10.0
-544,complement,3280,9,their,380,,-,continuation,10.0
-545,complement,3280,10,lives.,340,,-,continuation,10.0
-546,full,3280,1,While,315,,-,context,16.0
-547,full,3280,2,eating,461,,-,context,16.0
-548,full,3280,3,"breakfast,",347,,-,context,16.0
-549,full,3280,4,I,292,,-,context,16.0
-550,full,3280,5,had,307,,-,context,16.0
-551,full,3280,6,lots,261,,-,context,16.0
-552,full,3280,7,of,283,,-,context,16.0
-553,full,3280,8,time,285,,-,context,16.0
-554,full,3280,9,to,299,,-,context,16.0
-555,full,3280,10,pore,293,,-,context,16.0
-556,full,3280,11,over,275,,-,context,16.0
-557,full,3280,12,the,465,,-,context,16.0
-558,full,3280,13,stock,327,,-,context,16.0
-559,full,3280,14,prices,525,,-,context,16.0
-560,full,3280,15,from,420,,-,context,16.0
-561,full,3280,16,yesterday.,380,,-,context,16.0
-562,focused,3280,1,Only,342,,focus_particle,trigger,7.0
-563,focused,3280,2,some,363,,quantifier_f,trigger,7.0
-564,focused,3280,3,of,453,,quantifier_f,trigger,7.0
-565,focused,3280,4,my,324,,ntw_1,trigger,7.0
-566,focused,3280,5,stocks,300,,ntw_1,trigger,7.0
-567,focused,3280,6,went,435,,ntw_2,trigger,7.0
-568,focused,3280,7,up.,350,,ntw_2,trigger,7.0
-569,complement,3280,1,The,340,,anaphor,continuation,14.0
-570,complement,3280,2,others,276,,anaphor,continuation,14.0
-571,complement,3280,3,were,316,,predicate,continuation,14.0
-572,complement,3280,4,relatively,324,,predicate,continuation,14.0
-573,complement,3280,5,steady,427,,predicate,continuation,14.0
-574,complement,3280,6,but,608,,clause_boundary,continuation,14.0
-575,complement,3280,7,my,401,,ntw_1,continuation,14.0
-576,complement,3280,8,portfolio,332,,ntw_1,continuation,14.0
-577,complement,3280,9,was,420,,-,continuation,14.0
-578,complement,3280,10,still,285,,-,continuation,14.0
-579,complement,3280,11,down,363,,-,continuation,14.0
-580,complement,3280,12,for,341,,-,continuation,14.0
-581,complement,3280,13,the,355,,-,continuation,14.0
-582,complement,3280,14,year.,325,,-,continuation,14.0
-583,full,3280,1,In,373,,-,context,11.0
-584,full,3280,2,the,259,,-,context,11.0
-585,full,3280,3,school,365,,-,context,11.0
-586,full,3280,4,parking,314,,-,context,11.0
-587,full,3280,5,"lot,",414,,-,context,11.0
-588,full,3280,6,I,347,,-,context,11.0
-589,full,3280,7,carefully,309,,-,context,11.0
-590,full,3280,8,inspected,355,,-,context,11.0
-591,full,3280,9,an,437,,-,context,11.0
-592,full,3280,10,old,291,,-,context,11.0
-593,full,3280,11,bus.,301,,-,context,11.0
-594,scalar,3280,1,Some,291,,quantifier_s,trigger,6.0
-595,scalar,3280,2,of,269,,quantifier_s,trigger,6.0
-596,scalar,3280,3,its,299,,ntw_1,trigger,6.0
-597,scalar,3280,4,tires,301,,ntw_1,trigger,6.0
-598,scalar,3280,5,were,499,,ntw_2,trigger,6.0
-599,scalar,3280,6,flat.,285,,ntw_2,trigger,6.0
-600,complement,3280,1,The,324,,anaphor,continuation,14.0
-601,complement,3280,2,others,260,,anaphor,continuation,14.0
-602,complement,3280,3,were,267,,predicate,continuation,14.0
-603,complement,3280,4,fine,293,,predicate,continuation,14.0
-604,complement,3280,5,so,331,,clause_boundary,continuation,14.0
-605,complement,3280,6,it,293,,ntw_1,continuation,14.0
-606,complement,3280,7,would,283,,ntw_1,continuation,14.0
-607,complement,3280,8,not,245,,-,continuation,14.0
-608,complement,3280,9,cost,291,,-,continuation,14.0
-609,complement,3280,10,too,309,,-,continuation,14.0
-610,complement,3280,11,much,331,,-,continuation,14.0
-611,complement,3280,12,to,319,,-,continuation,14.0
-612,complement,3280,13,fix,394,,-,continuation,14.0
-613,complement,3280,14,it.,396,,-,continuation,14.0
-614,partial,3280,1,To,429,,-,context,15.0
-615,partial,3280,2,keep,380,,-,context,15.0
-616,partial,3280,3,the,324,,-,context,15.0
-617,partial,3280,4,laboratory,304,,-,context,15.0
-618,partial,3280,5,well,352,,-,context,15.0
-619,partial,3280,6,"stocked,",299,,-,context,15.0
-620,partial,3280,7,I,341,,-,context,15.0
-621,partial,3280,8,occasionally,316,,-,context,15.0
-622,partial,3280,9,look,260,,-,context,15.0
-623,partial,3280,10,at,451,,-,context,15.0
-624,partial,3280,11,which,373,,-,context,15.0
-625,partial,3280,12,chemicals,332,,-,context,15.0
-626,partial,3280,13,are,380,,-,context,15.0
-627,partial,3280,14,being,307,,-,context,15.0
-628,partial,3280,15,used.,597,,-,context,15.0
-629,scalar,3280,1,"Today,",316,,quantifier_s,trigger,11.0
-630,scalar,3280,2,some,396,,quantifier_s,trigger,11.0
-631,scalar,3280,3,of,475,,ntw_1,trigger,11.0
-632,scalar,3280,4,the,478,,ntw_1,trigger,11.0
-633,scalar,3280,5,liquid,451,,ntw_2,trigger,11.0
-634,scalar,3280,6,nitrogen,501,,ntw_2,trigger,11.0
-635,scalar,3280,7,containers,764,,-,trigger,11.0
-636,scalar,3280,8,needed,339,,-,trigger,11.0
-637,scalar,3280,9,to,476,,-,trigger,11.0
-638,scalar,3280,10,be,341,,-,trigger,11.0
-639,scalar,3280,11,refilled.,362,,-,trigger,11.0
-640,cancelation,3280,1,In,412,,in_fact,continuation,16.0
-641,cancelation,3280,2,"fact,",284,,in_fact,continuation,16.0
-642,cancelation,3280,3,they,284,,they_all,continuation,16.0
-643,cancelation,3280,4,all,260,,they_all,continuation,16.0
-644,cancelation,3280,5,did,172,,did,continuation,16.0
-645,cancelation,3280,6,which,203,,word6,continuation,16.0
-646,cancelation,3280,7,confused,205,,-,continuation,16.0
-647,cancelation,3280,8,me,325,,-,continuation,16.0
-648,cancelation,3280,9,because,332,,-,continuation,16.0
-649,cancelation,3280,10,we,354,,-,continuation,16.0
-650,cancelation,3280,11,hadn’t,340,,-,continuation,16.0
-651,cancelation,3280,12,used,324,,-,continuation,16.0
-652,cancelation,3280,13,a,261,,-,continuation,16.0
-653,cancelation,3280,14,lot,339,,-,continuation,16.0
-654,cancelation,3280,15,this,300,,-,continuation,16.0
-655,cancelation,3280,16,morning.,428,,-,continuation,16.0
-656,partial,3280,1,After,299,,-,context,14.0
-657,partial,3280,2,the,317,,-,context,14.0
-658,partial,3280,3,babysitter,258,,-,context,14.0
-659,partial,3280,4,"left,",774,,-,context,14.0
-660,partial,3280,5,I,411,,-,context,14.0
-661,partial,3280,6,went,453,,-,context,14.0
-662,partial,3280,7,to,438,,-,context,14.0
-663,partial,3280,8,my,306,,-,context,14.0
-664,partial,3280,9,liquor,347,,-,context,14.0
-665,partial,3280,10,collection,437,,-,context,14.0
-666,partial,3280,11,and,315,,-,context,14.0
-667,partial,3280,12,made,309,,-,context,14.0
-668,partial,3280,13,a,267,,-,context,14.0
-669,partial,3280,14,drink.,317,,-,context,14.0
-670,scalar,3280,1,Some,315,,quantifier_s,trigger,9.0
-671,scalar,3280,2,of,301,,quantifier_s,trigger,9.0
-672,scalar,3280,3,my,226,,ntw_1,trigger,9.0
-673,scalar,3280,4,new,285,,ntw_1,trigger,9.0
-674,scalar,3280,5,bottles,323,,ntw_2,trigger,9.0
-675,scalar,3280,6,of,301,,ntw_2,trigger,9.0
-676,scalar,3280,7,vodka,291,,-,trigger,9.0
-677,scalar,3280,8,were,365,,-,trigger,9.0
-678,scalar,3280,9,opened.,835,,-,trigger,9.0
-679,complement,3280,1,The,294,,anaphor,continuation,15.0
-680,complement,3280,2,others,362,,anaphor,continuation,15.0
-681,complement,3280,3,were,293,,predicate,continuation,15.0
-682,complement,3280,4,"untouched,",371,,predicate,continuation,15.0
-683,complement,3280,5,but,437,,clause_boundary,continuation,15.0
-684,complement,3280,6,I,324,,ntw_1,continuation,15.0
-685,complement,3280,7,was,301,,ntw_1,continuation,15.0
-686,complement,3280,8,still,314,,-,continuation,15.0
-687,complement,3280,9,concerned,373,,-,continuation,15.0
-688,complement,3280,10,and,347,,-,continuation,15.0
-689,complement,3280,11,decided,350,,-,continuation,15.0
-690,complement,3280,12,to,467,,-,continuation,15.0
-691,complement,3280,13,call,316,,-,continuation,15.0
-692,complement,3280,14,her,476,,-,continuation,15.0
-693,complement,3280,15,parents.,340,,-,continuation,15.0
-694,partial,3280,1,I,363,,-,context,19.0
-695,partial,3280,2,had,285,,-,context,19.0
-696,partial,3280,3,little,251,,-,context,19.0
-697,partial,3280,4,time,261,,-,context,19.0
-698,partial,3280,5,to,251,,-,context,19.0
-699,partial,3280,6,prepare,237,,-,context,19.0
-700,partial,3280,7,for,275,,-,context,19.0
-701,partial,3280,8,my,236,,-,context,19.0
-702,partial,3280,9,Spanish,252,,-,context,19.0
-703,partial,3280,10,test,260,,-,context,19.0
-704,partial,3280,11,so,252,,-,context,19.0
-705,partial,3280,12,I,260,,-,context,19.0
-706,partial,3280,13,quickly,267,,-,context,19.0
-707,partial,3280,14,glanced,228,,-,context,19.0
-708,partial,3280,15,at,275,,-,context,19.0
-709,partial,3280,16,the,286,,-,context,19.0
-710,partial,3280,17,new,242,,-,context,19.0
-711,partial,3280,18,vocabulary,253,,-,context,19.0
-712,partial,3280,19,items.,299,,-,context,19.0
-713,focused,3280,1,Only,229,,focus_particle,trigger,11.0
-714,focused,3280,2,some,259,,quantifier_f,trigger,11.0
-715,focused,3280,3,of,292,,quantifier_f,trigger,11.0
-716,focused,3280,4,the,244,,ntw_1,trigger,11.0
-717,focused,3280,5,words,237,,ntw_1,trigger,11.0
-718,focused,3280,6,sounded,267,,ntw_2,trigger,11.0
-719,focused,3280,7,like,301,,ntw_2,trigger,11.0
-720,focused,3280,8,they,291,,-,trigger,11.0
-721,focused,3280,9,do,253,,-,trigger,11.0
-722,focused,3280,10,in,267,,-,trigger,11.0
-723,focused,3280,11,English.,269,,-,trigger,11.0
-724,complement,3280,1,The,226,,anaphor,continuation,11.0
-725,complement,3280,2,others,237,,anaphor,continuation,11.0
-726,complement,3280,3,were,243,,predicate,continuation,11.0
-727,complement,3280,4,totally,245,,predicate,continuation,11.0
-728,complement,3280,5,unfamiliar,251,,predicate,continuation,11.0
-729,complement,3280,6,which,294,,clause_boundary,continuation,11.0
-730,complement,3280,7,made,306,,ntw_1,continuation,11.0
-731,complement,3280,8,the,301,,ntw_1,continuation,11.0
-732,complement,3280,9,test,339,,-,continuation,11.0
-733,complement,3280,10,somewhat,261,,-,continuation,11.0
-734,complement,3280,11,challenging.,314,,-,continuation,11.0
-735,partial,3280,1,I,299,,-,context,18.0
-736,partial,3280,2,ran,277,,-,context,18.0
-737,partial,3280,3,into,290,,-,context,18.0
-738,partial,3280,4,a,287,,-,context,18.0
-739,partial,3280,5,friend,266,,-,context,18.0
-740,partial,3280,6,who,269,,-,context,18.0
-741,partial,3280,7,started,268,,-,context,18.0
-742,partial,3280,8,telling,259,,-,context,18.0
-743,partial,3280,9,how,275,,-,context,18.0
-744,partial,3280,10,my,292,,-,context,18.0
-745,partial,3280,11,old,291,,-,context,18.0
-746,partial,3280,12,high,277,,-,context,18.0
-747,partial,3280,13,school,283,,-,context,18.0
-748,partial,3280,14,football,549,,-,context,18.0
-749,partial,3280,15,team,331,,-,context,18.0
-750,partial,3280,16,did,277,,-,context,18.0
-751,partial,3280,17,last,307,,-,context,18.0
-752,partial,3280,18,season.,292,,-,context,18.0
-753,scalar,3280,1,Some,274,,quantifier_s,trigger,6.0
-754,scalar,3280,2,of,261,,quantifier_s,trigger,6.0
-755,scalar,3280,3,their,299,,ntw_1,trigger,6.0
-756,scalar,3280,4,losses,285,,ntw_1,trigger,6.0
-757,scalar,3280,5,were,331,,ntw_2,trigger,6.0
-758,scalar,3280,6,close.,333,,ntw_2,trigger,6.0
-759,cancelation,3280,1,In,291,,in_fact,continuation,12.0
-760,cancelation,3280,2,"fact,",237,,in_fact,continuation,12.0
-761,cancelation,3280,3,they,267,,they_all,continuation,12.0
-762,cancelation,3280,4,all,277,,they_all,continuation,12.0
-763,cancelation,3280,5,were,267,,did,continuation,12.0
-764,cancelation,3280,6,which,253,,word6,continuation,12.0
-765,cancelation,3280,7,made,251,,-,continuation,12.0
-766,cancelation,3280,8,the,277,,-,continuation,12.0
-767,cancelation,3280,9,games,299,,-,continuation,12.0
-768,cancelation,3280,10,stressful,237,,-,continuation,12.0
-769,cancelation,3280,11,to,299,,-,continuation,12.0
-770,cancelation,3280,12,watch.,317,,-,continuation,12.0
-771,partial,3280,1,When,260,,-,context,12.0
-772,partial,3280,2,I,276,,-,context,12.0
-773,partial,3280,3,visited,275,,-,context,12.0
-774,partial,3280,4,Disney,253,,-,context,12.0
-775,partial,3280,5,"World,",260,,-,context,12.0
-776,partial,3280,6,I,380,,-,context,12.0
-777,partial,3280,7,quickly,275,,-,context,12.0
-778,partial,3280,8,walked,292,,-,context,12.0
-779,partial,3280,9,around,267,,-,context,12.0
-780,partial,3280,10,the,341,,-,context,12.0
-781,partial,3280,11,amusement,275,,-,context,12.0
-782,partial,3280,12,park.,381,,-,context,12.0
-783,scalar,3280,1,Some,332,,quantifier_s,trigger,8.0
-784,scalar,3280,2,of,283,,quantifier_s,trigger,8.0
-785,scalar,3280,3,my,309,,ntw_1,trigger,8.0
-786,scalar,3280,4,favorite,315,,ntw_1,trigger,8.0
-787,scalar,3280,5,rides,285,,ntw_2,trigger,8.0
-788,scalar,3280,6,were,355,,ntw_2,trigger,8.0
-789,scalar,3280,7,still,285,,-,trigger,8.0
-790,scalar,3280,8,running.,315,,-,trigger,8.0
-791,complement,3280,1,The,301,,anaphor,continuation,11.0
-792,complement,3280,2,rest,275,,anaphor,continuation,11.0
-793,complement,3280,3,were,293,,predicate,continuation,11.0
-794,complement,3280,4,shut,292,,predicate,continuation,11.0
-795,complement,3280,5,down,292,,predicate,continuation,11.0
-796,complement,3280,6,since,333,,clause_boundary,continuation,11.0
-797,complement,3280,7,they,276,,ntw_1,continuation,11.0
-798,complement,3280,8,were,603,,ntw_1,continuation,11.0
-799,complement,3280,9,no,316,,-,continuation,11.0
-800,complement,3280,10,longer,316,,-,continuation,11.0
-801,complement,3280,11,popular.,331,,-,continuation,11.0
-802,partial,3279,1,This,205,,-,context,11.0
-803,partial,3279,2,"morning,",428,,-,context,11.0
-804,partial,3279,3,I,301,,-,context,11.0
-805,partial,3279,4,heard,269,,-,context,11.0
-806,partial,3279,5,about,280,,-,context,11.0
-807,partial,3279,6,an,284,,-,context,11.0
-808,partial,3279,7,important,296,,-,context,11.0
-809,partial,3279,8,meeting,292,,-,context,11.0
-810,partial,3279,9,with,295,,-,context,11.0
-811,partial,3279,10,the,255,,-,context,11.0
-812,partial,3279,11,manager.,297,,-,context,11.0
-813,focused,3279,1,Only,318,,focus_particle,trigger,8.0
-814,focused,3279,2,some,340,,quantifier_f,trigger,8.0
-815,focused,3279,3,of,313,,quantifier_f,trigger,8.0
-816,focused,3279,4,the,323,,ntw_1,trigger,8.0
-817,focused,3279,5,company’s,337,,ntw_1,trigger,8.0
-818,focused,3279,6,accountants,350,,ntw_2,trigger,8.0
-819,focused,3279,7,were,354,,ntw_2,trigger,8.0
-820,focused,3279,8,there.,1641,,-,trigger,8.0
-821,complement,3279,1,The,247,,anaphor,continuation,18.0
-822,complement,3279,2,rest,303,,anaphor,continuation,18.0
-823,complement,3279,3,were,252,,predicate,continuation,18.0
-824,complement,3279,4,missing,291,,predicate,continuation,18.0
-825,complement,3279,5,because,251,,clause_boundary,continuation,18.0
-826,complement,3279,6,they,282,,ntw_1,continuation,18.0
-827,complement,3279,7,had,279,,ntw_1,continuation,18.0
-828,complement,3279,8,to,267,,-,continuation,18.0
-829,complement,3279,9,audit,257,,-,continuation,18.0
-830,complement,3279,10,the,268,,-,continuation,18.0
-831,complement,3279,11,company’s,267,,-,continuation,18.0
-832,complement,3279,12,finances,290,,-,continuation,18.0
-833,complement,3279,13,before,252,,-,continuation,18.0
-834,complement,3279,14,the,295,,-,continuation,18.0
-835,complement,3279,15,end,265,,-,continuation,18.0
-836,complement,3279,16,of,248,,-,continuation,18.0
-837,complement,3279,17,the,271,,-,continuation,18.0
-838,complement,3279,18,quarter.,251,,-,continuation,18.0
-839,partial,3279,1,Earlier,467,,-,context,13.0
-840,partial,3279,2,"today,",269,,-,context,13.0
-841,partial,3279,3,I,244,,-,context,13.0
-842,partial,3279,4,passed,238,,-,context,13.0
-843,partial,3279,5,by,262,,-,context,13.0
-844,partial,3279,6,a,237,,-,context,13.0
-845,partial,3279,7,group,236,,-,context,13.0
-846,partial,3279,8,of,243,,-,context,13.0
-847,partial,3279,9,tourists,227,,-,context,13.0
-848,partial,3279,10,looking,261,,-,context,13.0
-849,partial,3279,11,at,316,,-,context,13.0
-850,partial,3279,12,sights,304,,-,context,13.0
-851,partial,3279,13,downtown.,271,,-,context,13.0
-852,scalar,3279,1,Some,329,,quantifier_s,trigger,10.0
-853,scalar,3279,2,of,283,,quantifier_s,trigger,10.0
-854,scalar,3279,3,the,286,,ntw_1,trigger,10.0
-855,scalar,3279,4,tourists,305,,ntw_1,trigger,10.0
-856,scalar,3279,5,got,303,,ntw_2,trigger,10.0
-857,scalar,3279,6,soaked,320,,ntw_2,trigger,10.0
-858,scalar,3279,7,by,313,,-,trigger,10.0
-859,scalar,3279,8,the,278,,-,trigger,10.0
-860,scalar,3279,9,rain,265,,-,trigger,10.0
-861,scalar,3279,10,storm.,251,,-,trigger,10.0
-862,complement,3279,1,The,305,,anaphor,continuation,10.0
-863,complement,3279,2,rest,251,,anaphor,continuation,10.0
-864,complement,3279,3,were,303,,predicate,continuation,10.0
-865,complement,3279,4,dry,297,,predicate,continuation,10.0
-866,complement,3279,5,because,291,,clause_boundary,continuation,10.0
-867,complement,3279,6,they,282,,ntw_1,continuation,10.0
-868,complement,3279,7,had,318,,ntw_1,continuation,10.0
-869,complement,3279,8,remembered,372,,-,continuation,10.0
-870,complement,3279,9,their,349,,-,continuation,10.0
-871,complement,3279,10,umbrellas.,451,,-,continuation,10.0
-872,partial,3279,1,After,377,,-,context,10.0
-873,partial,3279,2,my,312,,-,context,10.0
-874,partial,3279,3,house,290,,-,context,10.0
-875,partial,3279,4,was,278,,-,context,10.0
-876,partial,3279,5,"burglarized,",298,,-,context,10.0
-877,partial,3279,6,I,316,,-,context,10.0
-878,partial,3279,7,briefly,311,,-,context,10.0
-879,partial,3279,8,checked,330,,-,context,10.0
-880,partial,3279,9,the,341,,-,context,10.0
-881,partial,3279,10,basement.,259,,-,context,10.0
-882,scalar,3279,1,Some,326,,quantifier_s,trigger,8.0
-883,scalar,3279,2,of,317,,quantifier_s,trigger,8.0
-884,scalar,3279,3,the,318,,ntw_1,trigger,8.0
-885,scalar,3279,4,bottles,329,,ntw_1,trigger,8.0
-886,scalar,3279,5,of,347,,ntw_2,trigger,8.0
-887,scalar,3279,6,Chardonnay,341,,ntw_2,trigger,8.0
-888,scalar,3279,7,were,320,,-,trigger,8.0
-889,scalar,3279,8,missing.,322,,-,trigger,8.0
-890,complement,3279,1,The,284,,anaphor,continuation,10.0
-891,complement,3279,2,rest,285,,anaphor,continuation,10.0
-892,complement,3279,3,were,271,,predicate,continuation,10.0
-893,complement,3279,4,safe,346,,predicate,continuation,10.0
-894,complement,3279,5,but,291,,clause_boundary,continuation,10.0
-895,complement,3279,6,I,279,,ntw_1,continuation,10.0
-896,complement,3279,7,was,281,,ntw_1,continuation,10.0
-897,complement,3279,8,still,275,,-,continuation,10.0
-898,complement,3279,9,extremely,306,,-,continuation,10.0
-899,complement,3279,10,upset.,370,,-,continuation,10.0
-900,partial,3279,1,Before,286,,-,context,11.0
-901,partial,3279,2,the,284,,-,context,11.0
-902,partial,3279,3,hurricane,256,,-,context,11.0
-903,partial,3279,4,"landed,",318,,-,context,11.0
-904,partial,3279,5,I,304,,-,context,11.0
-905,partial,3279,6,volunteered,287,,-,context,11.0
-906,partial,3279,7,to,325,,-,context,11.0
-907,partial,3279,8,help,311,,-,context,11.0
-908,partial,3279,9,out,300,,-,context,11.0
-909,partial,3279,10,in,303,,-,context,11.0
-910,partial,3279,11,town.,343,,-,context,11.0
-911,focused,3279,1,Only,284,,focus_particle,trigger,7.0
-912,focused,3279,2,some,316,,quantifier_f,trigger,7.0
-913,focused,3279,3,of,313,,quantifier_f,trigger,7.0
-914,focused,3279,4,the,286,,ntw_1,trigger,7.0
-915,focused,3279,5,residents,309,,ntw_1,trigger,7.0
-916,focused,3279,6,had,298,,ntw_2,trigger,7.0
-917,focused,3279,7,evacuated.,322,,ntw_2,trigger,7.0
-918,complement,3279,1,The,272,,anaphor,continuation,10.0
-919,complement,3279,2,rest,285,,anaphor,continuation,10.0
-920,complement,3279,3,stayed,264,,predicate,continuation,10.0
-921,complement,3279,4,at,281,,predicate,continuation,10.0
-922,complement,3279,5,home,278,,predicate,continuation,10.0
-923,complement,3279,6,and,284,,clause_boundary,continuation,10.0
-924,complement,3279,7,foolishly,310,,ntw_1,continuation,10.0
-925,complement,3279,8,risked,321,,ntw_1,continuation,10.0
-926,complement,3279,9,their,291,,-,continuation,10.0
-927,complement,3279,10,lives.,304,,-,continuation,10.0
-928,full,3279,1,At,290,,-,context,10.0
-929,full,3279,2,my,276,,-,context,10.0
-930,full,3279,3,client’s,275,,-,context,10.0
-931,full,3279,4,"request,",287,,-,context,10.0
-932,full,3279,5,I,293,,-,context,10.0
-933,full,3279,6,meticulously,290,,-,context,10.0
-934,full,3279,7,compiled,290,,-,context,10.0
-935,full,3279,8,the,279,,-,context,10.0
-936,full,3279,9,investment,277,,-,context,10.0
-937,full,3279,10,report.,298,,-,context,10.0
-938,scalar,3279,1,Some,283,,quantifier_s,trigger,8.0
-939,scalar,3279,2,of,284,,quantifier_s,trigger,8.0
-940,scalar,3279,3,the,293,,ntw_1,trigger,8.0
-941,scalar,3279,4,real,282,,ntw_1,trigger,8.0
-942,scalar,3279,5,estate,265,,ntw_2,trigger,8.0
-943,scalar,3279,6,investments,306,,ntw_2,trigger,8.0
-944,scalar,3279,7,lost,315,,-,trigger,8.0
-945,scalar,3279,8,money.,301,,-,trigger,8.0
-946,complement,3279,1,The,264,,anaphor,continuation,9.0
-947,complement,3279,2,others,300,,anaphor,continuation,9.0
-948,complement,3279,3,were,620,,predicate,continuation,9.0
-949,complement,3279,4,successful,310,,predicate,continuation,9.0
-950,complement,3279,5,despite,313,,clause_boundary,continuation,9.0
-951,complement,3279,6,the,378,,ntw_1,continuation,9.0
-952,complement,3279,7,recent,296,,ntw_1,continuation,9.0
-953,complement,3279,8,economic,439,,-,continuation,9.0
-954,complement,3279,9,downturn.,411,,-,continuation,9.0
-955,full,3279,1,To,312,,-,context,19.0
-956,full,3279,2,keep,273,,-,context,19.0
-957,full,3279,3,the,261,,-,context,19.0
-958,full,3279,4,laboratory,255,,-,context,19.0
-959,full,3279,5,well,260,,-,context,19.0
-960,full,3279,6,"stocked,",281,,-,context,19.0
-961,full,3279,7,I,248,,-,context,19.0
-962,full,3279,8,write,278,,-,context,19.0
-963,full,3279,9,down,252,,-,context,19.0
-964,full,3279,10,exactly,263,,-,context,19.0
-965,full,3279,11,how,265,,-,context,19.0
-966,full,3279,12,much,287,,-,context,19.0
-967,full,3279,13,of,263,,-,context,19.0
-968,full,3279,14,the,294,,-,context,19.0
-969,full,3279,15,chemicals,270,,-,context,19.0
-970,full,3279,16,are,312,,-,context,19.0
-971,full,3279,17,used,266,,-,context,19.0
-972,full,3279,18,every,294,,-,context,19.0
-973,full,3279,19,night.,809,,-,context,19.0
-974,scalar,3279,1,"Today,",310,,quantifier_s,trigger,11.0
-975,scalar,3279,2,some,268,,quantifier_s,trigger,11.0
-976,scalar,3279,3,of,255,,ntw_1,trigger,11.0
-977,scalar,3279,4,the,278,,ntw_1,trigger,11.0
-978,scalar,3279,5,liquid,291,,ntw_2,trigger,11.0
-979,scalar,3279,6,nitrogen,309,,ntw_2,trigger,11.0
-980,scalar,3279,7,containers,338,,-,trigger,11.0
-981,scalar,3279,8,needed,318,,-,trigger,11.0
-982,scalar,3279,9,to,285,,-,trigger,11.0
-983,scalar,3279,10,be,296,,-,trigger,11.0
-984,scalar,3279,11,refilled.,319,,-,trigger,11.0
-985,cancelation,3279,1,In,265,,in_fact,continuation,16.0
-986,cancelation,3279,2,"fact,",260,,in_fact,continuation,16.0
-987,cancelation,3279,3,they,274,,they_all,continuation,16.0
-988,cancelation,3279,4,all,318,,they_all,continuation,16.0
-989,cancelation,3279,5,did,274,,did,continuation,16.0
-990,cancelation,3279,6,which,280,,word6,continuation,16.0
-991,cancelation,3279,7,confused,310,,-,continuation,16.0
-992,cancelation,3279,8,me,298,,-,continuation,16.0
-993,cancelation,3279,9,because,308,,-,continuation,16.0
-994,cancelation,3279,10,we,319,,-,continuation,16.0
-995,cancelation,3279,11,hadn’t,303,,-,continuation,16.0
-996,cancelation,3279,12,used,286,,-,continuation,16.0
-997,cancelation,3279,13,a,297,,-,continuation,16.0
-998,cancelation,3279,14,lot,309,,-,continuation,16.0
-999,cancelation,3279,15,this,270,,-,continuation,16.0
-1000,cancelation,3279,16,morning.,284,,-,continuation,16.0
-1001,full,3279,1,I,292,,-,context,18.0
-1002,full,3279,2,am,264,,-,context,18.0
-1003,full,3279,3,a,266,,-,context,18.0
-1004,full,3279,4,huge,281,,-,context,18.0
-1005,full,3279,5,fan,362,,-,context,18.0
-1006,full,3279,6,of,277,,-,context,18.0
-1007,full,3279,7,my,271,,-,context,18.0
-1008,full,3279,8,old,267,,-,context,18.0
-1009,full,3279,9,high,259,,-,context,18.0
-1010,full,3279,10,school,280,,-,context,18.0
-1011,full,3279,11,football,274,,-,context,18.0
-1012,full,3279,12,team,322,,-,context,18.0
-1013,full,3279,13,and,289,,-,context,18.0
-1014,full,3279,14,attended,332,,-,context,18.0
-1015,full,3279,15,every,322,,-,context,18.0
-1016,full,3279,16,game,332,,-,context,18.0
-1017,full,3279,17,last,318,,-,context,18.0
-1018,full,3279,18,season.,301,,-,context,18.0
-1019,scalar,3279,1,Some,315,,quantifier_s,trigger,6.0
-1020,scalar,3279,2,of,268,,quantifier_s,trigger,6.0
-1021,scalar,3279,3,their,304,,ntw_1,trigger,6.0
-1022,scalar,3279,4,losses,310,,ntw_1,trigger,6.0
-1023,scalar,3279,5,were,308,,ntw_2,trigger,6.0
-1024,scalar,3279,6,close.,294,,ntw_2,trigger,6.0
-1025,complement,3279,1,The,327,,anaphor,continuation,11.0
-1026,complement,3279,2,others,406,,anaphor,continuation,11.0
-1027,complement,3279,3,were,337,,predicate,continuation,11.0
-1028,complement,3279,4,blowouts,304,,predicate,continuation,11.0
-1029,complement,3279,5,which,322,,clause_boundary,continuation,11.0
-1030,complement,3279,6,made,328,,ntw_1,continuation,11.0
-1031,complement,3279,7,the,301,,ntw_1,continuation,11.0
-1032,complement,3279,8,games,302,,-,continuation,11.0
-1033,complement,3279,9,boring,341,,-,continuation,11.0
-1034,complement,3279,10,to,323,,-,continuation,11.0
-1035,complement,3279,11,watch.,330,,-,continuation,11.0
-1036,partial,3279,1,In,285,,-,context,11.0
-1037,partial,3279,2,the,264,,-,context,11.0
-1038,partial,3279,3,school,339,,-,context,11.0
-1039,partial,3279,4,parking,314,,-,context,11.0
-1040,partial,3279,5,"lot,",290,,-,context,11.0
-1041,partial,3279,6,I,282,,-,context,11.0
-1042,partial,3279,7,passed,319,,-,context,11.0
-1043,partial,3279,8,by,282,,-,context,11.0
-1044,partial,3279,9,an,264,,-,context,11.0
-1045,partial,3279,10,old,272,,-,context,11.0
-1046,partial,3279,11,bus.,297,,-,context,11.0
-1047,scalar,3279,1,Some,267,,quantifier_s,trigger,6.0
-1048,scalar,3279,2,of,275,,quantifier_s,trigger,6.0
-1049,scalar,3279,3,its,287,,ntw_1,trigger,6.0
-1050,scalar,3279,4,tires,403,,ntw_1,trigger,6.0
-1051,scalar,3279,5,were,313,,ntw_2,trigger,6.0
-1052,scalar,3279,6,flat.,302,,ntw_2,trigger,6.0
-1053,complement,3279,1,The,590,,anaphor,continuation,14.0
-1054,complement,3279,2,others,305,,anaphor,continuation,14.0
-1055,complement,3279,3,were,307,,predicate,continuation,14.0
-1056,complement,3279,4,fine,334,,predicate,continuation,14.0
-1057,complement,3279,5,so,335,,clause_boundary,continuation,14.0
-1058,complement,3279,6,it,325,,ntw_1,continuation,14.0
-1059,complement,3279,7,would,315,,ntw_1,continuation,14.0
-1060,complement,3279,8,not,301,,-,continuation,14.0
-1061,complement,3279,9,cost,303,,-,continuation,14.0
-1062,complement,3279,10,too,326,,-,continuation,14.0
-1063,complement,3279,11,much,356,,-,continuation,14.0
-1064,complement,3279,12,to,312,,-,continuation,14.0
-1065,complement,3279,13,fix,298,,-,continuation,14.0
-1066,complement,3279,14,it.,347,,-,continuation,14.0
-1067,partial,3279,1,Last,325,,-,context,7.0
-1068,partial,3279,2,"week,",1006,,-,context,7.0
-1069,partial,3279,3,I,320,,-,context,7.0
-1070,partial,3279,4,attended,351,,-,context,7.0
-1071,partial,3279,5,a,395,,-,context,7.0
-1072,partial,3279,6,family,321,,-,context,7.0
-1073,partial,3279,7,potluck.,547,,-,context,7.0
-1074,scalar,3279,1,Some,279,,quantifier_s,trigger,6.0
-1075,scalar,3279,2,of,257,,quantifier_s,trigger,6.0
-1076,scalar,3279,3,the,262,,ntw_1,trigger,6.0
-1077,scalar,3279,4,dishes,274,,ntw_1,trigger,6.0
-1078,scalar,3279,5,were,254,,ntw_2,trigger,6.0
-1079,scalar,3279,6,spicy.,278,,ntw_2,trigger,6.0
-1080,cancelation,3279,1,In,252,,in_fact,continuation,11.0
-1081,cancelation,3279,2,"fact,",238,,in_fact,continuation,11.0
-1082,cancelation,3279,3,they,226,,they_all,continuation,11.0
-1083,cancelation,3279,4,all,253,,they_all,continuation,11.0
-1084,cancelation,3279,5,were,268,,did,continuation,11.0
-1085,cancelation,3279,6,but,285,,word6,continuation,11.0
-1086,cancelation,3279,7,fortunately,305,,-,continuation,11.0
-1087,cancelation,3279,8,I,277,,-,continuation,11.0
-1088,cancelation,3279,9,love,263,,-,continuation,11.0
-1089,cancelation,3279,10,spicy,310,,-,continuation,11.0
-1090,cancelation,3279,11,food.,332,,-,continuation,11.0
-1091,full,3279,1,While,273,,-,context,16.0
-1092,full,3279,2,eating,261,,-,context,16.0
-1093,full,3279,3,"breakfast,",264,,-,context,16.0
-1094,full,3279,4,I,271,,-,context,16.0
-1095,full,3279,5,had,264,,-,context,16.0
-1096,full,3279,6,lots,258,,-,context,16.0
-1097,full,3279,7,of,257,,-,context,16.0
-1098,full,3279,8,time,241,,-,context,16.0
-1099,full,3279,9,to,272,,-,context,16.0
-1100,full,3279,10,pore,260,,-,context,16.0
-1101,full,3279,11,over,299,,-,context,16.0
-1102,full,3279,12,the,264,,-,context,16.0
-1103,full,3279,13,stock,272,,-,context,16.0
-1104,full,3279,14,prices,262,,-,context,16.0
-1105,full,3279,15,from,287,,-,context,16.0
-1106,full,3279,16,yesterday.,263,,-,context,16.0
-1107,scalar,3279,1,Some,231,,quantifier_s,trigger,6.0
-1108,scalar,3279,2,of,265,,quantifier_s,trigger,6.0
-1109,scalar,3279,3,my,254,,ntw_1,trigger,6.0
-1110,scalar,3279,4,stocks,264,,ntw_1,trigger,6.0
-1111,scalar,3279,5,went,279,,ntw_2,trigger,6.0
-1112,scalar,3279,6,up.,287,,ntw_2,trigger,6.0
-1113,cancelation,3279,1,In,268,,in_fact,continuation,14.0
-1114,cancelation,3279,2,"fact,",264,,in_fact,continuation,14.0
-1115,cancelation,3279,3,they,290,,they_all,continuation,14.0
-1116,cancelation,3279,4,all,280,,they_all,continuation,14.0
-1117,cancelation,3279,5,did,270,,did,continuation,14.0
-1118,cancelation,3279,6,but,278,,word6,continuation,14.0
-1119,cancelation,3279,7,my,273,,-,continuation,14.0
-1120,cancelation,3279,8,portfolio,269,,-,continuation,14.0
-1121,cancelation,3279,9,was,294,,-,continuation,14.0
-1122,cancelation,3279,10,still,295,,-,continuation,14.0
-1123,cancelation,3279,11,down,303,,-,continuation,14.0
-1124,cancelation,3279,12,for,361,,-,continuation,14.0
-1125,cancelation,3279,13,the,332,,-,continuation,14.0
-1126,cancelation,3279,14,year.,316,,-,continuation,14.0
-1127,full,3279,1,I,325,,-,context,15.0
-1128,full,3279,2,was,236,,-,context,15.0
-1129,full,3279,3,the,238,,-,context,15.0
-1130,full,3279,4,chief,252,,-,context,15.0
-1131,full,3279,5,medic,264,,-,context,15.0
-1132,full,3279,6,overseeing,246,,-,context,15.0
-1133,full,3279,7,the,286,,-,context,15.0
-1134,full,3279,8,bus,281,,-,context,15.0
-1135,full,3279,9,accident,289,,-,context,15.0
-1136,full,3279,10,on,309,,-,context,15.0
-1137,full,3279,11,the,293,,-,context,15.0
-1138,full,3279,12,side,271,,-,context,15.0
-1139,full,3279,13,of,263,,-,context,15.0
-1140,full,3279,14,the,284,,-,context,15.0
-1141,full,3279,15,highway.,281,,-,context,15.0
-1142,scalar,3279,1,Some,277,,quantifier_s,trigger,7.0
-1143,scalar,3279,2,of,289,,quantifier_s,trigger,7.0
-1144,scalar,3279,3,the,314,,ntw_1,trigger,7.0
-1145,scalar,3279,4,passengers,363,,ntw_1,trigger,7.0
-1146,scalar,3279,5,were,326,,ntw_2,trigger,7.0
-1147,scalar,3279,6,still,356,,ntw_2,trigger,7.0
-1148,scalar,3279,7,alive.,242,,-,trigger,7.0
-1149,complement,3279,1,The,280,,anaphor,continuation,14.0
-1150,complement,3279,2,others,295,,anaphor,continuation,14.0
-1151,complement,3279,3,were,316,,predicate,continuation,14.0
-1152,complement,3279,4,killed,314,,predicate,continuation,14.0
-1153,complement,3279,5,on,363,,predicate,continuation,14.0
-1154,complement,3279,6,impact,335,,predicate,continuation,14.0
-1155,complement,3279,7,and,352,,clause_boundary,continuation,14.0
-1156,complement,3279,8,there,354,,ntw_1,continuation,14.0
-1157,complement,3279,9,was,367,,ntw_1,continuation,14.0
-1158,complement,3279,10,no,296,,-,continuation,14.0
-1159,complement,3279,11,opportunity,302,,-,continuation,14.0
-1160,complement,3279,12,to,301,,-,continuation,14.0
-1161,complement,3279,13,save,305,,-,continuation,14.0
-1162,complement,3279,14,them.,292,,-,continuation,14.0
-1163,full,3279,1,After,321,,-,context,12.0
-1164,full,3279,2,the,245,,-,context,12.0
-1165,full,3279,3,furniture,256,,-,context,12.0
-1166,full,3279,4,"sale,",261,,-,context,12.0
-1167,full,3279,5,I,251,,-,context,12.0
-1168,full,3279,6,catalogued,269,,-,context,12.0
-1169,full,3279,7,all,271,,-,context,12.0
-1170,full,3279,8,the,264,,-,context,12.0
-1171,full,3279,9,merchandise,268,,-,context,12.0
-1172,full,3279,10,in,275,,-,context,12.0
-1173,full,3279,11,the,285,,-,context,12.0
-1174,full,3279,12,store.,272,,-,context,12.0
-1175,focused,3279,1,Only,245,,focus_particle,trigger,9.0
-1176,focused,3279,2,some,267,,quantifier_f,trigger,9.0
-1177,focused,3279,3,of,261,,quantifier_f,trigger,9.0
-1178,focused,3279,4,the,255,,ntw_1,trigger,9.0
-1179,focused,3279,5,leather,243,,ntw_1,trigger,9.0
-1180,focused,3279,6,couches,260,,ntw_2,trigger,9.0
-1181,focused,3279,7,had,270,,ntw_2,trigger,9.0
-1182,focused,3279,8,been,274,,-,trigger,9.0
-1183,focused,3279,9,sold.,306,,-,trigger,9.0
-1184,complement,3279,1,The,262,,anaphor,continuation,14.0
-1185,complement,3279,2,rest,277,,anaphor,continuation,14.0
-1186,complement,3279,3,were,266,,predicate,continuation,14.0
-1187,complement,3279,4,going,296,,predicate,continuation,14.0
-1188,complement,3279,5,to,293,,predicate,continuation,14.0
-1189,complement,3279,6,be,256,,predicate,continuation,14.0
-1190,complement,3279,7,stored,317,,predicate,continuation,14.0
-1191,complement,3279,8,in,380,,predicate,continuation,14.0
-1192,complement,3279,9,the,345,,predicate,continuation,14.0
-1193,complement,3279,10,warehouse,343,,predicate,continuation,14.0
-1194,complement,3279,11,until,308,,clause_boundary,continuation,14.0
-1195,complement,3279,12,the,302,,ntw_1,continuation,14.0
-1196,complement,3279,13,following,277,,ntw_1,continuation,14.0
-1197,complement,3279,14,season.,287,,-,continuation,14.0
-1198,full,3279,1,I,311,,-,context,8.0
-1199,full,3279,2,carefully,210,,-,context,8.0
-1200,full,3279,3,inspected,307,,-,context,8.0
-1201,full,3279,4,the,260,,-,context,8.0
-1202,full,3279,5,new,253,,-,context,8.0
-1203,full,3279,6,shipment,246,,-,context,8.0
-1204,full,3279,7,of,262,,-,context,8.0
-1205,full,3279,8,jewelry.,236,,-,context,8.0
-1206,scalar,3279,1,Some,237,,quantifier_s,trigger,7.0
-1207,scalar,3279,2,of,253,,quantifier_s,trigger,7.0
-1208,scalar,3279,3,the,250,,ntw_1,trigger,7.0
-1209,scalar,3279,4,gold,232,,ntw_1,trigger,7.0
-1210,scalar,3279,5,watches,249,,ntw_2,trigger,7.0
-1211,scalar,3279,6,were,235,,ntw_2,trigger,7.0
-1212,scalar,3279,7,fakes.,242,,-,trigger,7.0
-1213,cancelation,3279,1,In,255,,in_fact,continuation,12.0
-1214,cancelation,3279,2,"fact,",258,,in_fact,continuation,12.0
-1215,cancelation,3279,3,they,248,,they_all,continuation,12.0
-1216,cancelation,3279,4,all,247,,they_all,continuation,12.0
-1217,cancelation,3279,5,"were,",319,,did,continuation,12.0
-1218,cancelation,3279,6,so,585,,word6,continuation,12.0
-1219,cancelation,3279,7,the,302,,-,continuation,12.0
-1220,cancelation,3279,8,company,316,,-,continuation,12.0
-1221,cancelation,3279,9,is,272,,-,continuation,12.0
-1222,cancelation,3279,10,planning,269,,-,continuation,12.0
-1223,cancelation,3279,11,to,357,,-,continuation,12.0
-1224,cancelation,3279,12,sue.,357,,-,continuation,12.0
-1225,full,3279,1,The,262,,-,context,15.0
-1226,full,3279,2,PTA,264,,-,context,15.0
-1227,full,3279,3,picked,243,,-,context,15.0
-1228,full,3279,4,me,250,,-,context,15.0
-1229,full,3279,5,to,226,,-,context,15.0
-1230,full,3279,6,organize,245,,-,context,15.0
-1231,full,3279,7,every,233,,-,context,15.0
-1232,full,3279,8,award,268,,-,context,15.0
-1233,full,3279,9,for,255,,-,context,15.0
-1234,full,3279,10,the,262,,-,context,15.0
-1235,full,3279,11,assembly,266,,-,context,15.0
-1236,full,3279,12,at,256,,-,context,15.0
-1237,full,3279,13,my,253,,-,context,15.0
-1238,full,3279,14,daughter’s,254,,-,context,15.0
-1239,full,3279,15,school.,269,,-,context,15.0
-1240,scalar,3279,1,Some,242,,quantifier_s,trigger,7.0
-1241,scalar,3279,2,of,274,,quantifier_s,trigger,7.0
-1242,scalar,3279,3,the,245,,ntw_1,trigger,7.0
-1243,scalar,3279,4,honors,252,,ntw_1,trigger,7.0
-1244,scalar,3279,5,students,244,,ntw_2,trigger,7.0
-1245,scalar,3279,6,received,264,,ntw_2,trigger,7.0
-1246,scalar,3279,7,prizes.,276,,-,trigger,7.0
-1247,complement,3279,1,The,264,,anaphor,continuation,17.0
-1248,complement,3279,2,others,359,,anaphor,continuation,17.0
-1249,complement,3279,3,were,375,,predicate,continuation,17.0
-1250,complement,3279,4,not,317,,predicate,continuation,17.0
-1251,complement,3279,5,invited,332,,predicate,continuation,17.0
-1252,complement,3279,6,to,284,,predicate,continuation,17.0
-1253,complement,3279,7,attend,255,,predicate,continuation,17.0
-1254,complement,3279,8,because,283,,clause_boundary,continuation,17.0
-1255,complement,3279,9,the,287,,ntw_1,continuation,17.0
-1256,complement,3279,10,teachers,261,,ntw_1,continuation,17.0
-1257,complement,3279,11,didn’t,273,,-,continuation,17.0
-1258,complement,3279,12,want,288,,-,continuation,17.0
-1259,complement,3279,13,anyone,280,,-,continuation,17.0
-1260,complement,3279,14,to,283,,-,continuation,17.0
-1261,complement,3279,15,feel,270,,-,continuation,17.0
-1262,complement,3279,16,left,273,,-,continuation,17.0
-1263,complement,3279,17,out.,464,,-,continuation,17.0
-1264,full,3279,1,When,532,,-,context,15.0
-1265,full,3279,2,I,245,,-,context,15.0
-1266,full,3279,3,entered,269,,-,context,15.0
-1267,full,3279,4,Disney,253,,-,context,15.0
-1268,full,3279,5,"World,",241,,-,context,15.0
-1269,full,3279,6,I,237,,-,context,15.0
-1270,full,3279,7,asked,240,,-,context,15.0
-1271,full,3279,8,about,240,,-,context,15.0
-1272,full,3279,9,the,244,,-,context,15.0
-1273,full,3279,10,status,244,,-,context,15.0
-1274,full,3279,11,of,254,,-,context,15.0
-1275,full,3279,12,each,258,,-,context,15.0
-1276,full,3279,13,of,237,,-,context,15.0
-1277,full,3279,14,the,257,,-,context,15.0
-1278,full,3279,15,rides.,255,,-,context,15.0
-1279,focused,3279,1,Only,252,,focus_particle,trigger,9.0
-1280,focused,3279,2,some,232,,quantifier_f,trigger,9.0
-1281,focused,3279,3,of,213,,quantifier_f,trigger,9.0
-1282,focused,3279,4,my,248,,ntw_1,trigger,9.0
-1283,focused,3279,5,favorite,249,,ntw_1,trigger,9.0
-1284,focused,3279,6,rides,250,,ntw_2,trigger,9.0
-1285,focused,3279,7,were,251,,ntw_2,trigger,9.0
-1286,focused,3279,8,still,238,,-,trigger,9.0
-1287,focused,3279,9,running.,233,,-,trigger,9.0
-1288,complement,3279,1,The,252,,anaphor,continuation,11.0
-1289,complement,3279,2,rest,249,,anaphor,continuation,11.0
-1290,complement,3279,3,were,249,,predicate,continuation,11.0
-1291,complement,3279,4,shut,250,,predicate,continuation,11.0
-1292,complement,3279,5,down,250,,predicate,continuation,11.0
-1293,complement,3279,6,since,258,,clause_boundary,continuation,11.0
-1294,complement,3279,7,they,246,,ntw_1,continuation,11.0
-1295,complement,3279,8,were,253,,ntw_1,continuation,11.0
-1296,complement,3279,9,no,254,,-,continuation,11.0
-1297,complement,3279,10,longer,245,,-,continuation,11.0
-1298,complement,3279,11,popular.,284,,-,continuation,11.0
-1299,partial,3279,1,I,241,,-,context,12.0
-1300,partial,3279,2,heard,251,,-,context,12.0
-1301,partial,3279,3,that,212,,-,context,12.0
-1302,partial,3279,4,my,256,,-,context,12.0
-1303,partial,3279,5,friend,236,,-,context,12.0
-1304,partial,3279,6,dropped,247,,-,context,12.0
-1305,partial,3279,7,a,246,,-,context,12.0
-1306,partial,3279,8,bowling,248,,-,context,12.0
-1307,partial,3279,9,ball,232,,-,context,12.0
-1308,partial,3279,10,down,238,,-,context,12.0
-1309,partial,3279,11,the,222,,-,context,12.0
-1310,partial,3279,12,stairs.,255,,-,context,12.0
-1311,focused,3279,1,Only,229,,focus_particle,trigger,7.0
-1312,focused,3279,2,some,228,,quantifier_f,trigger,7.0
-1313,focused,3279,3,of,237,,quantifier_f,trigger,7.0
-1314,focused,3279,4,the,236,,ntw_1,trigger,7.0
-1315,focused,3279,5,steps,235,,ntw_1,trigger,7.0
-1316,focused,3279,6,were,264,,ntw_2,trigger,7.0
-1317,focused,3279,7,damaged.,255,,ntw_2,trigger,7.0
-1318,complement,3279,1,The,246,,anaphor,continuation,11.0
-1319,complement,3279,2,others,230,,anaphor,continuation,11.0
-1320,complement,3279,3,were,234,,predicate,continuation,11.0
-1321,complement,3279,4,fine,244,,predicate,continuation,11.0
-1322,complement,3279,5,so,269,,clause_boundary,continuation,11.0
-1323,complement,3279,6,the,280,,ntw_1,continuation,11.0
-1324,complement,3279,7,repairs,292,,ntw_1,continuation,11.0
-1325,complement,3279,8,shouldn’t,246,,-,continuation,11.0
-1326,complement,3279,9,be,277,,-,continuation,11.0
-1327,complement,3279,10,too,260,,-,continuation,11.0
-1328,complement,3279,11,expensive.,247,,-,continuation,11.0
-1329,full,3279,1,As,253,,-,context,16.0
-1330,full,3279,2,the,255,,-,context,16.0
-1331,full,3279,3,new,233,,-,context,16.0
-1332,full,3279,4,"librarian,",233,,-,context,16.0
-1333,full,3279,5,it,296,,-,context,16.0
-1334,full,3279,6,was,271,,-,context,16.0
-1335,full,3279,7,my,235,,-,context,16.0
-1336,full,3279,8,responsibility,248,,-,context,16.0
-1337,full,3279,9,to,262,,-,context,16.0
-1338,full,3279,10,catalog,254,,-,context,16.0
-1339,full,3279,11,every,246,,-,context,16.0
-1340,full,3279,12,book,248,,-,context,16.0
-1341,full,3279,13,in,243,,-,context,16.0
-1342,full,3279,14,the,249,,-,context,16.0
-1343,full,3279,15,reference,255,,-,context,16.0
-1344,full,3279,16,section.,275,,-,context,16.0
-1345,focused,3279,1,Only,230,,focus_particle,trigger,8.0
-1346,focused,3279,2,some,271,,quantifier_f,trigger,8.0
-1347,focused,3279,3,of,257,,quantifier_f,trigger,8.0
-1348,focused,3279,4,the,284,,ntw_1,trigger,8.0
-1349,focused,3279,5,dictionaries,241,,ntw_1,trigger,8.0
-1350,focused,3279,6,were,301,,ntw_2,trigger,8.0
-1351,focused,3279,7,labeled,278,,ntw_2,trigger,8.0
-1352,focused,3279,8,incorrectly.,311,,-,trigger,8.0
-1353,complement,3279,1,The,273,,anaphor,continuation,17.0
-1354,complement,3279,2,others,546,,anaphor,continuation,17.0
-1355,complement,3279,3,were,264,,predicate,continuation,17.0
-1356,complement,3279,4,labeled,317,,predicate,continuation,17.0
-1357,complement,3279,5,appropriately,264,,predicate,continuation,17.0
-1358,complement,3279,6,though,327,,clause_boundary,continuation,17.0
-1359,complement,3279,7,a,321,,ntw_1,continuation,17.0
-1360,complement,3279,8,few,321,,ntw_1,continuation,17.0
-1361,complement,3279,9,of,274,,-,continuation,17.0
-1362,complement,3279,10,them,273,,-,continuation,17.0
-1363,complement,3279,11,had,288,,-,continuation,17.0
-1364,complement,3279,12,been,256,,-,continuation,17.0
-1365,complement,3279,13,shelved,268,,-,continuation,17.0
-1366,complement,3279,14,in,278,,-,continuation,17.0
-1367,complement,3279,15,the,284,,-,continuation,17.0
-1368,complement,3279,16,wrong,306,,-,continuation,17.0
-1369,complement,3279,17,place.,312,,-,continuation,17.0
-1370,full,3279,1,While,222,,-,context,15.0
-1371,full,3279,2,working,220,,-,context,15.0
-1372,full,3279,3,in,230,,-,context,15.0
-1373,full,3279,4,the,226,,-,context,15.0
-1374,full,3279,5,veterinary,235,,-,context,15.0
-1375,full,3279,6,"clinic,",216,,-,context,15.0
-1376,full,3279,7,I,271,,-,context,15.0
-1377,full,3279,8,closely,251,,-,context,15.0
-1378,full,3279,9,examined,270,,-,context,15.0
-1379,full,3279,10,the,286,,-,context,15.0
-1380,full,3279,11,mouth,294,,-,context,15.0
-1381,full,3279,12,of,279,,-,context,15.0
-1382,full,3279,13,a,244,,-,context,15.0
-1383,full,3279,14,large,279,,-,context,15.0
-1384,full,3279,15,bulldog.,218,,-,context,15.0
-1385,scalar,3279,1,Some,251,,quantifier_s,trigger,7.0
-1386,scalar,3279,2,of,495,,quantifier_s,trigger,7.0
-1387,scalar,3279,3,the,220,,ntw_1,trigger,7.0
-1388,scalar,3279,4,dog’s,232,,ntw_1,trigger,7.0
-1389,scalar,3279,5,teeth,242,,ntw_2,trigger,7.0
-1390,scalar,3279,6,were,221,,ntw_2,trigger,7.0
-1391,scalar,3279,7,missing.,263,,-,trigger,7.0
-1392,cancelation,3279,1,In,228,,in_fact,continuation,13.0
-1393,cancelation,3279,2,"fact,",251,,in_fact,continuation,13.0
-1394,cancelation,3279,3,they,224,,they_all,continuation,13.0
-1395,cancelation,3279,4,all,481,,they_all,continuation,13.0
-1396,cancelation,3279,5,were,236,,did,continuation,13.0
-1397,cancelation,3279,6,because,240,,word6,continuation,13.0
-1398,cancelation,3279,7,its,248,,-,continuation,13.0
-1399,cancelation,3279,8,owners,256,,-,continuation,13.0
-1400,cancelation,3279,9,completely,229,,-,continuation,13.0
-1401,cancelation,3279,10,neglected,289,,-,continuation,13.0
-1402,cancelation,3279,11,its,405,,-,continuation,13.0
-1403,cancelation,3279,12,oral,303,,-,continuation,13.0
-1404,cancelation,3279,13,hygiene.,293,,-,continuation,13.0
-1405,partial,3279,1,After,253,,-,context,14.0
-1406,partial,3279,2,the,252,,-,context,14.0
-1407,partial,3279,3,babysitter,235,,-,context,14.0
-1408,partial,3279,4,"left,",318,,-,context,14.0
-1409,partial,3279,5,I,300,,-,context,14.0
-1410,partial,3279,6,went,257,,-,context,14.0
-1411,partial,3279,7,to,235,,-,context,14.0
-1412,partial,3279,8,my,229,,-,context,14.0
-1413,partial,3279,9,liquor,255,,-,context,14.0
-1414,partial,3279,10,collection,259,,-,context,14.0
-1415,partial,3279,11,and,232,,-,context,14.0
-1416,partial,3279,12,made,252,,-,context,14.0
-1417,partial,3279,13,a,245,,-,context,14.0
-1418,partial,3279,14,drink.,236,,-,context,14.0
-1419,scalar,3279,1,Some,250,,quantifier_s,trigger,9.0
-1420,scalar,3279,2,of,200,,quantifier_s,trigger,9.0
-1421,scalar,3279,3,my,249,,ntw_1,trigger,9.0
-1422,scalar,3279,4,new,229,,ntw_1,trigger,9.0
-1423,scalar,3279,5,bottles,241,,ntw_2,trigger,9.0
-1424,scalar,3279,6,of,236,,ntw_2,trigger,9.0
-1425,scalar,3279,7,vodka,265,,-,trigger,9.0
-1426,scalar,3279,8,were,265,,-,trigger,9.0
-1427,scalar,3279,9,opened.,287,,-,trigger,9.0
-1428,cancelation,3279,1,In,273,,in_fact,continuation,22.0
-1429,cancelation,3279,2,"fact,",250,,in_fact,continuation,22.0
-1430,cancelation,3279,3,they,235,,they_all,continuation,22.0
-1431,cancelation,3279,4,all,242,,they_all,continuation,22.0
-1432,cancelation,3279,5,were,234,,did,continuation,22.0
-1433,cancelation,3279,6,but,227,,word6,continuation,22.0
-1434,cancelation,3279,7,I,224,,-,continuation,22.0
-1435,cancelation,3279,8,decided,254,,-,continuation,22.0
-1436,cancelation,3279,9,not,263,,-,continuation,22.0
-1437,cancelation,3279,10,to,258,,-,continuation,22.0
-1438,cancelation,3279,11,call,211,,-,continuation,22.0
-1439,cancelation,3279,12,her,237,,-,continuation,22.0
-1440,cancelation,3279,13,parents,254,,-,continuation,22.0
-1441,cancelation,3279,14,because,242,,-,continuation,22.0
-1442,cancelation,3279,15,it,232,,-,continuation,22.0
-1443,cancelation,3279,16,was,257,,-,continuation,22.0
-1444,cancelation,3279,17,so,253,,-,continuation,22.0
-1445,cancelation,3279,18,hard,241,,-,continuation,22.0
-1446,cancelation,3279,19,to,267,,-,continuation,22.0
-1447,cancelation,3279,20,find,250,,-,continuation,22.0
-1448,cancelation,3279,21,a,278,,-,continuation,22.0
-1449,cancelation,3279,22,babysitter.,296,,-,continuation,22.0
-1450,partial,3279,1,When,264,,-,context,12.0
-1451,partial,3279,2,they,276,,-,context,12.0
-1452,partial,3279,3,"returned,",243,,-,context,12.0
-1453,partial,3279,4,my,244,,-,context,12.0
-1454,partial,3279,5,family,256,,-,context,12.0
-1455,partial,3279,6,told,251,,-,context,12.0
-1456,partial,3279,7,me,238,,-,context,12.0
-1457,partial,3279,8,about,748,,-,context,12.0
-1458,partial,3279,9,their,265,,-,context,12.0
-1459,partial,3279,10,trip,273,,-,context,12.0
-1460,partial,3279,11,to,261,,-,context,12.0
-1461,partial,3279,12,Europe.,247,,-,context,12.0
-1462,scalar,3279,1,Some,253,,quantifier_s,trigger,6.0
-1463,scalar,3279,2,of,271,,quantifier_s,trigger,6.0
-1464,scalar,3279,3,their,280,,ntw_1,trigger,6.0
-1465,scalar,3279,4,hotels,264,,ntw_1,trigger,6.0
-1466,scalar,3279,5,were,311,,ntw_2,trigger,6.0
-1467,scalar,3279,6,expensive.,312,,ntw_2,trigger,6.0
-1468,complement,3279,1,The,248,,anaphor,continuation,11.0
-1469,complement,3279,2,rest,235,,anaphor,continuation,11.0
-1470,complement,3279,3,were,226,,predicate,continuation,11.0
-1471,complement,3279,4,cheap,225,,predicate,continuation,11.0
-1472,complement,3279,5,despite,255,,clause_boundary,continuation,11.0
-1473,complement,3279,6,my,232,,ntw_1,continuation,11.0
-1474,complement,3279,7,family’s,254,,ntw_1,continuation,11.0
-1475,complement,3279,8,love,256,,-,continuation,11.0
-1476,complement,3279,9,for,287,,-,continuation,11.0
-1477,complement,3279,10,luxurious,459,,-,continuation,11.0
-1478,complement,3279,11,holidays.,656,,-,continuation,11.0
-1479,partial,3279,1,I,246,,-,context,19.0
-1480,partial,3279,2,had,241,,-,context,19.0
-1481,partial,3279,3,little,219,,-,context,19.0
-1482,partial,3279,4,time,218,,-,context,19.0
-1483,partial,3279,5,to,215,,-,context,19.0
-1484,partial,3279,6,prepare,214,,-,context,19.0
-1485,partial,3279,7,for,400,,-,context,19.0
-1486,partial,3279,8,my,219,,-,context,19.0
-1487,partial,3279,9,Spanish,212,,-,context,19.0
-1488,partial,3279,10,test,218,,-,context,19.0
-1489,partial,3279,11,so,229,,-,context,19.0
-1490,partial,3279,12,I,207,,-,context,19.0
-1491,partial,3279,13,quickly,229,,-,context,19.0
-1492,partial,3279,14,glanced,226,,-,context,19.0
-1493,partial,3279,15,at,238,,-,context,19.0
-1494,partial,3279,16,the,254,,-,context,19.0
-1495,partial,3279,17,new,246,,-,context,19.0
-1496,partial,3279,18,vocabulary,237,,-,context,19.0
-1497,partial,3279,19,items.,346,,-,context,19.0
-1498,scalar,3279,1,Some,265,,quantifier_s,trigger,10.0
-1499,scalar,3279,2,of,215,,quantifier_s,trigger,10.0
-1500,scalar,3279,3,the,272,,ntw_1,trigger,10.0
-1501,scalar,3279,4,words,242,,ntw_1,trigger,10.0
-1502,scalar,3279,5,sounded,247,,ntw_2,trigger,10.0
-1503,scalar,3279,6,like,268,,ntw_2,trigger,10.0
-1504,scalar,3279,7,they,298,,-,trigger,10.0
-1505,scalar,3279,8,do,270,,-,trigger,10.0
-1506,scalar,3279,9,in,266,,-,trigger,10.0
-1507,scalar,3279,10,English.,277,,-,trigger,10.0
-1508,cancelation,3279,1,In,302,,in_fact,continuation,11.0
-1509,cancelation,3279,2,"fact,",237,,in_fact,continuation,11.0
-1510,cancelation,3279,3,they,229,,they_all,continuation,11.0
-1511,cancelation,3279,4,all,247,,they_all,continuation,11.0
-1512,cancelation,3279,5,did,256,,did,continuation,11.0
-1513,cancelation,3279,6,which,232,,word6,continuation,11.0
-1514,cancelation,3279,7,made,270,,-,continuation,11.0
-1515,cancelation,3279,8,the,273,,-,continuation,11.0
-1516,cancelation,3279,9,test,255,,-,continuation,11.0
-1517,cancelation,3279,10,somewhat,262,,-,continuation,11.0
-1518,cancelation,3279,11,easier.,431,,-,continuation,11.0
-1519,partial,3279,1,As,546,,-,context,14.0
-1520,partial,3279,2,the,225,,-,context,14.0
-1521,partial,3279,3,office’s,224,,-,context,14.0
-1522,partial,3279,4,main,182,,-,context,14.0
-1523,partial,3279,5,"technician,",183,,-,context,14.0
-1524,partial,3279,6,I,221,,-,context,14.0
-1525,partial,3279,7,had,233,,-,context,14.0
-1526,partial,3279,8,been,209,,-,context,14.0
-1527,partial,3279,9,alerted,217,,-,context,14.0
-1528,partial,3279,10,to,230,,-,context,14.0
-1529,partial,3279,11,the,212,,-,context,14.0
-1530,partial,3279,12,dangerous,199,,-,context,14.0
-1531,partial,3279,13,new,250,,-,context,14.0
-1532,partial,3279,14,virus.,239,,-,context,14.0
-1533,focused,3279,1,Only,229,,focus_particle,trigger,7.0
-1534,focused,3279,2,some,215,,quantifier_f,trigger,7.0
-1535,focused,3279,3,of,203,,quantifier_f,trigger,7.0
-1536,focused,3279,4,our,192,,ntw_1,trigger,7.0
-1537,focused,3279,5,computers,208,,ntw_1,trigger,7.0
-1538,focused,3279,6,were,217,,ntw_2,trigger,7.0
-1539,focused,3279,7,infected.,248,,ntw_2,trigger,7.0
-1540,complement,3279,1,The,204,,anaphor,continuation,11.0
-1541,complement,3279,2,rest,237,,anaphor,continuation,11.0
-1542,complement,3279,3,were,188,,predicate,continuation,11.0
-1543,complement,3279,4,clean,436,,predicate,continuation,11.0
-1544,complement,3279,5,because,233,,clause_boundary,continuation,11.0
-1545,complement,3279,6,their,628,,ntw_1,continuation,11.0
-1546,complement,3279,7,owners,399,,ntw_1,continuation,11.0
-1547,complement,3279,8,had,299,,-,continuation,11.0
-1548,complement,3279,9,been,255,,-,continuation,11.0
-1549,complement,3279,10,very,252,,-,continuation,11.0
-1550,complement,3279,11,cautious.,325,,-,continuation,11.0
-1551,partial,3279,1,To,225,,-,context,16.0
-1552,partial,3279,2,check,227,,-,context,16.0
-1553,partial,3279,3,on,232,,-,context,16.0
-1554,partial,3279,4,the,220,,-,context,16.0
-1555,partial,3279,5,progress,204,,-,context,16.0
-1556,partial,3279,6,of,222,,-,context,16.0
-1557,partial,3279,7,my,208,,-,context,16.0
-1558,partial,3279,8,"research,",208,,-,context,16.0
-1559,partial,3279,9,I,202,,-,context,16.0
-1560,partial,3279,10,quickly,241,,-,context,16.0
-1561,partial,3279,11,scanned,249,,-,context,16.0
-1562,partial,3279,12,the,219,,-,context,16.0
-1563,partial,3279,13,experiments,235,,-,context,16.0
-1564,partial,3279,14,in,243,,-,context,16.0
-1565,partial,3279,15,the,239,,-,context,16.0
-1566,partial,3279,16,lab.,247,,-,context,16.0
-1567,scalar,3279,1,Some,239,,quantifier_s,trigger,6.0
-1568,scalar,3279,2,of,216,,quantifier_s,trigger,6.0
-1569,scalar,3279,3,my,214,,ntw_1,trigger,6.0
-1570,scalar,3279,4,predictions,423,,ntw_1,trigger,6.0
-1571,scalar,3279,5,were,267,,ntw_2,trigger,6.0
-1572,scalar,3279,6,correct.,270,,ntw_2,trigger,6.0
-1573,cancelation,3279,1,In,235,,in_fact,continuation,14.0
-1574,cancelation,3279,2,"fact,",239,,in_fact,continuation,14.0
-1575,cancelation,3279,3,they,230,,they_all,continuation,14.0
-1576,cancelation,3279,4,all,238,,they_all,continuation,14.0
-1577,cancelation,3279,5,were,250,,did,continuation,14.0
-1578,cancelation,3279,6,so,241,,word6,continuation,14.0
-1579,cancelation,3279,7,I,257,,-,continuation,14.0
-1580,cancelation,3279,8,should,241,,-,continuation,14.0
-1581,cancelation,3279,9,be,250,,-,continuation,14.0
-1582,cancelation,3279,10,able,243,,-,continuation,14.0
-1583,cancelation,3279,11,to,236,,-,continuation,14.0
-1584,cancelation,3279,12,publish,266,,-,continuation,14.0
-1585,cancelation,3279,13,the,309,,-,continuation,14.0
-1586,cancelation,3279,14,results.,279,,-,continuation,14.0
-1587,full,3279,1,At,226,,-,context,12.0
-1588,full,3279,2,a,203,,-,context,12.0
-1589,full,3279,3,friend’s,221,,-,context,12.0
-1590,full,3279,4,"suggestion,",222,,-,context,12.0
-1591,full,3279,5,I,224,,-,context,12.0
-1592,full,3279,6,completely,229,,-,context,12.0
-1593,full,3279,7,worked,249,,-,context,12.0
-1594,full,3279,8,through,222,,-,context,12.0
-1595,full,3279,9,an,238,,-,context,12.0
-1596,full,3279,10,entire,240,,-,context,12.0
-1597,full,3279,11,math,242,,-,context,12.0
-1598,full,3279,12,textbook.,269,,-,context,12.0
-1599,focused,3279,1,Only,234,,focus_particle,trigger,7.0
-1600,focused,3279,2,some,241,,quantifier_f,trigger,7.0
-1601,focused,3279,3,of,214,,quantifier_f,trigger,7.0
-1602,focused,3279,4,its,263,,ntw_1,trigger,7.0
-1603,focused,3279,5,problems,235,,ntw_1,trigger,7.0
-1604,focused,3279,6,were,272,,ntw_2,trigger,7.0
-1605,focused,3279,7,difficult.,241,,ntw_2,trigger,7.0
-1606,complement,3279,1,The,225,,anaphor,continuation,12.0
-1607,complement,3279,2,others,252,,anaphor,continuation,12.0
-1608,complement,3279,3,were,215,,predicate,continuation,12.0
-1609,complement,3279,4,straightforward,231,,predicate,continuation,12.0
-1610,complement,3279,5,and,277,,clause_boundary,continuation,12.0
-1611,complement,3279,6,I,280,,ntw_1,continuation,12.0
-1612,complement,3279,7,feel,251,,ntw_1,continuation,12.0
-1613,complement,3279,8,like,251,,-,continuation,12.0
-1614,complement,3279,9,I,241,,-,continuation,12.0
-1615,complement,3279,10,learned,255,,-,continuation,12.0
-1616,complement,3279,11,a,258,,-,continuation,12.0
-1617,complement,3279,12,lot.,288,,-,continuation,12.0
+,submission_id,itemID,type,setting,region,avg_rt,phrase,phrase_length,full_or_partial,quantifier
+0,3280,3,trigger,scalar,s_quantifier,436.0,Some of the company’s accountants were there.,7.0,partial,quantifier
+1,3280,3,trigger,scalar,s_ntw_1,468.5,Some of the company’s accountants were there.,7.0,partial,
+2,3280,3,trigger,scalar,s_ntw_2,771.5,Some of the company’s accountants were there.,7.0,partial,
+3,3280,3,continuation,complement,c_anaphor,404.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+4,3280,3,continuation,complement,predicate,547.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+5,3280,3,continuation,complement,clause_boundary,756.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+6,3280,3,continuation,complement,c_ntw_1,508.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+7,3280,11,trigger,focused,f_particle,453.0,Only some of the bottles of Chardonnay were missing.,9.0,full,
+8,3280,11,trigger,focused,f_quantifier,332.0,Only some of the bottles of Chardonnay were missing.,9.0,full,quantifier
+9,3280,11,trigger,focused,f_ntw_1,312.0,Only some of the bottles of Chardonnay were missing.,9.0,full,
+10,3280,11,trigger,focused,f_ntw_2,352.0,Only some of the bottles of Chardonnay were missing.,9.0,full,
+11,3280,11,continuation,complement,c_anaphor,392.0,The rest were safe but I was still extremely upset.,10.0,full,
+12,3280,11,continuation,complement,predicate,372.0,The rest were safe but I was still extremely upset.,10.0,full,
+13,3280,11,continuation,complement,clause_boundary,325.0,The rest were safe but I was still extremely upset.,10.0,full,
+14,3280,11,continuation,complement,c_ntw_1,348.0,The rest were safe but I was still extremely upset.,10.0,full,
+15,3280,8,trigger,focused,f_particle,413.0,Only some of the leather couches had been sold.,9.0,full,
+16,3280,8,trigger,focused,f_quantifier,312.0,Only some of the leather couches had been sold.,9.0,full,quantifier
+17,3280,8,trigger,focused,f_ntw_1,308.0,Only some of the leather couches had been sold.,9.0,full,
+18,3280,8,trigger,focused,f_ntw_2,420.0,Only some of the leather couches had been sold.,9.0,full,
+19,3280,8,continuation,complement,c_anaphor,260.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+20,3280,8,continuation,complement,predicate,373.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+21,3280,8,continuation,complement,clause_boundary,427.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+22,3280,8,continuation,complement,c_ntw_1,416.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+23,3280,7,trigger,scalar,s_quantifier,336.0,Some of the tourists got soaked by the rain storm.,10.0,partial,quantifier
+24,3280,7,trigger,scalar,s_ntw_1,316.0,Some of the tourists got soaked by the rain storm.,10.0,partial,
+25,3280,7,trigger,scalar,s_ntw_2,339.5,Some of the tourists got soaked by the rain storm.,10.0,partial,
+26,3280,7,continuation,cancelation,cancelation_1,300.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,
+27,3280,7,continuation,cancelation,cancelation_2,311.5,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,
+28,3280,7,continuation,cancelation,cancelation_3,318.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,
+29,3280,7,continuation,cancelation,cancelation_4,355.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,
+30,3280,5,trigger,focused,f_particle,307.0,Only some of the real estate investments lost money.,9.0,full,
+31,3280,5,trigger,focused,f_quantifier,303.5,Only some of the real estate investments lost money.,9.0,full,quantifier
+32,3280,5,trigger,focused,f_ntw_1,356.0,Only some of the real estate investments lost money.,9.0,full,
+33,3280,5,trigger,focused,f_ntw_2,348.5,Only some of the real estate investments lost money.,9.0,full,
+34,3280,5,continuation,complement,c_anaphor,307.5,The others were successful despite the recent economic downturn.,9.0,full,
+35,3280,5,continuation,complement,predicate,440.0,The others were successful despite the recent economic downturn.,9.0,full,
+36,3280,5,continuation,complement,clause_boundary,388.0,The others were successful despite the recent economic downturn.,9.0,full,
+37,3280,5,continuation,complement,c_ntw_1,472.0,The others were successful despite the recent economic downturn.,9.0,full,
+38,3280,14,trigger,focused,f_particle,347.0,Only some of my predictions were correct.,7.0,partial,
+39,3280,14,trigger,focused,f_quantifier,347.5,Only some of my predictions were correct.,7.0,partial,quantifier
+40,3280,14,trigger,focused,f_ntw_1,364.0,Only some of my predictions were correct.,7.0,partial,
+41,3280,14,trigger,focused,f_ntw_2,387.5,Only some of my predictions were correct.,7.0,partial,
+42,3280,14,continuation,complement,c_anaphor,315.5,The rest were wrong so my theory must be mistaken.,10.0,partial,
+43,3280,14,continuation,complement,predicate,540.5,The rest were wrong so my theory must be mistaken.,10.0,partial,
+44,3280,14,continuation,complement,clause_boundary,341.0,The rest were wrong so my theory must be mistaken.,10.0,partial,
+45,3280,14,continuation,complement,c_ntw_1,376.0,The rest were wrong so my theory must be mistaken.,10.0,partial,
+46,3280,1,trigger,scalar,s_quantifier,359.5,Some of the gold watches were fakes.,7.0,full,quantifier
+47,3280,1,trigger,scalar,s_ntw_1,356.0,Some of the gold watches were fakes.,7.0,full,
+48,3280,1,trigger,scalar,s_ntw_2,488.0,Some of the gold watches were fakes.,7.0,full,
+49,3280,1,continuation,cancelation,cancelation_1,364.0,"In fact, they all were, so the company is planning to sue.",12.0,full,
+50,3280,1,continuation,cancelation,cancelation_2,363.5,"In fact, they all were, so the company is planning to sue.",12.0,full,
+51,3280,1,continuation,cancelation,cancelation_3,357.0,"In fact, they all were, so the company is planning to sue.",12.0,full,
+52,3280,1,continuation,cancelation,cancelation_4,347.0,"In fact, they all were, so the company is planning to sue.",12.0,full,
+53,3280,18,trigger,scalar,s_quantifier,320.0,Some of its problems were difficult.,6.0,partial,quantifier
+54,3280,18,trigger,scalar,s_ntw_1,312.0,Some of its problems were difficult.,6.0,partial,
+55,3280,18,trigger,scalar,s_ntw_2,504.0,Some of its problems were difficult.,6.0,partial,
+56,3280,18,continuation,complement,c_anaphor,312.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,
+57,3280,18,continuation,complement,predicate,340.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,
+58,3280,18,continuation,complement,clause_boundary,485.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,
+59,3280,18,continuation,complement,c_ntw_1,344.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,
+60,3280,15,trigger,scalar,s_quantifier,352.0,Some of their hotels were expensive.,6.0,full,quantifier
+61,3280,15,trigger,scalar,s_ntw_1,316.0,Some of their hotels were expensive.,6.0,full,
+62,3280,15,trigger,scalar,s_ntw_2,360.0,Some of their hotels were expensive.,6.0,full,
+63,3280,15,continuation,complement,c_anaphor,372.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,
+64,3280,15,continuation,complement,predicate,332.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,
+65,3280,15,continuation,complement,clause_boundary,293.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,
+66,3280,15,continuation,complement,c_ntw_1,304.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,
+67,3280,9,trigger,scalar,s_quantifier,284.0,Some of the dishes were spicy.,6.0,full,quantifier
+68,3280,9,trigger,scalar,s_ntw_1,300.0,Some of the dishes were spicy.,6.0,full,
+69,3280,9,trigger,scalar,s_ntw_2,392.5,Some of the dishes were spicy.,6.0,full,
+70,3280,9,continuation,cancelation,cancelation_1,288.5,"In fact, they all were but fortunately I love spicy food.",11.0,full,
+71,3280,9,continuation,cancelation,cancelation_2,308.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,
+72,3280,9,continuation,cancelation,cancelation_3,299.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,
+73,3280,9,continuation,cancelation,cancelation_4,285.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,
+74,3280,21,trigger,focused,f_particle,307.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,
+75,3280,21,trigger,focused,f_quantifier,284.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,quantifier
+76,3280,21,trigger,focused,f_ntw_1,252.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,
+77,3280,21,trigger,focused,f_ntw_2,364.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,
+78,3280,21,continuation,complement,c_anaphor,280.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,
+79,3280,21,continuation,complement,c_predicate,292.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,
+80,3280,21,continuation,complement,c_clause_boundary,412.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,
+81,3280,21,continuation,complement,c_ntw_1,480.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,
+82,3280,4,trigger,scalar,s_quantifier,332.0,Some of the passengers were still alive.,7.0,full,quantifier
+83,3280,4,trigger,scalar,s_ntw_1,336.0,Some of the passengers were still alive.,7.0,full,
+84,3280,4,trigger,scalar,s_ntw_2,332.0,Some of the passengers were still alive.,7.0,full,
+85,3280,4,continuation,cancelation,cancelation_1,316.0,"In fact, they all were and none were critically injured.",10.0,full,
+86,3280,4,continuation,cancelation,cancelation_2,300.0,"In fact, they all were and none were critically injured.",10.0,full,
+87,3280,4,continuation,cancelation,cancelation_3,309.0,"In fact, they all were and none were critically injured.",10.0,full,
+88,3280,4,continuation,cancelation,cancelation_4,299.0,"In fact, they all were and none were critically injured.",10.0,full,
+89,3280,12,trigger,focused,f_particle,332.0,Only some of the dog’s teeth were missing.,8.0,partial,
+90,3280,12,trigger,focused,f_quantifier,344.0,Only some of the dog’s teeth were missing.,8.0,partial,quantifier
+91,3280,12,trigger,focused,f_ntw_1,332.0,Only some of the dog’s teeth were missing.,8.0,partial,
+92,3280,12,trigger,focused,f_ntw_2,340.0,Only some of the dog’s teeth were missing.,8.0,partial,
+93,3280,12,continuation,complement,c_anaphor,336.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,
+94,3280,12,continuation,complement,predicate,359.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,
+95,3280,12,continuation,complement,clause_boundary,365.0,The rest were intact so it should still be able to eat solid food.,14.0,partial,
+96,3280,12,continuation,complement,c_ntw_1,371.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,
+97,3280,17,trigger,scalar,s_quantifier,339.5,Some of the steps were damaged.,6.0,full,quantifier
+98,3280,17,trigger,scalar,s_ntw_1,316.5,Some of the steps were damaged.,6.0,full,
+99,3280,17,trigger,scalar,s_ntw_2,311.5,Some of the steps were damaged.,6.0,full,
+100,3280,17,continuation,complement,c_anaphor,360.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,
+101,3280,17,continuation,complement,predicate,348.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,
+102,3280,17,continuation,complement,clause_boundary,349.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,
+103,3280,17,continuation,complement,c_ntw_1,336.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,
+104,3280,6,trigger,scalar,s_quantifier,324.0,Some of our computers were infected.,6.0,full,quantifier
+105,3280,6,trigger,scalar,s_ntw_1,384.0,Some of our computers were infected.,6.0,full,
+106,3280,6,trigger,scalar,s_ntw_2,332.0,Some of our computers were infected.,6.0,full,
+107,3280,6,continuation,cancelation,cancelation_1,380.5,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,
+108,3280,6,continuation,cancelation,cancelation_2,347.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,
+109,3280,6,continuation,cancelation,cancelation_3,302.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,
+110,3280,6,continuation,cancelation,cancelation_4,379.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,
+111,3280,20,trigger,scalar,s_quantifier,468.0,Some of the honors students received prizes.,7.0,partial,quantifier
+112,3280,20,trigger,scalar,s_ntw_1,500.0,Some of the honors students received prizes.,7.0,partial,
+113,3280,20,trigger,scalar,s_ntw_2,531.5,Some of the honors students received prizes.,7.0,partial,
+114,3280,20,continuation,cancelation,cancelation_1,352.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,
+115,3280,20,continuation,cancelation,cancelation_2,299.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,
+116,3280,20,continuation,cancelation,cancelation_3,316.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,
+117,3280,20,continuation,cancelation,cancelation_4,276.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,
+118,3280,2,trigger,scalar,s_quantifier,296.0,Some of the residents had evacuated.,6.0,full,quantifier
+119,3280,2,trigger,scalar,s_ntw_1,308.0,Some of the residents had evacuated.,6.0,full,
+120,3280,2,trigger,scalar,s_ntw_2,351.5,Some of the residents had evacuated.,6.0,full,
+121,3280,2,continuation,complement,c_anaphor,272.0,The rest stayed at home and foolishly risked their lives.,10.0,full,
+122,3280,2,continuation,complement,c_predicate,334.3333333333333,The rest stayed at home and foolishly risked their lives.,10.0,full,
+123,3280,2,continuation,complement,c_clause_boundary,293.0,The rest stayed at home and foolishly risked their lives.,10.0,full,
+124,3280,2,continuation,complement,c_ntw_1,400.0,The rest stayed at home and foolishly risked their lives.,10.0,full,
+125,3280,24,trigger,focused,f_particle,342.0,Only some of my stocks went up.,7.0,full,
+126,3280,24,trigger,focused,f_quantifier,408.0,Only some of my stocks went up.,7.0,full,quantifier
+127,3280,24,trigger,focused,f_ntw_1,312.0,Only some of my stocks went up.,7.0,full,
+128,3280,24,trigger,focused,f_ntw_2,392.5,Only some of my stocks went up.,7.0,full,
+129,3280,24,continuation,complement,c_anaphor,308.0,The others were relatively steady but my portfolio was still down for the year.,14.0,full,
+130,3280,24,continuation,complement,c_predicate,355.6666666666667,The others were relatively steady but my portfolio was still down for the year.,14.0,full,
+131,3280,24,continuation,complement,c_clause_boundary,608.0,The others were relatively steady but my portfolio was still down for the year.,14.0,full,
+132,3280,24,continuation,complement,c_ntw_1,366.5,The others were relatively steady but my portfolio was still down for the year.,14.0,full,
+133,3280,13,trigger,scalar,s_quantifier,280.0,Some of its tires were flat.,6.0,full,quantifier
+134,3280,13,trigger,scalar,s_ntw_1,300.0,Some of its tires were flat.,6.0,full,
+135,3280,13,trigger,scalar,s_ntw_2,392.0,Some of its tires were flat.,6.0,full,
+136,3280,13,continuation,complement,c_anaphor,292.0,The others were fine so it would not cost too much to fix it.,14.0,full,
+137,3280,13,continuation,complement,predicate,280.0,The others were fine so it would not cost too much to fix it.,14.0,full,
+138,3280,13,continuation,complement,clause_boundary,331.0,The others were fine so it would not cost too much to fix it.,14.0,full,
+139,3280,13,continuation,complement,c_ntw_1,288.0,The others were fine so it would not cost too much to fix it.,14.0,full,
+140,3280,19,trigger,scalar,s_quantifier,356.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,quantifier
+141,3280,19,trigger,scalar,s_ntw_1,476.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,
+142,3280,19,trigger,scalar,s_ntw_2,476.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,
+143,3280,19,continuation,cancelation,cancelation_1,348.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,
+144,3280,19,continuation,cancelation,cancelation_2,272.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,
+145,3280,19,continuation,cancelation,cancelation_3,172.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,
+146,3280,19,continuation,cancelation,cancelation_4,203.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,
+147,3280,16,trigger,scalar,s_quantifier,308.0,Some of my new bottles of vodka were opened.,9.0,partial,quantifier
+148,3280,16,trigger,scalar,s_ntw_1,255.5,Some of my new bottles of vodka were opened.,9.0,partial,
+149,3280,16,trigger,scalar,s_ntw_2,312.0,Some of my new bottles of vodka were opened.,9.0,partial,
+150,3280,16,continuation,complement,c_anaphor,328.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,
+151,3280,16,continuation,complement,predicate,332.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,
+152,3280,16,continuation,complement,clause_boundary,437.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,
+153,3280,16,continuation,complement,c_ntw_1,312.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,
+154,3280,23,trigger,focused,f_particle,229.0,Only some of the words sounded like they do in English.,11.0,partial,
+155,3280,23,trigger,focused,f_quantifier,275.5,Only some of the words sounded like they do in English.,11.0,partial,quantifier
+156,3280,23,trigger,focused,f_ntw_1,240.5,Only some of the words sounded like they do in English.,11.0,partial,
+157,3280,23,trigger,focused,f_ntw_2,284.0,Only some of the words sounded like they do in English.,11.0,partial,
+158,3280,23,continuation,complement,c_anaphor,231.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,
+159,3280,23,continuation,complement,c_predicate,246.33333333333334,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,
+160,3280,23,continuation,complement,c_clause_boundary,294.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,
+161,3280,23,continuation,complement,c_ntw_1,303.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,
+162,3280,22,trigger,scalar,s_quantifier,267.5,Some of their losses were close.,6.0,partial,quantifier
+163,3280,22,trigger,scalar,s_ntw_1,292.0,Some of their losses were close.,6.0,partial,
+164,3280,22,trigger,scalar,s_ntw_2,332.0,Some of their losses were close.,6.0,partial,
+165,3280,22,continuation,cancelation,cancelation_1,264.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,
+166,3280,22,continuation,cancelation,cancelation_2,272.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,
+167,3280,22,continuation,cancelation,cancelation_3,267.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,
+168,3280,22,continuation,cancelation,cancelation_4,253.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,
+169,3280,10,trigger,scalar,s_quantifier,307.5,Some of my favorite rides were still running.,8.0,partial,quantifier
+170,3280,10,trigger,scalar,s_ntw_1,312.0,Some of my favorite rides were still running.,8.0,partial,
+171,3280,10,trigger,scalar,s_ntw_2,320.0,Some of my favorite rides were still running.,8.0,partial,
+172,3280,10,continuation,complement,c_anaphor,288.0,The rest were shut down since they were no longer popular.,11.0,partial,
+173,3280,10,continuation,complement,c_predicate,292.3333333333333,The rest were shut down since they were no longer popular.,11.0,partial,
+174,3280,10,continuation,complement,c_clause_boundary,333.0,The rest were shut down since they were no longer popular.,11.0,partial,
+175,3280,10,continuation,complement,c_ntw_1,439.5,The rest were shut down since they were no longer popular.,11.0,partial,
+176,3279,3,trigger,focused,f_particle,318.0,Only some of the company’s accountants were there.,8.0,partial,
+177,3279,3,trigger,focused,f_quantifier,326.5,Only some of the company’s accountants were there.,8.0,partial,quantifier
+178,3279,3,trigger,focused,f_ntw_1,330.0,Only some of the company’s accountants were there.,8.0,partial,
+179,3279,3,trigger,focused,f_ntw_2,352.0,Only some of the company’s accountants were there.,8.0,partial,
+180,3279,3,continuation,complement,c_anaphor,275.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+181,3279,3,continuation,complement,predicate,271.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+182,3279,3,continuation,complement,clause_boundary,251.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+183,3279,3,continuation,complement,c_ntw_1,280.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,
+184,3279,7,trigger,scalar,s_quantifier,306.0,Some of the tourists got soaked by the rain storm.,10.0,partial,quantifier
+185,3279,7,trigger,scalar,s_ntw_1,295.5,Some of the tourists got soaked by the rain storm.,10.0,partial,
+186,3279,7,trigger,scalar,s_ntw_2,311.5,Some of the tourists got soaked by the rain storm.,10.0,partial,
+187,3279,7,continuation,complement,c_anaphor,278.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,
+188,3279,7,continuation,complement,predicate,300.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,
+189,3279,7,continuation,complement,clause_boundary,291.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,
+190,3279,7,continuation,complement,c_ntw_1,300.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,
+191,3279,11,trigger,scalar,s_quantifier,321.5,Some of the bottles of Chardonnay were missing.,8.0,partial,quantifier
+192,3279,11,trigger,scalar,s_ntw_1,323.5,Some of the bottles of Chardonnay were missing.,8.0,partial,
+193,3279,11,trigger,scalar,s_ntw_2,344.0,Some of the bottles of Chardonnay were missing.,8.0,partial,
+194,3279,11,continuation,complement,c_anaphor,284.5,The rest were safe but I was still extremely upset.,10.0,partial,
+195,3279,11,continuation,complement,predicate,308.5,The rest were safe but I was still extremely upset.,10.0,partial,
+196,3279,11,continuation,complement,clause_boundary,291.0,The rest were safe but I was still extremely upset.,10.0,partial,
+197,3279,11,continuation,complement,c_ntw_1,280.0,The rest were safe but I was still extremely upset.,10.0,partial,
+198,3279,2,trigger,focused,f_particle,284.0,Only some of the residents had evacuated.,7.0,partial,
+199,3279,2,trigger,focused,f_quantifier,314.5,Only some of the residents had evacuated.,7.0,partial,quantifier
+200,3279,2,trigger,focused,f_ntw_1,297.5,Only some of the residents had evacuated.,7.0,partial,
+201,3279,2,trigger,focused,f_ntw_2,310.0,Only some of the residents had evacuated.,7.0,partial,
+202,3279,2,continuation,complement,c_anaphor,278.5,The rest stayed at home and foolishly risked their lives.,10.0,partial,
+203,3279,2,continuation,complement,c_predicate,274.3333333333333,The rest stayed at home and foolishly risked their lives.,10.0,partial,
+204,3279,2,continuation,complement,c_clause_boundary,284.0,The rest stayed at home and foolishly risked their lives.,10.0,partial,
+205,3279,2,continuation,complement,c_ntw_1,315.5,The rest stayed at home and foolishly risked their lives.,10.0,partial,
+206,3279,5,trigger,scalar,s_quantifier,283.5,Some of the real estate investments lost money.,8.0,full,quantifier
+207,3279,5,trigger,scalar,s_ntw_1,287.5,Some of the real estate investments lost money.,8.0,full,
+208,3279,5,trigger,scalar,s_ntw_2,285.5,Some of the real estate investments lost money.,8.0,full,
+209,3279,5,continuation,complement,c_anaphor,282.0,The others were successful despite the recent economic downturn.,9.0,full,
+210,3279,5,continuation,complement,predicate,465.0,The others were successful despite the recent economic downturn.,9.0,full,
+211,3279,5,continuation,complement,clause_boundary,313.0,The others were successful despite the recent economic downturn.,9.0,full,
+212,3279,5,continuation,complement,c_ntw_1,337.0,The others were successful despite the recent economic downturn.,9.0,full,
+213,3279,19,trigger,scalar,s_quantifier,289.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,quantifier
+214,3279,19,trigger,scalar,s_ntw_1,266.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,
+215,3279,19,trigger,scalar,s_ntw_2,300.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,
+216,3279,19,continuation,cancelation,cancelation_1,262.5,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,
+217,3279,19,continuation,cancelation,cancelation_2,296.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,
+218,3279,19,continuation,cancelation,cancelation_3,274.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,
+219,3279,19,continuation,cancelation,cancelation_4,280.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,
+220,3279,22,trigger,scalar,s_quantifier,291.5,Some of their losses were close.,6.0,full,quantifier
+221,3279,22,trigger,scalar,s_ntw_1,307.0,Some of their losses were close.,6.0,full,
+222,3279,22,trigger,scalar,s_ntw_2,301.0,Some of their losses were close.,6.0,full,
+223,3279,22,continuation,complement,c_anaphor,366.5,The others were blowouts which made the games boring to watch.,11.0,full,
+224,3279,22,continuation,complement,predicate,320.5,The others were blowouts which made the games boring to watch.,11.0,full,
+225,3279,22,continuation,complement,clause_boundary,322.0,The others were blowouts which made the games boring to watch.,11.0,full,
+226,3279,22,continuation,complement,c_ntw_1,314.5,The others were blowouts which made the games boring to watch.,11.0,full,
+227,3279,13,trigger,scalar,s_quantifier,271.0,Some of its tires were flat.,6.0,partial,quantifier
+228,3279,13,trigger,scalar,s_ntw_1,345.0,Some of its tires were flat.,6.0,partial,
+229,3279,13,trigger,scalar,s_ntw_2,307.5,Some of its tires were flat.,6.0,partial,
+230,3279,13,continuation,complement,c_anaphor,447.5,The others were fine so it would not cost too much to fix it.,14.0,partial,
+231,3279,13,continuation,complement,predicate,320.5,The others were fine so it would not cost too much to fix it.,14.0,partial,
+232,3279,13,continuation,complement,clause_boundary,335.0,The others were fine so it would not cost too much to fix it.,14.0,partial,
+233,3279,13,continuation,complement,c_ntw_1,320.0,The others were fine so it would not cost too much to fix it.,14.0,partial,
+234,3279,9,trigger,scalar,s_quantifier,268.0,Some of the dishes were spicy.,6.0,partial,quantifier
+235,3279,9,trigger,scalar,s_ntw_1,268.0,Some of the dishes were spicy.,6.0,partial,
+236,3279,9,trigger,scalar,s_ntw_2,266.0,Some of the dishes were spicy.,6.0,partial,
+237,3279,9,continuation,cancelation,cancelation_1,245.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,
+238,3279,9,continuation,cancelation,cancelation_2,239.5,"In fact, they all were but fortunately I love spicy food.",11.0,partial,
+239,3279,9,continuation,cancelation,cancelation_3,268.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,
+240,3279,9,continuation,cancelation,cancelation_4,285.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,
+241,3279,24,trigger,scalar,s_quantifier,248.0,Some of my stocks went up.,6.0,full,quantifier
+242,3279,24,trigger,scalar,s_ntw_1,259.0,Some of my stocks went up.,6.0,full,
+243,3279,24,trigger,scalar,s_ntw_2,283.0,Some of my stocks went up.,6.0,full,
+244,3279,24,continuation,cancelation,cancelation_1,266.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,
+245,3279,24,continuation,cancelation,cancelation_2,285.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,
+246,3279,24,continuation,cancelation,cancelation_3,270.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,
+247,3279,24,continuation,cancelation,cancelation_4,278.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,
+248,3279,4,trigger,scalar,s_quantifier,283.0,Some of the passengers were still alive.,7.0,full,quantifier
+249,3279,4,trigger,scalar,s_ntw_1,338.5,Some of the passengers were still alive.,7.0,full,
+250,3279,4,trigger,scalar,s_ntw_2,341.0,Some of the passengers were still alive.,7.0,full,
+251,3279,4,continuation,complement,c_anaphor,287.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,
+252,3279,4,continuation,complement,predicate,332.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,
+253,3279,4,continuation,complement,clause_boundary,352.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,
+254,3279,4,continuation,complement,c_ntw_1,360.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,
+255,3279,8,trigger,focused,f_particle,245.0,Only some of the leather couches had been sold.,9.0,full,
+256,3279,8,trigger,focused,f_quantifier,264.0,Only some of the leather couches had been sold.,9.0,full,quantifier
+257,3279,8,trigger,focused,f_ntw_1,249.0,Only some of the leather couches had been sold.,9.0,full,
+258,3279,8,trigger,focused,f_ntw_2,265.0,Only some of the leather couches had been sold.,9.0,full,
+259,3279,8,continuation,complement,c_anaphor,269.5,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+260,3279,8,continuation,complement,predicate,312.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+261,3279,8,continuation,complement,clause_boundary,308.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+262,3279,8,continuation,complement,c_ntw_1,289.5,The rest were going to be stored in the warehouse until the following season.,14.0,full,
+263,3279,1,trigger,scalar,s_quantifier,245.0,Some of the gold watches were fakes.,7.0,full,quantifier
+264,3279,1,trigger,scalar,s_ntw_1,241.0,Some of the gold watches were fakes.,7.0,full,
+265,3279,1,trigger,scalar,s_ntw_2,242.0,Some of the gold watches were fakes.,7.0,full,
+266,3279,1,continuation,cancelation,cancelation_1,256.5,"In fact, they all were, so the company is planning to sue.",12.0,full,
+267,3279,1,continuation,cancelation,cancelation_2,247.5,"In fact, they all were, so the company is planning to sue.",12.0,full,
+268,3279,1,continuation,cancelation,cancelation_3,319.0,"In fact, they all were, so the company is planning to sue.",12.0,full,
+269,3279,1,continuation,cancelation,cancelation_4,585.0,"In fact, they all were, so the company is planning to sue.",12.0,full,
+270,3279,20,trigger,scalar,s_quantifier,258.0,Some of the honors students received prizes.,7.0,full,quantifier
+271,3279,20,trigger,scalar,s_ntw_1,248.5,Some of the honors students received prizes.,7.0,full,
+272,3279,20,trigger,scalar,s_ntw_2,254.0,Some of the honors students received prizes.,7.0,full,
+273,3279,20,continuation,complement,c_anaphor,311.5,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,
+274,3279,20,continuation,complement,predicate,312.6,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,
+275,3279,20,continuation,complement,clause_boundary,283.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,
+276,3279,20,continuation,complement,c_ntw_1,274.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,
+277,3279,10,trigger,focused,f_particle,252.0,Only some of my favorite rides were still running.,9.0,full,
+278,3279,10,trigger,focused,f_quantifier,222.5,Only some of my favorite rides were still running.,9.0,full,quantifier
+279,3279,10,trigger,focused,f_ntw_1,248.5,Only some of my favorite rides were still running.,9.0,full,
+280,3279,10,trigger,focused,f_ntw_2,250.5,Only some of my favorite rides were still running.,9.0,full,
+281,3279,10,continuation,complement,c_anaphor,250.5,The rest were shut down since they were no longer popular.,11.0,full,
+282,3279,10,continuation,complement,c_predicate,249.66666666666666,The rest were shut down since they were no longer popular.,11.0,full,
+283,3279,10,continuation,complement,c_clause_boundary,258.0,The rest were shut down since they were no longer popular.,11.0,full,
+284,3279,10,continuation,complement,c_ntw_1,249.5,The rest were shut down since they were no longer popular.,11.0,full,
+285,3279,17,trigger,focused,f_particle,229.0,Only some of the steps were damaged.,7.0,partial,
+286,3279,17,trigger,focused,f_quantifier,232.5,Only some of the steps were damaged.,7.0,partial,quantifier
+287,3279,17,trigger,focused,f_ntw_1,235.5,Only some of the steps were damaged.,7.0,partial,
+288,3279,17,trigger,focused,f_ntw_2,259.5,Only some of the steps were damaged.,7.0,partial,
+289,3279,17,continuation,complement,c_anaphor,238.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,
+290,3279,17,continuation,complement,predicate,239.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,
+291,3279,17,continuation,complement,clause_boundary,269.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,
+292,3279,17,continuation,complement,c_ntw_1,286.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,
+293,3279,21,trigger,focused,f_particle,230.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,
+294,3279,21,trigger,focused,f_quantifier,264.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,quantifier
+295,3279,21,trigger,focused,f_ntw_1,262.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,
+296,3279,21,trigger,focused,f_ntw_2,289.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,
+297,3279,21,continuation,complement,c_anaphor,409.5,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,
+298,3279,21,continuation,complement,c_predicate,281.6666666666667,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,
+299,3279,21,continuation,complement,c_clause_boundary,327.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,
+300,3279,21,continuation,complement,c_ntw_1,321.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,
+301,3279,12,trigger,scalar,s_quantifier,373.0,Some of the dog’s teeth were missing.,7.0,full,quantifier
+302,3279,12,trigger,scalar,s_ntw_1,226.0,Some of the dog’s teeth were missing.,7.0,full,
+303,3279,12,trigger,scalar,s_ntw_2,231.5,Some of the dog’s teeth were missing.,7.0,full,
+304,3279,12,continuation,cancelation,cancelation_1,239.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,
+305,3279,12,continuation,cancelation,cancelation_2,352.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,
+306,3279,12,continuation,cancelation,cancelation_3,236.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,
+307,3279,12,continuation,cancelation,cancelation_4,240.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,
+308,3279,16,trigger,scalar,s_quantifier,225.0,Some of my new bottles of vodka were opened.,9.0,partial,quantifier
+309,3279,16,trigger,scalar,s_ntw_1,239.0,Some of my new bottles of vodka were opened.,9.0,partial,
+310,3279,16,trigger,scalar,s_ntw_2,238.5,Some of my new bottles of vodka were opened.,9.0,partial,
+311,3279,16,continuation,cancelation,cancelation_1,261.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,
+312,3279,16,continuation,cancelation,cancelation_2,238.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,
+313,3279,16,continuation,cancelation,cancelation_3,234.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,
+314,3279,16,continuation,cancelation,cancelation_4,227.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,
+315,3279,15,trigger,scalar,s_quantifier,262.0,Some of their hotels were expensive.,6.0,partial,quantifier
+316,3279,15,trigger,scalar,s_ntw_1,272.0,Some of their hotels were expensive.,6.0,partial,
+317,3279,15,trigger,scalar,s_ntw_2,311.5,Some of their hotels were expensive.,6.0,partial,
+318,3279,15,continuation,complement,c_anaphor,241.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,
+319,3279,15,continuation,complement,predicate,225.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,
+320,3279,15,continuation,complement,clause_boundary,255.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,
+321,3279,15,continuation,complement,c_ntw_1,243.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,
+322,3279,23,trigger,scalar,s_quantifier,240.0,Some of the words sounded like they do in English.,10.0,partial,quantifier
+323,3279,23,trigger,scalar,s_ntw_1,257.0,Some of the words sounded like they do in English.,10.0,partial,
+324,3279,23,trigger,scalar,s_ntw_2,257.5,Some of the words sounded like they do in English.,10.0,partial,
+325,3279,23,continuation,cancelation,cancelation_1,269.5,"In fact, they all did which made the test somewhat easier.",11.0,partial,
+326,3279,23,continuation,cancelation,cancelation_2,238.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,
+327,3279,23,continuation,cancelation,cancelation_3,256.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,
+328,3279,23,continuation,cancelation,cancelation_4,232.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,
+329,3279,6,trigger,focused,f_particle,229.0,Only some of our computers were infected.,7.0,partial,
+330,3279,6,trigger,focused,f_quantifier,209.0,Only some of our computers were infected.,7.0,partial,quantifier
+331,3279,6,trigger,focused,f_ntw_1,200.0,Only some of our computers were infected.,7.0,partial,
+332,3279,6,trigger,focused,f_ntw_2,232.5,Only some of our computers were infected.,7.0,partial,
+333,3279,6,continuation,complement,c_anaphor,220.5,The rest were clean because their owners had been very cautious.,11.0,partial,
+334,3279,6,continuation,complement,predicate,312.0,The rest were clean because their owners had been very cautious.,11.0,partial,
+335,3279,6,continuation,complement,clause_boundary,233.0,The rest were clean because their owners had been very cautious.,11.0,partial,
+336,3279,6,continuation,complement,c_ntw_1,513.5,The rest were clean because their owners had been very cautious.,11.0,partial,
+337,3279,14,trigger,scalar,s_quantifier,227.5,Some of my predictions were correct.,6.0,partial,quantifier
+338,3279,14,trigger,scalar,s_ntw_1,318.5,Some of my predictions were correct.,6.0,partial,
+339,3279,14,trigger,scalar,s_ntw_2,268.5,Some of my predictions were correct.,6.0,partial,
+340,3279,14,continuation,cancelation,cancelation_1,237.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,
+341,3279,14,continuation,cancelation,cancelation_2,234.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,
+342,3279,14,continuation,cancelation,cancelation_3,250.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,
+343,3279,14,continuation,cancelation,cancelation_4,241.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,
+344,3279,18,trigger,focused,f_particle,234.0,Only some of its problems were difficult.,7.0,full,
+345,3279,18,trigger,focused,f_quantifier,227.5,Only some of its problems were difficult.,7.0,full,quantifier
+346,3279,18,trigger,focused,f_ntw_1,249.0,Only some of its problems were difficult.,7.0,full,
+347,3279,18,trigger,focused,f_ntw_2,256.5,Only some of its problems were difficult.,7.0,full,
+348,3279,18,continuation,complement,c_anaphor,238.5,The others were straightforward and I feel like I learned a lot.,12.0,full,
+349,3279,18,continuation,complement,predicate,223.0,The others were straightforward and I feel like I learned a lot.,12.0,full,
+350,3279,18,continuation,complement,clause_boundary,277.0,The others were straightforward and I feel like I learned a lot.,12.0,full,
+351,3279,18,continuation,complement,c_ntw_1,265.5,The others were straightforward and I feel like I learned a lot.,12.0,full,
