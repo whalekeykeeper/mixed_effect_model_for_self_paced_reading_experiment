@@ -20,3 +20,12 @@ The **linear mixed effect regression models** using analysis of variance(**ANOVA
 
 - **Random effects**: Participants and items.
 
+
+### Hypotheses:
+- **H1**: full-knowledge caused longer RT over the scalar quantifier part of scalar trigger sentences than partial-knowledge
+
+- **H2**: full-knowledge caused shorter RT over the anaphor part in complement sentences than partial-knowledge
+ 
+- **H3**: full-knowledge showed no significant different effect over the "focus particle" in focused trigger sentences than partial-knowledge
+ 
+- **H4**: No matter full-knowledge or partial knowledge, for scalar trigger sentences, RTs over all the regions are similar in complement sentences and cancellation sentences
