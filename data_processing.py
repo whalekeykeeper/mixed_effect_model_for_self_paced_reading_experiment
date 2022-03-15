@@ -160,7 +160,6 @@ def create_region(df):
     return df
 
 
-
 def create_average_rt(df):
     df2 = df.astype({"rt": int})
 
@@ -257,26 +256,3 @@ if __name__ == "__main__":
     """Save the processed csv file"""
     print("The final table have the following columns: \n", df_final.columns)
     df_final.to_csv(save_path)
-
-
-
-
-
-    """
-    # Extreme individual RTs (greater than 1,500 ms or less than 100 ms) were trimmed (0.3% of all data).
-    # """
-    # for index, row in df.iterrows():
-    #     if isinstance(row['times'], str):
-    #         times = row['times'].split('|')
-    #         for t in times:
-    #             if int(t) < 100 or int(t) > 1500:
-    #                 print("Wrong!!!!")
-    #                 print(row)
-    #                 print('=== === ===')
-    #
-    # """
-    # Get all the phrases to have a look for grouping/splitting RTs
-    # """
-    # df_read_phrases = df[['phrase', 'setting', 'times']]
-    # print(df_read_phrases.setting.unique())
-    # print("____________________________")
