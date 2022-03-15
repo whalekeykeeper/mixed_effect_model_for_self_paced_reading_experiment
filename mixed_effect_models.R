@@ -12,12 +12,13 @@ head(df)
 
 
 
-# Residual plot to check assumptions
+# Create a simple linear regression model and use residual plots to check assumptions for a linear regression model
 xmdl= lm(avg_rt ~ full_or_partial, df)
 summary(xmdl)
-plot(fitted(xmdl), residuals(xmdl)) # This one is a bit weird
-hist(residuals(xmdl)) # Looks okay
+plot(fitted(xmdl), residuals(xmdl)) # This one looks a bit weird
+hist(residuals(xmdl)) # Left-skewed
 qqnorm(residuals(xmdl)) # Looks okay
+dfbeta(xmdl)
 
 
 
@@ -39,13 +40,17 @@ head(select_scalar_quantifier)
 boxplot(avg_rt ~ full_or_partial,
         col=c("lightblue"),select_scalar_quantifier) # The plot does not support this H1 :(
 
-df.null = lmer(avg_rt ~ 1 +
+h1.null = lmer(avg_rt ~ 1 +
                  (1|submission_id) + (1|itemID), data=select_scalar_quantifier, REML=FALSE)
-df.model = lmer(avg_rt ~ full_or_partial +
+h1.model = lmer(avg_rt ~ full_or_partial +
                   (1|submission_id) + (1|itemID), data=select_scalar_quantifier, REML=FALSE)
-summary(df.model)
-anova(df.null, df.model)
-coef(df.model)
+summary(h1.model)
+anova(h1.null, h1.model)
+coef(h1.model)
+# Plots for checking violation of linear assumptions
+plot(fitted(h1.model), residuals(h1.model)) # This one is a bit weird
+hist(residuals(h1.model)) # Looks not that normal-distributed on the right part
+qqnorm(residuals(h1.model)) # Looks okay
 
 
 
@@ -57,13 +62,17 @@ head(select_complement_anaphor)
 boxplot(avg_rt ~ full_or_partial,
         col=c("lightblue"),select_complement_anaphor) # The plot does not support this H2 :(
 
-df.null = lmer(avg_rt ~ 1 +
+h2.null = lmer(avg_rt ~ 1 +
                  (1|submission_id) + (1|itemID), data=select_complement_anaphor, REML=FALSE)
-df.model = lmer(avg_rt ~ full_or_partial +
+h2.model = lmer(avg_rt ~ full_or_partial +
                   (1|submission_id) + (1|itemID), data=select_complement_anaphor, REML=FALSE)
-summary(df.model)
-anova(df.null, df.model)  # It shows that the full-knowledge relates to shorter RT which does not support this H1
-coef(df.model) 
+summary(h2.model)
+anova(h2.null, h2.model)  # It shows that the full-knowledge relates to shorter RT which does not support this H1
+coef(h2.model) 
+# Plots for checking violation of linear assumptions
+plot(fitted(h2.model), residuals(h2.model)) # This one is a bit weird
+hist(residuals(h2.model)) # Left-skewed and not a bell-shape
+qqnorm(residuals(h2.model)) # Looks okay
 
 
 
@@ -75,13 +84,17 @@ head(select_complement_anaphor)
 boxplot(avg_rt ~ full_or_partial,
         col=c("lightblue"),select_focused_particle) # The differences between two means are very similar
 
-df.null = lmer(avg_rt ~ 1 +
+h3.null = lmer(avg_rt ~ 1 +
                  (1|submission_id) + (1|itemID), data=select_focused_particle, REML=FALSE)
-df.model = lmer(avg_rt ~ full_or_partial +
+h3.model = lmer(avg_rt ~ full_or_partial +
                   (1|submission_id) + (1|itemID), data=select_focused_particle, REML=FALSE)
-summary(df.model)
-anova(df.null, df.model)  # Differences are small but the p-value is not significant
-coef(df.model) 
+summary(h3.model)
+anova(h3.null, h3.model)  # Differences are small but the p-value is not significant
+coef(h3.model) 
+# Plots for checking violation of linear assumptions
+plot(fitted(h3.model), residuals(h3.model)) # This one is a bit weird
+hist(residuals(h3.model)) # Looks not that normal-distributed
+qqnorm(residuals(h3.model)) # Looks okay
 
 
 
@@ -94,17 +107,22 @@ head(select_continuation)
 boxplot(avg_rt ~ full_or_partial,
         col=c("lightblue"),select_continuation) # The differences between two means are very similar
 
-df.null = lmer(avg_rt ~ 1 +
+h4.null = lmer(avg_rt ~ 1 +
                  (1|submission_id) + (1|itemID), data=select_continuation, REML=FALSE)
-df.model = lmer(avg_rt ~ full_or_partial +
+h4.model = lmer(avg_rt ~ full_or_partial +
                   (1|submission_id) + (1|itemID), data=select_continuation, REML=FALSE)
-summary(df.model)
-anova(df.null, df.model)  # The p-value is still not significant but much better than earlier ones
-coef(df.model) 
+summary(h4.model)
+anova(h4.null, h4.model)  # The p-value is still not significant but much better than earlier ones
+coef(h4.model) 
+# Plots for checking violation of linear assumptions
+plot(fitted(h4.model), residuals(h4.model)) # No patterns
+hist(residuals(h4.model)) # A bit left-skewed
+qqnorm(residuals(h4.model)) # Looks okay
 
 
 
-# Other explores
+
+# Others
 # Check the RTs of predicate in Complement Sentences
 select_cmplement_predicate <- df %>%
   filter(setting == "complement", region == "predicate")
@@ -117,16 +135,17 @@ boxplot(avg_rt ~ full_or_partial*scalar_in_item_or_not,
 #but for "focused trigger", full-knowledge increased the RTs than partial-knowledge
 #which is slightly different than H3
 # H3 says that for "focused particle" part that the knowledge background should not change anything
-
-
 df.model = lmer(avg_rt ~ full_or_partial + scalar_in_item_or_not +
                   (1|submission_id) + (1|itemID), data=select_cmplement_predicate, REML=FALSE)
 summary(df.model)
-
 df.model.interaction = lmer(avg_rt ~ full_or_partial*scalar_in_item_or_not +
                 (1|submission_id) + (1|itemID), data=select_cmplement_predicate, REML=FALSE)
 summary(df.model.interaction) # The Chisq value is 0.0136
 
 anova(df.model, df.model.interaction)
 coef(df.model.interaction) 
+# Plots for checking violation of linear assumptions
+plot(fitted(df.model.interaction), residuals(df.model.interaction)) # No pattern
+hist(residuals(df.model.interaction)) # Not a bell-shape
+qqnorm(residuals(df.model.interaction)) # Looks wired
 
