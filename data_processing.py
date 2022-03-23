@@ -206,6 +206,18 @@ def scalar_in_item_or_not(df):
     return df
 
 
+def scalar_or_focused(df):
+    df['scalar_or_focused'] = ''
+    last_itemID = df['itemID'].iloc[0]
+    last_scalar_or_focused = df['setting'].iloc[0]
+    for i, row in df.iterrows():
+        if row['itemID'] != last_itemID:
+            last_scalar_or_focused = row['setting']
+            last_itemID = row['itemID']
+        df.at[i, 'scalar_or_focused'] = last_scalar_or_focused
+    return df
+
+
 if __name__ == "__main__":
     csv_path = 'https://magpie-demo.herokuapp.com/experiments/301/retrieve'
     save_path = 'data_processed.csv'
@@ -246,12 +258,14 @@ if __name__ == "__main__":
     """full_or_partial"""
     df_full_or_partial = full_or_partial(df_processed_for_avg_rt)
 
-
     """quantifier region or not"""
     df_quantifier_or_not = quantifier_or_not(df_full_or_partial)
 
-    """quantifier region or not"""
-    df_final = scalar_in_item_or_not(df_quantifier_or_not)
+    """scalar in item or not"""
+    df_scalar_in_item_or_not = scalar_in_item_or_not(df_quantifier_or_not)
+
+    """The whole item has a scalar trigger or a focused trigger"""
+    df_final = scalar_or_focused(df_scalar_in_item_or_not)
 
     """Save the processed csv file"""
     print("The final table have the following columns: \n", df_final.columns)
