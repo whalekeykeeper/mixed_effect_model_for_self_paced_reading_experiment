@@ -2,7 +2,7 @@ library(dplyr)
 library(lme4)
 
 # read data
-df = read.csv("https://raw.githubusercontent.com/whalekeykeeper/mixed_effect_model_for_self_paced_reading_experiment/main/data_processed.csv?token=GHSAT0AAAAAABP4G2PFOSIHFSNYUWBYLI7KYRX75MA")
+df = read.csv("https://raw.githubusercontent.com/whalekeykeeper/mixed_effect_model_for_self_paced_reading_experiment/main/data_processed.csv")
 
 
 
@@ -19,6 +19,84 @@ plot(fitted(xmdl), residuals(xmdl)) # This one looks a bit weird
 hist(residuals(xmdl)) # Left-skewed
 qqnorm(residuals(xmdl)) # Looks okay
 dfbeta(xmdl)
+
+# Trigger Sentences
+# Full data
+# Quantifier: S/some of
+data <- df %>%
+  filter(type == "trigger", region == "s_quantifier" | region == "f_quantifier")
+head(data)
+
+boxplot(avg_rt ~ full_or_partial,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.participants = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+                  (1|submission_id), data=data, REML=FALSE)
+# Items
+model.items = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+                               (1|itemID), data=data, REML=FALSE)
+summary(model.participants)
+summary(model.items)
+anova(model.participants, model.items)
+coef(model.participants)
+coef(model.items)
+# Plots
+plot(fitted(model.participants), residuals(model.participants))
+hist(residuals(model.participants)) 
+qqnorm(residuals(model.participants))
+
+
+# Trigger Sentences
+# Full data
+# Region 2: the | real-estate
+data <- df %>%
+  filter(type == "trigger", region == "s_quantifier" | region == "f_quantifier")
+head(data)
+
+boxplot(avg_rt ~ full_or_partial,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.participants = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+                            (1|submission_id), data=data, REML=FALSE)
+# Items
+model.items = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+                     (1|itemID), data=data, REML=FALSE)
+summary(model.participants)
+summary(model.items)
+anova(model.participants, model.items)
+coef(model.participants)
+coef(model.items)
+# Plots
+plot(fitted(model.participants), residuals(model.participants))
+hist(residuals(model.participants)) 
+qqnorm(residuals(model.participants)) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -143,31 +221,3 @@ dfbeta(xmdl)
 
 
 
-
-# Trigger Sentence
-select_trigger <- df %>%
-  filter(type == "trigger")
-head(select_trigger)
-
-boxplot(avg_rt ~ full_or_partial*setting,
-        col=c("white","lightblue"),select_trigger)
-
-
-select_scalar_quantifier <- df %>%
-  filter(setting == "scalar", quantifier == "quantifier")
-head(select_scalar_quantifier)
-
-boxplot(avg_rt ~ full_or_partial,
-        col=c("lightblue"),select_scalar_quantifier) # The plot does not support this H1 :(
-
-h1.null = lmer(avg_rt ~ 1 +
-                 (1|submission_id) + (1|itemID), data=select_scalar_quantifier, REML=FALSE)
-h1.model = lmer(avg_rt ~ full_or_partial +
-                  (1|submission_id) + (1|itemID), data=select_scalar_quantifier, REML=FALSE)
-summary(h1.model)
-anova(h1.null, h1.model)
-coef(h1.model)
-# Plots for checking violation of linear assumptions
-plot(fitted(h1.model), residuals(h1.model)) # This one is a bit weird
-hist(residuals(h1.model)) # Looks not that normal-distributed on the right part
-qqnorm(residuals(h1.model)) # Looks okay
