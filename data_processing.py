@@ -162,6 +162,10 @@ def create_region(df):
 
 def create_average_rt(df):
     df2 = df.astype({"rt": int})
+    for i, row in df2.iterrows():
+        if row['rt'] > 1500 or row['rt'] < 100:
+            print("------", i, row)
+            df.drop(df.index[i], inplace=True)
 
     df2['avg_rt'] = df2.groupby(['submission_id', 'itemID', 'setting', 'region']).rt.transform('mean')
 
@@ -175,8 +179,8 @@ def full_or_partial(df):
     df['full_or_partial'] = ''
     for i, row in df.iterrows():
         if row['type'] == 'context':
-            full_or_partial = row['setting']
-        df.at[i, 'full_or_partial'] = full_or_partial
+            full_or_partial_value = row['setting']
+        df.at[i, 'full_or_partial'] = full_or_partial_value
 
     df2 = df[df['region'].str.len() > 0]
     df2 = df2.reset_index()
@@ -252,7 +256,7 @@ if __name__ == "__main__":
     df_processed = df_processed.reset_index()
     print("The intermediate-processed table have the following columns: \n", df_processed.columns)
 
-    """Get average rt for regions"""
+    """Remove the extreme RTs (>1500 ms or <100ms). Get average rt for regions"""
     df_processed_for_avg_rt = create_average_rt(df_processed)
 
     """full_or_partial"""
