@@ -180,7 +180,7 @@
 178,3279,3,trigger,focused,f_ntw_1,330.0,Only some of the company’s accountants were there.,8.0,partial,,,focused
 179,3279,3,trigger,focused,f_ntw_2,352.0,Only some of the company’s accountants were there.,8.0,partial,,,focused
 180,3279,3,continuation,complement,c_anaphor,275.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,,,focused
-181,3279,3,continuation,complement,predicate,271.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,,,focused
+181,3279,3,continuation,complement,predicate,291.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,,,focused
 182,3279,3,continuation,complement,clause_boundary,251.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,,,focused
 183,3279,3,continuation,complement,c_ntw_1,280.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,,,focused
 184,3279,7,trigger,scalar,s_quantifier,306.0,Some of the tourists got soaked by the rain storm.,10.0,partial,quantifier,scalar,scalar

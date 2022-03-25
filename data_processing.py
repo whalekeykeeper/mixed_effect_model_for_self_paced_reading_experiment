@@ -165,7 +165,7 @@ def create_average_rt(df):
     for i, row in df2.iterrows():
         if row['rt'] > 1500 or row['rt'] < 100:
             print("------", i, row)
-            df.drop(df.index[i], inplace=True)
+            df2.drop(df2.index[i], inplace=True)
 
     df2['avg_rt'] = df2.groupby(['submission_id', 'itemID', 'setting', 'region']).rt.transform('mean')
 
