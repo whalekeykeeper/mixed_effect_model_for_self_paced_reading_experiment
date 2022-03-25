@@ -2,7 +2,7 @@ library(dplyr)
 library(lme4)
 
 # read data
-df = read.csv("https://raw.githubusercontent.com/whalekeykeeper/mixed_effect_model_for_self_paced_reading_experiment/main/data_processed.csv")
+df = read.csv("https://github.com/whalekeykeeper/mixed_effect_model_for_self_paced_reading_experiment/blob/main/data_processed.csv")
 
 
 
@@ -32,21 +32,15 @@ boxplot(avg_rt ~ full_or_partial,
 boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
-# Participants
-model.participants = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
-                  (1|submission_id), data=data, REML=FALSE)
-# Items
-model.items = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
-                               (1|itemID), data=data, REML=FALSE)
-summary(model.participants)
-summary(model.items)
-anova(model.participants, model.items)
-coef(model.participants)
-coef(model.items)
+
+model = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+                  (1|submission_id) + (1|itemID), data=data, REML=FALSE)
+summary(model)
+coef(model)
 # Plots
-plot(fitted(model.participants), residuals(model.participants))
-hist(residuals(model.participants)) 
-qqnorm(residuals(model.participants))
+plot(fitted(model), residuals(model))
+hist(residuals(model)) 
+qqnorm(residuals(model))
 
 
 # Trigger Sentences
