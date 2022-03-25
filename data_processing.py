@@ -162,10 +162,14 @@ def create_region(df):
 
 def create_average_rt(df):
     df2 = df.astype({"rt": int})
+    l = len(df2)
     for i, row in df2.iterrows():
         if row['rt'] > 1500 or row['rt'] < 100:
             print("------", i, row)
             df2.drop(df2.index[i], inplace=True)
+    if l == len(df2):
+        print("Error. Please check the procedure of trimming extreme RTs.")
+        sys.exit()
 
     df2['avg_rt'] = df2.groupby(['submission_id', 'itemID', 'setting', 'region']).rt.transform('mean')
 
