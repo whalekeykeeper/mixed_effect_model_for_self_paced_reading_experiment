@@ -179,12 +179,12 @@ def create_average_rt(df):
     return df4
 
 
-def full_or_partial(df):
-    df['full_or_partial'] = ''
+def speakerKnowledge(df):
+    df['speakerKnowledge'] = ''
     for i, row in df.iterrows():
         if row['type'] == 'context':
-            full_or_partial_value = row['setting']
-        df.at[i, 'full_or_partial'] = full_or_partial_value
+            speakerKnowledge = row['setting']
+        df.at[i, 'speakerKnowledge'] = speakerKnowledge
 
     df2 = df[df['region'].str.len() > 0]
     df2 = df2.reset_index()
@@ -192,16 +192,18 @@ def full_or_partial(df):
     return df2
 
 
-def quantifier_or_not(df):
-    df['quantifier'] = ''
+def is_a_quantifier(df):
+    df['is_a_quantifier'] = ''
     for i, row in df.iterrows():
         if row['region'] in ['s_quantifier', 'f_quantifier']:
-            df.at[i, 'quantifier'] = 'quantifier'
+            df.at[i, 'is_a_quantifier'] = 'yes'
+        else:
+            df.at[i, 'is_a_quantifier'] = 'no'
     return df
 
 
-def scalar_in_item_or_not(df):
-    df['scalar_in_item_or_not'] = ''
+def item_has_a_scalar_trigger_sentence(df):
+    df['item_has_a_scalar_trigger_sentence'] = ''
 
     flag = True
     for i, row in df.iterrows():
@@ -210,19 +212,21 @@ def scalar_in_item_or_not(df):
         if row['setting'] == 'scalar':
             flag = True
         if flag:
-            df.at[i, 'scalar_in_item_or_not'] = 'scalar'
+            df.at[i, 'item_has_a_scalar_trigger_sentence'] = 'yes'
+        else:
+            df.at[i, 'item_has_a_scalar_trigger_sentence'] = 'no'
     return df
 
 
-def scalar_or_focused(df):
-    df['scalar_or_focused'] = ''
+def triggerType(df):
+    df['triggerType'] = ''
     last_itemID = df['itemID'].iloc[0]
     last_scalar_or_focused = df['setting'].iloc[0]
     for i, row in df.iterrows():
         if row['itemID'] != last_itemID:
             last_scalar_or_focused = row['setting']
             last_itemID = row['itemID']
-        df.at[i, 'scalar_or_focused'] = last_scalar_or_focused
+        df.at[i, 'triggerType'] = last_scalar_or_focused
     return df
 
 
@@ -263,17 +267,17 @@ if __name__ == "__main__":
     """Remove the extreme RTs (>1500 ms or <100ms). Get average rt for regions"""
     df_processed_for_avg_rt = create_average_rt(df_processed)
 
-    """full_or_partial"""
-    df_full_or_partial = full_or_partial(df_processed_for_avg_rt)
+    """speaker knowledge: full_or_partial"""
+    df_speakerKnowledge = speakerKnowledge(df_processed_for_avg_rt)
 
     """quantifier region or not"""
-    df_quantifier_or_not = quantifier_or_not(df_full_or_partial)
+    df_is_a_quantifier = is_a_quantifier(df_speakerKnowledge)
 
-    """scalar in item or not"""
-    df_scalar_in_item_or_not = scalar_in_item_or_not(df_quantifier_or_not)
+    """the item_has_a_scalar_trigger_sentence or not"""
+    df_item_has_a_scalar_trigger_sentence = item_has_a_scalar_trigger_sentence(df_is_a_quantifier)
 
     """The whole item has a scalar trigger or a focused trigger"""
-    df_final = scalar_or_focused(df_scalar_in_item_or_not)
+    df_final = triggerType(df_item_has_a_scalar_trigger_sentence)
 
     """Save the processed csv file"""
     print("The final table have the following columns: \n", df_final.columns)

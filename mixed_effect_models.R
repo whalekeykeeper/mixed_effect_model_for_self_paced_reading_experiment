@@ -53,7 +53,7 @@ qqnorm(residuals(model.1))
 # 
 # # H1: full-knowledge caused longer RT over the scalar quantifier of scalar trigger sentences than partial-knowledge
 # select_scalar_quantifier <- df %>%
-#   filter(setting == "scalar", quantifier == "quantifier")
+#   filter(setting == "scalar", is_a_quantifier == "yes")
 # head(select_scalar_quantifier)
 # 
 # boxplot(avg_rt ~ full_or_partial,
@@ -120,7 +120,7 @@ qqnorm(residuals(model.1))
 # # H4: No matter full-knowledge or partial knowledge, for scalar trigger, 
 # # RTs over all the regions are similar in complement sentences and cancellation sentences
 # select_continuation <- df %>%
-#   filter(type == "continuation", scalar_in_item_or_not == "scalar")
+#   filter(type == "continuation", item_has_a_scalar_trigger_sentence == "yes")
 # head(select_continuation)
 # 
 # boxplot(avg_rt ~ full_or_partial,
