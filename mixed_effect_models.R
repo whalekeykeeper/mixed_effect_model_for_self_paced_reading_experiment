@@ -13,7 +13,7 @@ head(df)
 
 
 # Create a simple linear regression model and use residual plots to check assumptions for a linear regression model
-xmdl= lm(avg_rt ~ full_or_partial, df)
+xmdl= lm(avg_rt ~ speakerKnowledge, df)
 summary(xmdl)
 plot(fitted(xmdl), residuals(xmdl)) # This one looks a bit weird
 hist(residuals(xmdl)) # Left-skewed
@@ -27,16 +27,16 @@ data <- df %>%
   filter(type == "trigger", region == "s_quantifier" | region == "f_quantifier")
 head(data)
 
-boxplot(avg_rt ~ full_or_partial,
+boxplot(avg_rt ~ speakerKnowledge,
         col=c("lightblue"),data)
 boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                   (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ full_or_partial*scalar_or_focused +
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                                (1|itemID), data=data, REML=FALSE)
 summary(model.1)
 summary(model.2)
