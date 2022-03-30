@@ -20,6 +20,9 @@ hist(residuals(xmdl)) # Left-skewed
 qqnorm(residuals(xmdl)) # Looks okay
 dfbeta(xmdl)
 
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 # Trigger Sentences
 # Full data
 # Quantifier: S/some of
@@ -40,13 +43,719 @@ model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                                (1|itemID), data=data, REML=FALSE)
 summary(model.1)
 summary(model.2)
-anova(model.1, model.2) #???
+# anova(model.1, model.2)
 coef(model.1)
 coef(model.2)
 # Plots
 plot(fitted(model.1), residuals(model.1))
 hist(residuals(model.1)) 
 qqnorm(residuals(model.1)) 
+
+
+# Trigger Sentences
+# Full data
+# Region 2
+data <- df %>%
+  filter(type == "trigger", region == "f_ntw_1" | region == "s_ntw_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge*triggerType |submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + triggerType |itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Trigger Sentences
+# Full data
+# Region 3
+data <- df %>%
+  filter(type == "trigger", region == "f_ntw_2" | region == "s_ntw_2")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Trigger Sentences
+# Scalar trigger data
+# Quantifier
+data <- df %>%
+  filter(setting == "scalar", region == "s_quantifier" | region == "f_quantifier")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Trigger Sentences
+# Scalar trigger data
+# Region 2
+data <- df %>%
+  filter(setting == "scalar", region == "f_ntw_1" | region == "s_ntw_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+# Trigger Sentences
+# Scalar trigger data
+# Region 3
+data <- df %>%
+  filter(setting == "scalar", region == "f_ntw_2" | region == "s_ntw_2")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Trigger Sentences
+# Focused trigger data
+# Focus: Only
+data <- df %>%
+  filter(setting == "scalar", region == "f_particle")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+# Trigger Sentences
+# Focused trigger data
+# Quantifier
+data <- df %>%
+  filter(setting == "scalar", region == "s_quantifier" | region == "f_quantifier")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+# Trigger Sentences
+# Focused trigger data
+# Region 2
+data <- df %>%
+  filter(setting == "scalar", region == "f_ntw_1" | region == "s_ntw_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+# Trigger Sentences
+# Focused trigger data
+# Region 3
+data <- df %>%
+  filter(setting == "scalar", region == "f_ntw_2" | region == "s_ntw_2")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Cancelation Sentences
+#
+data <- df %>%
+  filter(setting == "complement", region == "c_anaphor")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+# Complement Sentences
+# Full data
+# Predicate
+data <- df %>%
+  filter(setting == "complement", region == "c_predicate")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge*triggerType|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge + triggerType|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+# Complement Sentences
+# Full data
+# Clause break
+data <- df %>%
+  filter(setting == "complement", region == "c_clause_boundary")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+# Complement Sentences
+# Full data
+# Next two words
+data <- df %>%
+  filter(setting == "complement", region == "c_ntw_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Complement Sentences
+# Scalar trigger data
+# Anaphor: The rest
+data <- df %>%
+  filter(setting == "complement" & triggerType == "scalar", region == "c_anaphor")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Complement Sentences
+# Scalar trigger data
+# Predicate
+data <- df %>%
+  filter(setting == "complement" & triggerType == "scalar", region == "c_predicate")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Complement Sentences
+# Scalar trigger data
+# Clause break
+data <- df %>%
+  filter(setting == "complement" & triggerType == "scalar", region == "c_clause_boundary")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Complement Sentences
+# Scalar trigger data
+# Next two words
+data <- df %>%
+  filter(setting == "complement" & triggerType == "scalar", region == "c_ntw_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Complement Sentences
+# Focused trigger data
+# Anaphor: The rest
+data <- df %>%
+  filter(setting == "complement" & triggerType == "focused", region == "c_anaphor")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+# Complement Sentences
+# Scalar trigger data
+# Predicate
+data <- df %>%
+  filter(setting == "complement" & triggerType == "focused", region == "c_predicate")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Complement Sentences
+# Scalar trigger data
+# Clause break
+data <- df %>%
+  filter(setting == "complement" & triggerType == "focused", region == "c_clause_boundary")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+# Complement Sentences
+# Scalar trigger data
+# Next two words
+data <- df %>%
+  filter(setting == "complement" & triggerType == "focused", region == "c_ntw_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+
+
+
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Cancelation Sentences
+# Scalar trigger data
+# Region 1
+data <- df %>%
+  filter(setting == "cancelation", region == "cancelation_1")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Cancelation Sentences
+# Scalar trigger data
+# Region 2
+data <- df %>%
+  filter(setting == "cancelation", region == "cancelation_2")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Cancelation Sentences
+# Scalar trigger data
+# Region 3
+data <- df %>%
+  filter(setting == "cancelation", region == "cancelation_3")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+# Cancelation Sentences
+# Scalar trigger data
+# Region 4
+data <- df %>%
+  filter(setting == "cancelation", region == "cancelation_4")
+head(data)
+
+boxplot(avg_rt ~ speakerKnowledge,
+        col=c("lightblue"),data)
+boxplot(avg_rt ~ setting,
+        col=c("lightblue"),data)
+
+# Participants
+model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1|submission_id), data=data, REML=FALSE)
+# Items
+model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+                 (1 + speakerKnowledge|itemID), data=data, REML=FALSE)
+summary(model.1)
+summary(model.2)
+# anova(model.1, model.2)
+coef(model.1)
+coef(model.2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # 
