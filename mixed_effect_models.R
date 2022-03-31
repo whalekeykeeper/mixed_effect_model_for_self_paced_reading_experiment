@@ -27,7 +27,7 @@ dfbeta(xmdl)
 # Full data
 # Quantifier: S/some of
 data <- df %>%
-  filter(type == "trigger", region == "s_quantifier" | region == "f_quantifier")
+  filter(type == "trigger", region == "1_s_quantifier" | region == "1_f_quantifier")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -56,7 +56,7 @@ qqnorm(residuals(model.1))
 # Full data
 # Region 2
 data <- df %>%
-  filter(type == "trigger", region == "f_ntw_1" | region == "s_ntw_1")
+  filter(type == "trigger", region == "3_f_ntw_1" | region == "2_s_ntw_1")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -81,7 +81,7 @@ coef(model.2)
 # Full data
 # Region 3
 data <- df %>%
-  filter(type == "trigger", region == "f_ntw_2" | region == "s_ntw_2")
+  filter(type == "trigger", region == "4_f_ntw_2" | region == "3_s_ntw_2")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -107,7 +107,7 @@ coef(model.2)
 # Scalar trigger data
 # Quantifier
 data <- df %>%
-  filter(setting == "scalar", region == "s_quantifier")
+  filter(setting == "scalar", region == "1_s_quantifier")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -132,7 +132,7 @@ coef(model.2)
 # Scalar trigger data
 # Region 2
 data <- df %>%
-  filter(setting == "scalar", region == "s_ntw_1")
+  filter(setting == "scalar", region == "2_s_ntw_1")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -158,7 +158,7 @@ coef(model.2)
 # Scalar trigger data
 # Region 3
 data <- df %>%
-  filter(setting == "scalar", region == "s_ntw_2")
+  filter(setting == "scalar", region == "3_s_ntw_2")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -184,7 +184,7 @@ coef(model.2)
 # Focused trigger data
 # Focus: Only
 data <- df %>%
-  filter(setting == "focused", region == "f_particle")
+  filter(setting == "focused", region == "1_f_particle")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -210,7 +210,7 @@ coef(model.2)
 # Focused trigger data
 # Quantifier
 data <- df %>%
-  filter(setting == "focused", region == "f_quantifier")
+  filter(setting == "focused", region == "2_f_quantifier")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -236,7 +236,7 @@ coef(model.2)
 # Focused trigger data
 # Region 2
 data <- df %>%
-  filter(setting == "focused", region == "f_ntw_1")
+  filter(setting == "focused", region == "3_f_ntw_1")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -263,7 +263,7 @@ coef(model.2)
 # Focused trigger data
 # Region 3
 data <- df %>%
-  filter(setting == "focused", region == "f_ntw_2")
+  filter(setting == "focused", region == "4_f_ntw_2")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -291,7 +291,7 @@ coef(model.2)
 # Cancelation Sentences
 #
 data <- df %>%
-  filter(setting == "complement", region == "c_anaphor")
+  filter(setting == "complement", region == "1_anaphor")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -317,7 +317,7 @@ coef(model.2)
 # Full data
 # Predicate
 data <- df %>%
-  filter(setting == "complement", region == "c_predicate")
+  filter(setting == "complement", region == "2_predicate")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -344,7 +344,7 @@ coef(model.2)
 # Full data
 # Clause break
 data <- df %>%
-  filter(setting == "complement", region == "c_clause_boundary")
+  filter(setting == "complement", region == "3_clause_boundary")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -371,7 +371,7 @@ coef(model.2)
 # Full data
 # Next two words
 data <- df %>%
-  filter(setting == "complement", region == "c_ntw_1")
+  filter(setting == "complement", region == "4_next_two_words")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -397,7 +397,7 @@ coef(model.2)
 # Scalar trigger data
 # Anaphor: The rest
 data <- df %>%
-  filter(setting == "complement" & triggerType == "scalar", region == "c_anaphor")
+  filter(setting == "complement" & triggerType == "scalar", region == "1_anaphor")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -422,7 +422,7 @@ coef(model.2)
 # Scalar trigger data
 # Predicate
 data <- df %>%
-  filter(setting == "complement" & triggerType == "scalar", region == "c_predicate")
+  filter(setting == "complement" & triggerType == "scalar", region == "2_predicate")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -447,7 +447,7 @@ coef(model.2)
 # Scalar trigger data
 # Clause break
 data <- df %>%
-  filter(setting == "complement" & triggerType == "scalar", region == "c_clause_boundary")
+  filter(setting == "complement" & triggerType == "scalar", region == "3_clause_boundary")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -472,7 +472,7 @@ coef(model.2)
 # Scalar trigger data
 # Next two words
 data <- df %>%
-  filter(setting == "complement" & triggerType == "scalar", region == "c_ntw_1")
+  filter(setting == "complement" & triggerType == "scalar", region == "4_next_two_words")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -499,7 +499,7 @@ coef(model.2)
 # Focused trigger data
 # Anaphor: The rest
 data <- df %>%
-  filter(setting == "complement" & triggerType == "focused", region == "c_anaphor")
+  filter(setting == "complement" & triggerType == "focused", region == "1_anaphor")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -525,7 +525,7 @@ coef(model.2)
 # Scalar trigger data
 # Predicate
 data <- df %>%
-  filter(setting == "complement" & triggerType == "focused", region == "c_predicate")
+  filter(setting == "complement" & triggerType == "focused", region == "2_predicate")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -550,7 +550,7 @@ coef(model.2)
 # Scalar trigger data
 # Clause break
 data <- df %>%
-  filter(setting == "complement" & triggerType == "focused", region == "c_clause_boundary")
+  filter(setting == "complement" & triggerType == "focused", region == "3_clause_boundary")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -577,7 +577,7 @@ coef(model.2)
 # Scalar trigger data
 # Next two words
 data <- df %>%
-  filter(setting == "complement" & triggerType == "focused", region == "c_ntw_1")
+  filter(setting == "complement" & triggerType == "focused", region == "4_next_two_words")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -732,7 +732,7 @@ coef(model.2)
 # 
 # # H2: full-knowledge caused shorter RT over the anaphor part in complement sentences than partial-knowledge
 # select_complement_anaphor <- df %>%
-#   filter(setting == "complement", region == "c_anaphor")
+#   filter(setting == "complement", region == "1_anaphor")
 # head(select_complement_anaphor)
 # 
 # boxplot(avg_rt ~ full_or_partial,
@@ -824,6 +824,7 @@ coef(model.2)
 # plot(fitted(df.model.interaction), residuals(df.model.interaction)) # No pattern
 # hist(residuals(df.model.interaction)) # Not a bell-shape
 # qqnorm(residuals(df.model.interaction)) # Looks wired
+
 
 
 

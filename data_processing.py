@@ -123,7 +123,7 @@ def create_region(df):
                 elif row['word_number'] == 6:
                     df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [7, 8]:
-                    df.at[i, 'region'] = '4_c_ntw_1'
+                    df.at[i, 'region'] = '4_next_two_words'
 
             elif row['itemID'] == 4:
                 if row['word_number'] in [3, 4, 5, 6]:
@@ -131,7 +131,7 @@ def create_region(df):
                 elif row['word_number'] == 7:
                     df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [8, 9]:
-                    df.at[i, 'region'] = '4_c_ntw_1'
+                    df.at[i, 'region'] = '4_next_two_words'
 
             elif row['itemID'] == 8:
                 if row['word_number'] in [3, 4, 5, 6, 7, 8, 9, 10]:
@@ -139,7 +139,7 @@ def create_region(df):
                 elif row['word_number'] == 11:
                     df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [12, 13]:
-                    df.at[i, 'region'] = '4_c_ntw_1'
+                    df.at[i, 'region'] = '4_next_two_words'
 
             elif row['itemID'] == 20:
                 if row['word_number'] in [3, 4, 5, 6, 7]:
@@ -147,7 +147,7 @@ def create_region(df):
                 elif row['word_number'] == 8:
                     df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [9, 10]:
-                    df.at[i, 'region'] = '4_c_ntw_1'
+                    df.at[i, 'region'] = '4_next_two_words'
 
             else:
                 if row['word_number'] in [3, 4]:
@@ -155,7 +155,7 @@ def create_region(df):
                 elif row['word_number'] == 5:
                     df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [6, 7]:
-                    df.at[i, 'region'] = '4_c_ntw_1'
+                    df.at[i, 'region'] = '4_next_two_words'
 
     return df
 
