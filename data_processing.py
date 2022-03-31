@@ -87,21 +87,21 @@ def create_region(df):
     for i, row in df.iterrows():
         if row['setting'] == 'focused':
             if row['word_number'] == 1:
-                df.at[i, 'region'] = 'f_particle'
+                df.at[i, 'region'] = '1_f_particle'
             elif row['word_number'] in [2, 3]:
-                df.at[i, 'region'] = 'f_quantifier'
+                df.at[i, 'region'] = '2_f_quantifier'
             elif row['word_number'] in [4, 5]:
-                df.at[i, 'region'] = 'f_ntw_1'
+                df.at[i, 'region'] = '3_f_ntw_1'
             elif row['word_number'] in [6, 7]:
-                df.at[i, 'region'] = 'f_ntw_2'
+                df.at[i, 'region'] = '4_f_ntw_2'
 
         elif row['setting'] == 'scalar':
             if row['word_number'] in [1, 2]:
-                df.at[i, 'region'] = 's_quantifier'
+                df.at[i, 'region'] = '1_s_quantifier'
             elif row['word_number'] in [3, 4]:
-                df.at[i, 'region'] = 's_ntw_1'
+                df.at[i, 'region'] = '2_s_ntw_1'
             elif row['word_number'] in [5, 6]:
-                df.at[i, 'region'] = 's_ntw_2'
+                df.at[i, 'region'] = '3_s_ntw_2'
 
         elif row['setting'] == 'cancelation':
             if row['word_number'] in [1, 2]:

@@ -1,353 +1,879 @@
 ,submission_id,itemID,type,setting,region,avg_rt,phrase,phrase_length,speakerKnowledge,is_a_quantifier,item_has_a_scalar_trigger_sentence,triggerType
-0,3280,3,trigger,scalar,s_quantifier,436.0,Some of the company’s accountants were there.,7.0,partial,yes,yes,scalar
-1,3280,3,trigger,scalar,s_ntw_1,468.5,Some of the company’s accountants were there.,7.0,partial,no,yes,scalar
-2,3280,3,trigger,scalar,s_ntw_2,771.5,Some of the company’s accountants were there.,7.0,partial,no,yes,scalar
-3,3280,3,continuation,complement,c_anaphor,404.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
-4,3280,3,continuation,complement,predicate,547.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
-5,3280,3,continuation,complement,clause_boundary,756.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
-6,3280,3,continuation,complement,c_ntw_1,508.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
-7,3280,11,trigger,focused,f_particle,453.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
-8,3280,11,trigger,focused,f_quantifier,332.0,Only some of the bottles of Chardonnay were missing.,9.0,full,yes,no,focused
-9,3280,11,trigger,focused,f_ntw_1,312.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
-10,3280,11,trigger,focused,f_ntw_2,352.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
-11,3280,11,continuation,complement,c_anaphor,392.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
-12,3280,11,continuation,complement,predicate,372.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
-13,3280,11,continuation,complement,clause_boundary,325.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
-14,3280,11,continuation,complement,c_ntw_1,348.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
-15,3280,8,trigger,focused,f_particle,413.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
-16,3280,8,trigger,focused,f_quantifier,312.0,Only some of the leather couches had been sold.,9.0,full,yes,no,focused
-17,3280,8,trigger,focused,f_ntw_1,308.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
-18,3280,8,trigger,focused,f_ntw_2,420.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
-19,3280,8,continuation,complement,c_anaphor,260.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-20,3280,8,continuation,complement,predicate,373.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-21,3280,8,continuation,complement,clause_boundary,427.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-22,3280,8,continuation,complement,c_ntw_1,416.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-23,3280,7,trigger,scalar,s_quantifier,336.0,Some of the tourists got soaked by the rain storm.,10.0,partial,yes,yes,scalar
-24,3280,7,trigger,scalar,s_ntw_1,316.0,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
-25,3280,7,trigger,scalar,s_ntw_2,339.5,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
-26,3280,7,continuation,cancelation,cancelation_1,300.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
-27,3280,7,continuation,cancelation,cancelation_2,311.5,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
-28,3280,7,continuation,cancelation,cancelation_3,318.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
-29,3280,7,continuation,cancelation,cancelation_4,355.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
-30,3280,5,trigger,focused,f_particle,307.0,Only some of the real estate investments lost money.,9.0,full,no,no,focused
-31,3280,5,trigger,focused,f_quantifier,303.5,Only some of the real estate investments lost money.,9.0,full,yes,no,focused
-32,3280,5,trigger,focused,f_ntw_1,356.0,Only some of the real estate investments lost money.,9.0,full,no,no,focused
-33,3280,5,trigger,focused,f_ntw_2,348.5,Only some of the real estate investments lost money.,9.0,full,no,no,focused
-34,3280,5,continuation,complement,c_anaphor,307.5,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
-35,3280,5,continuation,complement,predicate,440.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
-36,3280,5,continuation,complement,clause_boundary,388.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
-37,3280,5,continuation,complement,c_ntw_1,472.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
-38,3280,14,trigger,focused,f_particle,347.0,Only some of my predictions were correct.,7.0,partial,no,no,focused
-39,3280,14,trigger,focused,f_quantifier,347.5,Only some of my predictions were correct.,7.0,partial,yes,no,focused
-40,3280,14,trigger,focused,f_ntw_1,364.0,Only some of my predictions were correct.,7.0,partial,no,no,focused
-41,3280,14,trigger,focused,f_ntw_2,387.5,Only some of my predictions were correct.,7.0,partial,no,no,focused
-42,3280,14,continuation,complement,c_anaphor,315.5,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
-43,3280,14,continuation,complement,predicate,540.5,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
-44,3280,14,continuation,complement,clause_boundary,341.0,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
-45,3280,14,continuation,complement,c_ntw_1,376.0,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
-46,3280,1,trigger,scalar,s_quantifier,359.5,Some of the gold watches were fakes.,7.0,full,yes,yes,scalar
-47,3280,1,trigger,scalar,s_ntw_1,356.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
-48,3280,1,trigger,scalar,s_ntw_2,488.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
-49,3280,1,continuation,cancelation,cancelation_1,364.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-50,3280,1,continuation,cancelation,cancelation_2,363.5,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-51,3280,1,continuation,cancelation,cancelation_3,357.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-52,3280,1,continuation,cancelation,cancelation_4,347.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-53,3280,18,trigger,scalar,s_quantifier,320.0,Some of its problems were difficult.,6.0,partial,yes,yes,scalar
-54,3280,18,trigger,scalar,s_ntw_1,312.0,Some of its problems were difficult.,6.0,partial,no,yes,scalar
-55,3280,18,trigger,scalar,s_ntw_2,504.0,Some of its problems were difficult.,6.0,partial,no,yes,scalar
-56,3280,18,continuation,complement,c_anaphor,312.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
-57,3280,18,continuation,complement,predicate,340.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
-58,3280,18,continuation,complement,clause_boundary,485.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
-59,3280,18,continuation,complement,c_ntw_1,344.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
-60,3280,15,trigger,scalar,s_quantifier,352.0,Some of their hotels were expensive.,6.0,full,yes,yes,scalar
-61,3280,15,trigger,scalar,s_ntw_1,316.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
-62,3280,15,trigger,scalar,s_ntw_2,360.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
-63,3280,15,continuation,complement,c_anaphor,372.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
-64,3280,15,continuation,complement,predicate,332.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
-65,3280,15,continuation,complement,clause_boundary,293.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
-66,3280,15,continuation,complement,c_ntw_1,304.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
-67,3280,9,trigger,scalar,s_quantifier,284.0,Some of the dishes were spicy.,6.0,full,yes,yes,scalar
-68,3280,9,trigger,scalar,s_ntw_1,300.0,Some of the dishes were spicy.,6.0,full,no,yes,scalar
-69,3280,9,trigger,scalar,s_ntw_2,392.5,Some of the dishes were spicy.,6.0,full,no,yes,scalar
-70,3280,9,continuation,cancelation,cancelation_1,288.5,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
-71,3280,9,continuation,cancelation,cancelation_2,308.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
-72,3280,9,continuation,cancelation,cancelation_3,299.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
-73,3280,9,continuation,cancelation,cancelation_4,285.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
-74,3280,21,trigger,focused,f_particle,307.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,no,no,focused
-75,3280,21,trigger,focused,f_quantifier,284.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,yes,no,focused
-76,3280,21,trigger,focused,f_ntw_1,252.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,no,no,focused
-77,3280,21,trigger,focused,f_ntw_2,364.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,no,no,focused
-78,3280,21,continuation,complement,c_anaphor,280.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
-79,3280,21,continuation,complement,c_predicate,292.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
-80,3280,21,continuation,complement,c_clause_boundary,412.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
-81,3280,21,continuation,complement,c_ntw_1,480.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
-82,3280,4,trigger,scalar,s_quantifier,332.0,Some of the passengers were still alive.,7.0,full,yes,yes,scalar
-83,3280,4,trigger,scalar,s_ntw_1,336.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
-84,3280,4,trigger,scalar,s_ntw_2,332.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
-85,3280,4,continuation,cancelation,cancelation_1,316.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
-86,3280,4,continuation,cancelation,cancelation_2,300.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
-87,3280,4,continuation,cancelation,cancelation_3,309.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
-88,3280,4,continuation,cancelation,cancelation_4,299.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
-89,3280,12,trigger,focused,f_particle,332.0,Only some of the dog’s teeth were missing.,8.0,partial,no,no,focused
-90,3280,12,trigger,focused,f_quantifier,344.0,Only some of the dog’s teeth were missing.,8.0,partial,yes,no,focused
-91,3280,12,trigger,focused,f_ntw_1,332.0,Only some of the dog’s teeth were missing.,8.0,partial,no,no,focused
-92,3280,12,trigger,focused,f_ntw_2,340.0,Only some of the dog’s teeth were missing.,8.0,partial,no,no,focused
-93,3280,12,continuation,complement,c_anaphor,336.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
-94,3280,12,continuation,complement,predicate,359.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
-95,3280,12,continuation,complement,clause_boundary,365.0,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
-96,3280,12,continuation,complement,c_ntw_1,371.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
-97,3280,17,trigger,scalar,s_quantifier,339.5,Some of the steps were damaged.,6.0,full,yes,yes,scalar
-98,3280,17,trigger,scalar,s_ntw_1,316.5,Some of the steps were damaged.,6.0,full,no,yes,scalar
-99,3280,17,trigger,scalar,s_ntw_2,311.5,Some of the steps were damaged.,6.0,full,no,yes,scalar
-100,3280,17,continuation,complement,c_anaphor,360.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
-101,3280,17,continuation,complement,predicate,348.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
-102,3280,17,continuation,complement,clause_boundary,349.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
-103,3280,17,continuation,complement,c_ntw_1,336.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
-104,3280,6,trigger,scalar,s_quantifier,324.0,Some of our computers were infected.,6.0,full,yes,yes,scalar
-105,3280,6,trigger,scalar,s_ntw_1,384.0,Some of our computers were infected.,6.0,full,no,yes,scalar
-106,3280,6,trigger,scalar,s_ntw_2,332.0,Some of our computers were infected.,6.0,full,no,yes,scalar
-107,3280,6,continuation,cancelation,cancelation_1,380.5,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
-108,3280,6,continuation,cancelation,cancelation_2,347.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
-109,3280,6,continuation,cancelation,cancelation_3,302.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
-110,3280,6,continuation,cancelation,cancelation_4,379.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
-111,3280,20,trigger,scalar,s_quantifier,468.0,Some of the honors students received prizes.,7.0,partial,yes,yes,scalar
-112,3280,20,trigger,scalar,s_ntw_1,500.0,Some of the honors students received prizes.,7.0,partial,no,yes,scalar
-113,3280,20,trigger,scalar,s_ntw_2,531.5,Some of the honors students received prizes.,7.0,partial,no,yes,scalar
-114,3280,20,continuation,cancelation,cancelation_1,352.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
-115,3280,20,continuation,cancelation,cancelation_2,299.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
-116,3280,20,continuation,cancelation,cancelation_3,316.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
-117,3280,20,continuation,cancelation,cancelation_4,276.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
-118,3280,2,trigger,scalar,s_quantifier,296.0,Some of the residents had evacuated.,6.0,full,yes,yes,scalar
-119,3280,2,trigger,scalar,s_ntw_1,308.0,Some of the residents had evacuated.,6.0,full,no,yes,scalar
-120,3280,2,trigger,scalar,s_ntw_2,351.5,Some of the residents had evacuated.,6.0,full,no,yes,scalar
-121,3280,2,continuation,complement,c_anaphor,272.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
-122,3280,2,continuation,complement,c_predicate,334.3333333333333,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
-123,3280,2,continuation,complement,c_clause_boundary,293.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
-124,3280,2,continuation,complement,c_ntw_1,400.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
-125,3280,24,trigger,focused,f_particle,342.0,Only some of my stocks went up.,7.0,full,no,no,focused
-126,3280,24,trigger,focused,f_quantifier,408.0,Only some of my stocks went up.,7.0,full,yes,no,focused
-127,3280,24,trigger,focused,f_ntw_1,312.0,Only some of my stocks went up.,7.0,full,no,no,focused
-128,3280,24,trigger,focused,f_ntw_2,392.5,Only some of my stocks went up.,7.0,full,no,no,focused
-129,3280,24,continuation,complement,c_anaphor,308.0,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
-130,3280,24,continuation,complement,c_predicate,355.6666666666667,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
-131,3280,24,continuation,complement,c_clause_boundary,608.0,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
-132,3280,24,continuation,complement,c_ntw_1,366.5,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
-133,3280,13,trigger,scalar,s_quantifier,280.0,Some of its tires were flat.,6.0,full,yes,yes,scalar
-134,3280,13,trigger,scalar,s_ntw_1,300.0,Some of its tires were flat.,6.0,full,no,yes,scalar
-135,3280,13,trigger,scalar,s_ntw_2,392.0,Some of its tires were flat.,6.0,full,no,yes,scalar
-136,3280,13,continuation,complement,c_anaphor,292.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
-137,3280,13,continuation,complement,predicate,280.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
-138,3280,13,continuation,complement,clause_boundary,331.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
-139,3280,13,continuation,complement,c_ntw_1,288.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
-140,3280,19,trigger,scalar,s_quantifier,356.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,yes,yes,scalar
-141,3280,19,trigger,scalar,s_ntw_1,476.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
-142,3280,19,trigger,scalar,s_ntw_2,476.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
-143,3280,19,continuation,cancelation,cancelation_1,348.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
-144,3280,19,continuation,cancelation,cancelation_2,272.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
-145,3280,19,continuation,cancelation,cancelation_3,172.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
-146,3280,19,continuation,cancelation,cancelation_4,203.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
-147,3280,16,trigger,scalar,s_quantifier,308.0,Some of my new bottles of vodka were opened.,9.0,partial,yes,yes,scalar
-148,3280,16,trigger,scalar,s_ntw_1,255.5,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
-149,3280,16,trigger,scalar,s_ntw_2,312.0,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
-150,3280,16,continuation,complement,c_anaphor,328.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
-151,3280,16,continuation,complement,predicate,332.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
-152,3280,16,continuation,complement,clause_boundary,437.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
-153,3280,16,continuation,complement,c_ntw_1,312.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
-154,3280,23,trigger,focused,f_particle,229.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
-155,3280,23,trigger,focused,f_quantifier,275.5,Only some of the words sounded like they do in English.,11.0,partial,yes,no,focused
-156,3280,23,trigger,focused,f_ntw_1,240.5,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
-157,3280,23,trigger,focused,f_ntw_2,284.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
-158,3280,23,continuation,complement,c_anaphor,231.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
-159,3280,23,continuation,complement,c_predicate,246.33333333333334,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
-160,3280,23,continuation,complement,c_clause_boundary,294.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
-161,3280,23,continuation,complement,c_ntw_1,303.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
-162,3280,22,trigger,scalar,s_quantifier,267.5,Some of their losses were close.,6.0,partial,yes,yes,scalar
-163,3280,22,trigger,scalar,s_ntw_1,292.0,Some of their losses were close.,6.0,partial,no,yes,scalar
-164,3280,22,trigger,scalar,s_ntw_2,332.0,Some of their losses were close.,6.0,partial,no,yes,scalar
-165,3280,22,continuation,cancelation,cancelation_1,264.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
-166,3280,22,continuation,cancelation,cancelation_2,272.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
-167,3280,22,continuation,cancelation,cancelation_3,267.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
-168,3280,22,continuation,cancelation,cancelation_4,253.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
-169,3280,10,trigger,scalar,s_quantifier,307.5,Some of my favorite rides were still running.,8.0,partial,yes,yes,scalar
-170,3280,10,trigger,scalar,s_ntw_1,312.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
-171,3280,10,trigger,scalar,s_ntw_2,320.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
-172,3280,10,continuation,complement,c_anaphor,288.0,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
-173,3280,10,continuation,complement,c_predicate,292.3333333333333,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
-174,3280,10,continuation,complement,c_clause_boundary,333.0,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
-175,3280,10,continuation,complement,c_ntw_1,439.5,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
-176,3279,3,trigger,focused,f_particle,318.0,Only some of the company’s accountants were there.,8.0,partial,no,no,focused
-177,3279,3,trigger,focused,f_quantifier,326.5,Only some of the company’s accountants were there.,8.0,partial,yes,no,focused
-178,3279,3,trigger,focused,f_ntw_1,330.0,Only some of the company’s accountants were there.,8.0,partial,no,no,focused
-179,3279,3,trigger,focused,f_ntw_2,352.0,Only some of the company’s accountants were there.,8.0,partial,no,no,focused
-180,3279,3,continuation,complement,c_anaphor,275.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
-181,3279,3,continuation,complement,predicate,291.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
-182,3279,3,continuation,complement,clause_boundary,251.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
-183,3279,3,continuation,complement,c_ntw_1,280.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
-184,3279,7,trigger,scalar,s_quantifier,306.0,Some of the tourists got soaked by the rain storm.,10.0,partial,yes,yes,scalar
-185,3279,7,trigger,scalar,s_ntw_1,295.5,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
-186,3279,7,trigger,scalar,s_ntw_2,311.5,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
-187,3279,7,continuation,complement,c_anaphor,278.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
-188,3279,7,continuation,complement,predicate,300.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
-189,3279,7,continuation,complement,clause_boundary,291.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
-190,3279,7,continuation,complement,c_ntw_1,300.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
-191,3279,11,trigger,scalar,s_quantifier,321.5,Some of the bottles of Chardonnay were missing.,8.0,partial,yes,yes,scalar
-192,3279,11,trigger,scalar,s_ntw_1,323.5,Some of the bottles of Chardonnay were missing.,8.0,partial,no,yes,scalar
-193,3279,11,trigger,scalar,s_ntw_2,344.0,Some of the bottles of Chardonnay were missing.,8.0,partial,no,yes,scalar
-194,3279,11,continuation,complement,c_anaphor,284.5,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
-195,3279,11,continuation,complement,predicate,308.5,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
-196,3279,11,continuation,complement,clause_boundary,291.0,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
-197,3279,11,continuation,complement,c_ntw_1,280.0,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
-198,3279,2,trigger,focused,f_particle,284.0,Only some of the residents had evacuated.,7.0,partial,no,no,focused
-199,3279,2,trigger,focused,f_quantifier,314.5,Only some of the residents had evacuated.,7.0,partial,yes,no,focused
-200,3279,2,trigger,focused,f_ntw_1,297.5,Only some of the residents had evacuated.,7.0,partial,no,no,focused
-201,3279,2,trigger,focused,f_ntw_2,310.0,Only some of the residents had evacuated.,7.0,partial,no,no,focused
-202,3279,2,continuation,complement,c_anaphor,278.5,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
-203,3279,2,continuation,complement,c_predicate,274.3333333333333,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
-204,3279,2,continuation,complement,c_clause_boundary,284.0,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
-205,3279,2,continuation,complement,c_ntw_1,315.5,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
-206,3279,5,trigger,scalar,s_quantifier,283.5,Some of the real estate investments lost money.,8.0,full,yes,yes,scalar
-207,3279,5,trigger,scalar,s_ntw_1,287.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
-208,3279,5,trigger,scalar,s_ntw_2,285.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
-209,3279,5,continuation,complement,c_anaphor,282.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
-210,3279,5,continuation,complement,predicate,465.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
-211,3279,5,continuation,complement,clause_boundary,313.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
-212,3279,5,continuation,complement,c_ntw_1,337.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
-213,3279,19,trigger,scalar,s_quantifier,289.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,yes,yes,scalar
-214,3279,19,trigger,scalar,s_ntw_1,266.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,no,yes,scalar
-215,3279,19,trigger,scalar,s_ntw_2,300.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,no,yes,scalar
-216,3279,19,continuation,cancelation,cancelation_1,262.5,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
-217,3279,19,continuation,cancelation,cancelation_2,296.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
-218,3279,19,continuation,cancelation,cancelation_3,274.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
-219,3279,19,continuation,cancelation,cancelation_4,280.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
-220,3279,22,trigger,scalar,s_quantifier,291.5,Some of their losses were close.,6.0,full,yes,yes,scalar
-221,3279,22,trigger,scalar,s_ntw_1,307.0,Some of their losses were close.,6.0,full,no,yes,scalar
-222,3279,22,trigger,scalar,s_ntw_2,301.0,Some of their losses were close.,6.0,full,no,yes,scalar
-223,3279,22,continuation,complement,c_anaphor,366.5,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
-224,3279,22,continuation,complement,predicate,320.5,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
-225,3279,22,continuation,complement,clause_boundary,322.0,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
-226,3279,22,continuation,complement,c_ntw_1,314.5,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
-227,3279,13,trigger,scalar,s_quantifier,271.0,Some of its tires were flat.,6.0,partial,yes,yes,scalar
-228,3279,13,trigger,scalar,s_ntw_1,345.0,Some of its tires were flat.,6.0,partial,no,yes,scalar
-229,3279,13,trigger,scalar,s_ntw_2,307.5,Some of its tires were flat.,6.0,partial,no,yes,scalar
-230,3279,13,continuation,complement,c_anaphor,447.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
-231,3279,13,continuation,complement,predicate,320.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
-232,3279,13,continuation,complement,clause_boundary,335.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
-233,3279,13,continuation,complement,c_ntw_1,320.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
-234,3279,9,trigger,scalar,s_quantifier,268.0,Some of the dishes were spicy.,6.0,partial,yes,yes,scalar
-235,3279,9,trigger,scalar,s_ntw_1,268.0,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
-236,3279,9,trigger,scalar,s_ntw_2,266.0,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
-237,3279,9,continuation,cancelation,cancelation_1,245.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
-238,3279,9,continuation,cancelation,cancelation_2,239.5,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
-239,3279,9,continuation,cancelation,cancelation_3,268.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
-240,3279,9,continuation,cancelation,cancelation_4,285.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
-241,3279,24,trigger,scalar,s_quantifier,248.0,Some of my stocks went up.,6.0,full,yes,yes,scalar
-242,3279,24,trigger,scalar,s_ntw_1,259.0,Some of my stocks went up.,6.0,full,no,yes,scalar
-243,3279,24,trigger,scalar,s_ntw_2,283.0,Some of my stocks went up.,6.0,full,no,yes,scalar
-244,3279,24,continuation,cancelation,cancelation_1,266.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
-245,3279,24,continuation,cancelation,cancelation_2,285.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
-246,3279,24,continuation,cancelation,cancelation_3,270.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
-247,3279,24,continuation,cancelation,cancelation_4,278.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
-248,3279,4,trigger,scalar,s_quantifier,283.0,Some of the passengers were still alive.,7.0,full,yes,yes,scalar
-249,3279,4,trigger,scalar,s_ntw_1,338.5,Some of the passengers were still alive.,7.0,full,no,yes,scalar
-250,3279,4,trigger,scalar,s_ntw_2,341.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
-251,3279,4,continuation,complement,c_anaphor,287.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
-252,3279,4,continuation,complement,predicate,332.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
-253,3279,4,continuation,complement,clause_boundary,352.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
-254,3279,4,continuation,complement,c_ntw_1,360.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
-255,3279,8,trigger,focused,f_particle,245.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
-256,3279,8,trigger,focused,f_quantifier,264.0,Only some of the leather couches had been sold.,9.0,full,yes,no,focused
-257,3279,8,trigger,focused,f_ntw_1,249.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
-258,3279,8,trigger,focused,f_ntw_2,265.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
-259,3279,8,continuation,complement,c_anaphor,269.5,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-260,3279,8,continuation,complement,predicate,312.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-261,3279,8,continuation,complement,clause_boundary,308.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-262,3279,8,continuation,complement,c_ntw_1,289.5,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
-263,3279,1,trigger,scalar,s_quantifier,245.0,Some of the gold watches were fakes.,7.0,full,yes,yes,scalar
-264,3279,1,trigger,scalar,s_ntw_1,241.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
-265,3279,1,trigger,scalar,s_ntw_2,242.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
-266,3279,1,continuation,cancelation,cancelation_1,256.5,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-267,3279,1,continuation,cancelation,cancelation_2,247.5,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-268,3279,1,continuation,cancelation,cancelation_3,319.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-269,3279,1,continuation,cancelation,cancelation_4,585.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
-270,3279,20,trigger,scalar,s_quantifier,258.0,Some of the honors students received prizes.,7.0,full,yes,yes,scalar
-271,3279,20,trigger,scalar,s_ntw_1,248.5,Some of the honors students received prizes.,7.0,full,no,yes,scalar
-272,3279,20,trigger,scalar,s_ntw_2,254.0,Some of the honors students received prizes.,7.0,full,no,yes,scalar
-273,3279,20,continuation,complement,c_anaphor,311.5,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
-274,3279,20,continuation,complement,predicate,312.6,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
-275,3279,20,continuation,complement,clause_boundary,283.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
-276,3279,20,continuation,complement,c_ntw_1,274.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
-277,3279,10,trigger,focused,f_particle,252.0,Only some of my favorite rides were still running.,9.0,full,no,no,focused
-278,3279,10,trigger,focused,f_quantifier,222.5,Only some of my favorite rides were still running.,9.0,full,yes,no,focused
-279,3279,10,trigger,focused,f_ntw_1,248.5,Only some of my favorite rides were still running.,9.0,full,no,no,focused
-280,3279,10,trigger,focused,f_ntw_2,250.5,Only some of my favorite rides were still running.,9.0,full,no,no,focused
-281,3279,10,continuation,complement,c_anaphor,250.5,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
-282,3279,10,continuation,complement,c_predicate,249.66666666666666,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
-283,3279,10,continuation,complement,c_clause_boundary,258.0,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
-284,3279,10,continuation,complement,c_ntw_1,249.5,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
-285,3279,17,trigger,focused,f_particle,229.0,Only some of the steps were damaged.,7.0,partial,no,no,focused
-286,3279,17,trigger,focused,f_quantifier,232.5,Only some of the steps were damaged.,7.0,partial,yes,no,focused
-287,3279,17,trigger,focused,f_ntw_1,235.5,Only some of the steps were damaged.,7.0,partial,no,no,focused
-288,3279,17,trigger,focused,f_ntw_2,259.5,Only some of the steps were damaged.,7.0,partial,no,no,focused
-289,3279,17,continuation,complement,c_anaphor,238.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
-290,3279,17,continuation,complement,predicate,239.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
-291,3279,17,continuation,complement,clause_boundary,269.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
-292,3279,17,continuation,complement,c_ntw_1,286.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
-293,3279,21,trigger,focused,f_particle,230.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
-294,3279,21,trigger,focused,f_quantifier,264.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,yes,no,focused
-295,3279,21,trigger,focused,f_ntw_1,262.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
-296,3279,21,trigger,focused,f_ntw_2,289.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
-297,3279,21,continuation,complement,c_anaphor,409.5,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
-298,3279,21,continuation,complement,c_predicate,281.6666666666667,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
-299,3279,21,continuation,complement,c_clause_boundary,327.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
-300,3279,21,continuation,complement,c_ntw_1,321.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
-301,3279,12,trigger,scalar,s_quantifier,373.0,Some of the dog’s teeth were missing.,7.0,full,yes,yes,scalar
-302,3279,12,trigger,scalar,s_ntw_1,226.0,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
-303,3279,12,trigger,scalar,s_ntw_2,231.5,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
-304,3279,12,continuation,cancelation,cancelation_1,239.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
-305,3279,12,continuation,cancelation,cancelation_2,352.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
-306,3279,12,continuation,cancelation,cancelation_3,236.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
-307,3279,12,continuation,cancelation,cancelation_4,240.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
-308,3279,16,trigger,scalar,s_quantifier,225.0,Some of my new bottles of vodka were opened.,9.0,partial,yes,yes,scalar
-309,3279,16,trigger,scalar,s_ntw_1,239.0,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
-310,3279,16,trigger,scalar,s_ntw_2,238.5,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
-311,3279,16,continuation,cancelation,cancelation_1,261.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
-312,3279,16,continuation,cancelation,cancelation_2,238.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
-313,3279,16,continuation,cancelation,cancelation_3,234.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
-314,3279,16,continuation,cancelation,cancelation_4,227.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
-315,3279,15,trigger,scalar,s_quantifier,262.0,Some of their hotels were expensive.,6.0,partial,yes,yes,scalar
-316,3279,15,trigger,scalar,s_ntw_1,272.0,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
-317,3279,15,trigger,scalar,s_ntw_2,311.5,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
-318,3279,15,continuation,complement,c_anaphor,241.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
-319,3279,15,continuation,complement,predicate,225.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
-320,3279,15,continuation,complement,clause_boundary,255.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
-321,3279,15,continuation,complement,c_ntw_1,243.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
-322,3279,23,trigger,scalar,s_quantifier,240.0,Some of the words sounded like they do in English.,10.0,partial,yes,yes,scalar
-323,3279,23,trigger,scalar,s_ntw_1,257.0,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
-324,3279,23,trigger,scalar,s_ntw_2,257.5,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
-325,3279,23,continuation,cancelation,cancelation_1,269.5,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
-326,3279,23,continuation,cancelation,cancelation_2,238.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
-327,3279,23,continuation,cancelation,cancelation_3,256.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
-328,3279,23,continuation,cancelation,cancelation_4,232.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
-329,3279,6,trigger,focused,f_particle,229.0,Only some of our computers were infected.,7.0,partial,no,no,focused
-330,3279,6,trigger,focused,f_quantifier,209.0,Only some of our computers were infected.,7.0,partial,yes,no,focused
-331,3279,6,trigger,focused,f_ntw_1,200.0,Only some of our computers were infected.,7.0,partial,no,no,focused
-332,3279,6,trigger,focused,f_ntw_2,232.5,Only some of our computers were infected.,7.0,partial,no,no,focused
-333,3279,6,continuation,complement,c_anaphor,220.5,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
-334,3279,6,continuation,complement,predicate,312.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
-335,3279,6,continuation,complement,clause_boundary,233.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
-336,3279,6,continuation,complement,c_ntw_1,513.5,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
-337,3279,14,trigger,scalar,s_quantifier,227.5,Some of my predictions were correct.,6.0,partial,yes,yes,scalar
-338,3279,14,trigger,scalar,s_ntw_1,318.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
-339,3279,14,trigger,scalar,s_ntw_2,268.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
-340,3279,14,continuation,cancelation,cancelation_1,237.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
-341,3279,14,continuation,cancelation,cancelation_2,234.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
-342,3279,14,continuation,cancelation,cancelation_3,250.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
-343,3279,14,continuation,cancelation,cancelation_4,241.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
-344,3279,18,trigger,focused,f_particle,234.0,Only some of its problems were difficult.,7.0,full,no,no,focused
-345,3279,18,trigger,focused,f_quantifier,227.5,Only some of its problems were difficult.,7.0,full,yes,no,focused
-346,3279,18,trigger,focused,f_ntw_1,249.0,Only some of its problems were difficult.,7.0,full,no,no,focused
-347,3279,18,trigger,focused,f_ntw_2,256.5,Only some of its problems were difficult.,7.0,full,no,no,focused
-348,3279,18,continuation,complement,c_anaphor,238.5,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
-349,3279,18,continuation,complement,predicate,223.0,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
-350,3279,18,continuation,complement,clause_boundary,277.0,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
-351,3279,18,continuation,complement,c_ntw_1,265.5,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
+0,3395,15,trigger,scalar,1_s_quantifier,223.5,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+1,3395,15,trigger,scalar,2_s_ntw_1,216.5,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+2,3395,15,trigger,scalar,3_s_ntw_2,227.5,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+3,3395,15,continuation,complement,c_anaphor,213.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+4,3395,15,continuation,complement,predicate,210.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+5,3395,15,continuation,complement,clause_boundary,217.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+6,3395,15,continuation,complement,c_ntw_1,331.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+7,3395,12,trigger,scalar,1_s_quantifier,227.0,Some of the dog’s teeth were missing.,7.0,partial,no,yes,scalar
+8,3395,12,trigger,scalar,2_s_ntw_1,203.0,Some of the dog’s teeth were missing.,7.0,partial,no,yes,scalar
+9,3395,12,trigger,scalar,3_s_ntw_2,204.5,Some of the dog’s teeth were missing.,7.0,partial,no,yes,scalar
+10,3395,12,continuation,complement,c_anaphor,211.0,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,yes,scalar
+11,3395,12,continuation,complement,predicate,214.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,yes,scalar
+12,3395,12,continuation,complement,clause_boundary,203.0,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,yes,scalar
+13,3395,12,continuation,complement,c_ntw_1,210.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,yes,scalar
+14,3395,4,trigger,scalar,1_s_quantifier,317.5,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+15,3395,4,trigger,scalar,2_s_ntw_1,208.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+16,3395,4,trigger,scalar,3_s_ntw_2,244.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+17,3395,4,continuation,complement,c_anaphor,221.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+18,3395,4,continuation,complement,predicate,209.75,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+19,3395,4,continuation,complement,clause_boundary,199.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+20,3395,4,continuation,complement,c_ntw_1,200.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+21,3395,7,trigger,focused,f_particle,230.0,Only some of the tourists got soaked by the rain storm.,11.0,partial,no,no,focused
+22,3395,7,trigger,focused,f_quantifier,205.5,Only some of the tourists got soaked by the rain storm.,11.0,partial,yes,no,focused
+23,3395,7,trigger,focused,f_ntw_1,199.5,Only some of the tourists got soaked by the rain storm.,11.0,partial,no,no,focused
+24,3395,7,trigger,focused,f_ntw_2,223.5,Only some of the tourists got soaked by the rain storm.,11.0,partial,no,no,focused
+25,3395,7,continuation,complement,c_anaphor,208.5,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,no,focused
+26,3395,7,continuation,complement,predicate,229.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,no,focused
+27,3395,7,continuation,complement,clause_boundary,195.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,no,focused
+28,3395,7,continuation,complement,c_ntw_1,203.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,no,focused
+29,3395,24,trigger,focused,f_particle,234.0,Only some of my stocks went up.,7.0,partial,no,no,focused
+30,3395,24,trigger,focused,f_quantifier,210.5,Only some of my stocks went up.,7.0,partial,yes,no,focused
+31,3395,24,trigger,focused,f_ntw_1,316.5,Only some of my stocks went up.,7.0,partial,no,no,focused
+32,3395,24,trigger,focused,f_ntw_2,291.0,Only some of my stocks went up.,7.0,partial,no,no,focused
+33,3395,24,continuation,complement,c_anaphor,209.5,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,no,focused
+34,3395,24,continuation,complement,c_predicate,217.33333333333334,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,no,focused
+35,3395,24,continuation,complement,c_clause_boundary,210.0,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,no,focused
+36,3395,24,continuation,complement,c_ntw_1,225.5,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,no,focused
+37,3395,14,trigger,scalar,1_s_quantifier,229.5,Some of my predictions were correct.,6.0,full,no,yes,scalar
+38,3395,14,trigger,scalar,2_s_ntw_1,226.5,Some of my predictions were correct.,6.0,full,no,yes,scalar
+39,3395,14,trigger,scalar,3_s_ntw_2,215.0,Some of my predictions were correct.,6.0,full,no,yes,scalar
+40,3395,14,continuation,cancelation,cancelation_1,236.0,"In fact, they all were so I should be able to publish the results.",14.0,full,no,yes,scalar
+41,3395,14,continuation,cancelation,cancelation_2,213.5,"In fact, they all were so I should be able to publish the results.",14.0,full,no,yes,scalar
+42,3395,14,continuation,cancelation,cancelation_3,210.0,"In fact, they all were so I should be able to publish the results.",14.0,full,no,yes,scalar
+43,3395,14,continuation,cancelation,cancelation_4,223.0,"In fact, they all were so I should be able to publish the results.",14.0,full,no,yes,scalar
+44,3395,19,trigger,scalar,1_s_quantifier,210.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+45,3395,19,trigger,scalar,2_s_ntw_1,210.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+46,3395,19,trigger,scalar,3_s_ntw_2,209.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+47,3395,19,continuation,complement,c_anaphor,218.5,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+48,3395,19,continuation,complement,predicate,221.5,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+49,3395,19,continuation,complement,clause_boundary,237.0,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+50,3395,19,continuation,complement,c_ntw_1,262.5,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+51,3395,13,trigger,scalar,1_s_quantifier,192.5,Some of its tires were flat.,6.0,full,no,yes,scalar
+52,3395,13,trigger,scalar,2_s_ntw_1,187.0,Some of its tires were flat.,6.0,full,no,yes,scalar
+53,3395,13,trigger,scalar,3_s_ntw_2,229.0,Some of its tires were flat.,6.0,full,no,yes,scalar
+54,3395,13,continuation,cancelation,cancelation_1,214.5,"In fact, they all were so the cost to repair it would be enormous.",14.0,full,no,yes,scalar
+55,3395,13,continuation,cancelation,cancelation_2,209.5,"In fact, they all were so the cost to repair it would be enormous.",14.0,full,no,yes,scalar
+56,3395,13,continuation,cancelation,cancelation_3,193.0,"In fact, they all were so the cost to repair it would be enormous.",14.0,full,no,yes,scalar
+57,3395,13,continuation,cancelation,cancelation_4,231.0,"In fact, they all were so the cost to repair it would be enormous.",14.0,full,no,yes,scalar
+58,3395,11,trigger,focused,f_particle,214.0,Only some of the bottles of Chardonnay were missing.,9.0,partial,no,no,focused
+59,3395,11,trigger,focused,f_quantifier,336.5,Only some of the bottles of Chardonnay were missing.,9.0,partial,yes,no,focused
+60,3395,11,trigger,focused,f_ntw_1,214.5,Only some of the bottles of Chardonnay were missing.,9.0,partial,no,no,focused
+61,3395,11,trigger,focused,f_ntw_2,204.5,Only some of the bottles of Chardonnay were missing.,9.0,partial,no,no,focused
+62,3395,11,continuation,complement,c_anaphor,231.5,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+63,3395,11,continuation,complement,predicate,221.0,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+64,3395,11,continuation,complement,clause_boundary,232.0,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+65,3395,11,continuation,complement,c_ntw_1,230.5,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+66,3395,9,trigger,scalar,1_s_quantifier,223.5,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+67,3395,9,trigger,scalar,2_s_ntw_1,214.5,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+68,3395,9,trigger,scalar,3_s_ntw_2,202.0,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+69,3395,9,continuation,complement,c_anaphor,215.0,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+70,3395,9,continuation,complement,predicate,210.5,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+71,3395,9,continuation,complement,clause_boundary,245.0,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+72,3395,9,continuation,complement,c_ntw_1,221.0,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+73,3395,8,trigger,scalar,1_s_quantifier,216.5,Some of the leather couches had been sold.,8.0,partial,no,yes,scalar
+74,3395,8,trigger,scalar,2_s_ntw_1,321.0,Some of the leather couches had been sold.,8.0,partial,no,yes,scalar
+75,3395,8,trigger,scalar,3_s_ntw_2,224.5,Some of the leather couches had been sold.,8.0,partial,no,yes,scalar
+76,3395,8,continuation,cancelation,cancelation_1,213.0,"In fact, they all had since they were stylish and cheap.",11.0,partial,no,yes,scalar
+77,3395,8,continuation,cancelation,cancelation_2,214.5,"In fact, they all had since they were stylish and cheap.",11.0,partial,no,yes,scalar
+78,3395,8,continuation,cancelation,cancelation_3,223.0,"In fact, they all had since they were stylish and cheap.",11.0,partial,no,yes,scalar
+79,3395,8,continuation,cancelation,cancelation_4,225.0,"In fact, they all had since they were stylish and cheap.",11.0,partial,no,yes,scalar
+80,3395,23,trigger,scalar,1_s_quantifier,239.0,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
+81,3395,23,trigger,scalar,2_s_ntw_1,214.0,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
+82,3395,23,trigger,scalar,3_s_ntw_2,218.5,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
+83,3395,23,continuation,complement,c_anaphor,186.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,yes,scalar
+84,3395,23,continuation,complement,c_predicate,215.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,yes,scalar
+85,3395,23,continuation,complement,c_clause_boundary,204.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,yes,scalar
+86,3395,23,continuation,complement,c_ntw_1,215.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,yes,scalar
+87,3395,2,trigger,focused,f_particle,242.0,Only some of the residents had evacuated.,7.0,full,no,no,focused
+88,3395,2,trigger,focused,f_quantifier,209.5,Only some of the residents had evacuated.,7.0,full,yes,no,focused
+89,3395,2,trigger,focused,f_ntw_1,208.5,Only some of the residents had evacuated.,7.0,full,no,no,focused
+90,3395,2,trigger,focused,f_ntw_2,212.0,Only some of the residents had evacuated.,7.0,full,no,no,focused
+91,3395,2,continuation,complement,c_anaphor,194.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,no,focused
+92,3395,2,continuation,complement,c_predicate,184.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,no,focused
+93,3395,2,continuation,complement,c_clause_boundary,200.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,no,focused
+94,3395,2,continuation,complement,c_ntw_1,219.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,no,focused
+95,3395,5,trigger,focused,f_particle,207.0,Only some of the real estate investments lost money.,9.0,full,no,no,focused
+96,3395,5,trigger,focused,f_quantifier,225.0,Only some of the real estate investments lost money.,9.0,full,yes,no,focused
+97,3395,5,trigger,focused,f_ntw_1,226.0,Only some of the real estate investments lost money.,9.0,full,no,no,focused
+98,3395,5,trigger,focused,f_ntw_2,226.5,Only some of the real estate investments lost money.,9.0,full,no,no,focused
+99,3395,5,continuation,complement,c_anaphor,229.5,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+100,3395,5,continuation,complement,predicate,209.5,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+101,3395,5,continuation,complement,clause_boundary,225.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+102,3395,5,continuation,complement,c_ntw_1,232.5,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+103,3395,22,trigger,scalar,1_s_quantifier,226.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+104,3395,22,trigger,scalar,2_s_ntw_1,222.5,Some of their losses were close.,6.0,partial,no,yes,scalar
+105,3395,22,trigger,scalar,3_s_ntw_2,221.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+106,3395,22,continuation,cancelation,cancelation_1,222.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+107,3395,22,continuation,cancelation,cancelation_2,240.5,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+108,3395,22,continuation,cancelation,cancelation_3,222.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+109,3395,22,continuation,cancelation,cancelation_4,278.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+110,3395,17,trigger,scalar,1_s_quantifier,204.5,Some of the steps were damaged.,6.0,partial,no,yes,scalar
+111,3395,17,trigger,scalar,2_s_ntw_1,205.0,Some of the steps were damaged.,6.0,partial,no,yes,scalar
+112,3395,17,trigger,scalar,3_s_ntw_2,229.5,Some of the steps were damaged.,6.0,partial,no,yes,scalar
+113,3395,17,continuation,cancelation,cancelation_1,208.0,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+114,3395,17,continuation,cancelation,cancelation_2,228.0,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+115,3395,17,continuation,cancelation,cancelation_3,212.0,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+116,3395,17,continuation,cancelation,cancelation_4,406.0,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+117,3395,20,trigger,focused,f_particle,234.0,Only some of the honors students received prizes.,8.0,partial,no,no,focused
+118,3395,20,trigger,focused,f_quantifier,204.5,Only some of the honors students received prizes.,8.0,partial,yes,no,focused
+119,3395,20,trigger,focused,f_ntw_1,216.0,Only some of the honors students received prizes.,8.0,partial,no,no,focused
+120,3395,20,trigger,focused,f_ntw_2,230.0,Only some of the honors students received prizes.,8.0,partial,no,no,focused
+121,3395,20,continuation,complement,c_anaphor,226.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,partial,no,no,focused
+122,3395,20,continuation,complement,predicate,235.6,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,partial,no,no,focused
+123,3395,20,continuation,complement,clause_boundary,243.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,partial,no,no,focused
+124,3395,20,continuation,complement,c_ntw_1,224.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,partial,no,no,focused
+125,3395,1,trigger,scalar,1_s_quantifier,217.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+126,3395,1,trigger,scalar,2_s_ntw_1,215.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+127,3395,1,trigger,scalar,3_s_ntw_2,227.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+128,3395,1,continuation,complement,c_anaphor,218.0,"The rest were real, but the company is still planning to sue.",12.0,full,no,yes,scalar
+129,3395,1,continuation,complement,predicate,204.0,"The rest were real, but the company is still planning to sue.",12.0,full,no,yes,scalar
+130,3395,1,continuation,complement,clause_boundary,222.0,"The rest were real, but the company is still planning to sue.",12.0,full,no,yes,scalar
+131,3395,1,continuation,complement,c_ntw_1,223.5,"The rest were real, but the company is still planning to sue.",12.0,full,no,yes,scalar
+132,3395,18,trigger,scalar,1_s_quantifier,242.5,Some of its problems were difficult.,6.0,full,no,yes,scalar
+133,3395,18,trigger,scalar,2_s_ntw_1,203.5,Some of its problems were difficult.,6.0,full,no,yes,scalar
+134,3395,18,trigger,scalar,3_s_ntw_2,246.5,Some of its problems were difficult.,6.0,full,no,yes,scalar
+135,3395,18,continuation,cancelation,cancelation_1,219.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+136,3395,18,continuation,cancelation,cancelation_2,212.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+137,3395,18,continuation,cancelation,cancelation_3,221.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+138,3395,18,continuation,cancelation,cancelation_4,197.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+139,3395,6,trigger,scalar,1_s_quantifier,220.5,Some of our computers were infected.,6.0,partial,no,yes,scalar
+140,3395,6,trigger,scalar,2_s_ntw_1,227.0,Some of our computers were infected.,6.0,partial,no,yes,scalar
+141,3395,6,trigger,scalar,3_s_ntw_2,208.5,Some of our computers were infected.,6.0,partial,no,yes,scalar
+142,3395,6,continuation,complement,c_anaphor,224.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,yes,scalar
+143,3395,6,continuation,complement,predicate,333.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,yes,scalar
+144,3395,6,continuation,complement,clause_boundary,234.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,yes,scalar
+145,3395,6,continuation,complement,c_ntw_1,223.5,The rest were clean because their owners had been very cautious.,11.0,partial,no,yes,scalar
+146,3395,21,trigger,scalar,1_s_quantifier,240.5,Some of the dictionaries were labeled incorrectly.,7.0,full,no,yes,scalar
+147,3395,21,trigger,scalar,2_s_ntw_1,232.5,Some of the dictionaries were labeled incorrectly.,7.0,full,no,yes,scalar
+148,3395,21,trigger,scalar,3_s_ntw_2,238.5,Some of the dictionaries were labeled incorrectly.,7.0,full,no,yes,scalar
+149,3395,21,continuation,cancelation,cancelation_1,240.5,"In fact, they all were which made the job much more difficult.",12.0,full,no,yes,scalar
+150,3395,21,continuation,cancelation,cancelation_2,223.5,"In fact, they all were which made the job much more difficult.",12.0,full,no,yes,scalar
+151,3395,21,continuation,cancelation,cancelation_3,234.0,"In fact, they all were which made the job much more difficult.",12.0,full,no,yes,scalar
+152,3395,21,continuation,cancelation,cancelation_4,249.0,"In fact, they all were which made the job much more difficult.",12.0,full,no,yes,scalar
+153,3395,3,trigger,focused,f_particle,203.0,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+154,3395,3,trigger,focused,f_quantifier,184.5,Only some of the company’s accountants were there.,8.0,full,yes,no,focused
+155,3395,3,trigger,focused,f_ntw_1,187.5,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+156,3395,3,trigger,focused,f_ntw_2,215.0,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+157,3395,3,continuation,complement,c_anaphor,203.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+158,3395,3,continuation,complement,predicate,207.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+159,3395,3,continuation,complement,clause_boundary,412.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+160,3395,3,continuation,complement,c_ntw_1,221.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+161,3395,10,trigger,scalar,1_s_quantifier,218.5,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+162,3395,10,trigger,scalar,2_s_ntw_1,220.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+163,3395,10,trigger,scalar,3_s_ntw_2,211.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+164,3395,10,continuation,cancelation,cancelation_1,203.5,"In fact, they all were since they were still popular.",10.0,partial,no,yes,scalar
+165,3395,10,continuation,cancelation,cancelation_2,216.5,"In fact, they all were since they were still popular.",10.0,partial,no,yes,scalar
+166,3395,10,continuation,cancelation,cancelation_3,213.0,"In fact, they all were since they were still popular.",10.0,partial,no,yes,scalar
+167,3395,10,continuation,cancelation,cancelation_4,259.0,"In fact, they all were since they were still popular.",10.0,partial,no,yes,scalar
+168,3395,16,trigger,focused,f_particle,221.0,Only some of my new bottles of vodka were opened.,10.0,full,no,no,focused
+169,3395,16,trigger,focused,f_quantifier,197.0,Only some of my new bottles of vodka were opened.,10.0,full,yes,no,focused
+170,3395,16,trigger,focused,f_ntw_1,225.5,Only some of my new bottles of vodka were opened.,10.0,full,no,no,focused
+171,3395,16,trigger,focused,f_ntw_2,240.0,Only some of my new bottles of vodka were opened.,10.0,full,no,no,focused
+172,3395,16,continuation,complement,c_anaphor,234.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,full,no,no,focused
+173,3395,16,continuation,complement,predicate,228.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,full,no,no,focused
+174,3395,16,continuation,complement,clause_boundary,204.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,full,no,no,focused
+175,3395,16,continuation,complement,c_ntw_1,225.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,full,no,no,focused
+176,3394,9,trigger,scalar,1_s_quantifier,500.5,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
+177,3394,9,trigger,scalar,2_s_ntw_1,455.5,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
+178,3394,9,trigger,scalar,3_s_ntw_2,513.0,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
+179,3394,9,continuation,cancelation,cancelation_1,535.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+180,3394,9,continuation,cancelation,cancelation_2,447.5,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+181,3394,9,continuation,cancelation,cancelation_3,432.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+182,3394,9,continuation,cancelation,cancelation_4,453.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+183,3394,23,trigger,focused,f_particle,607.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
+184,3394,23,trigger,focused,f_quantifier,478.5,Only some of the words sounded like they do in English.,11.0,partial,yes,no,focused
+185,3394,23,trigger,focused,f_ntw_1,490.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
+186,3394,23,trigger,focused,f_ntw_2,543.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
+187,3394,23,continuation,complement,c_anaphor,503.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+188,3394,23,continuation,complement,c_predicate,552.6666666666666,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+189,3394,23,continuation,complement,c_clause_boundary,620.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+190,3394,23,continuation,complement,c_ntw_1,397.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+191,3394,10,trigger,scalar,1_s_quantifier,368.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+192,3394,10,trigger,scalar,2_s_ntw_1,348.5,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+193,3394,10,trigger,scalar,3_s_ntw_2,340.5,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+194,3394,10,continuation,complement,c_anaphor,391.5,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+195,3394,10,continuation,complement,c_predicate,305.3333333333333,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+196,3394,10,continuation,complement,c_clause_boundary,336.0,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+197,3394,10,continuation,complement,c_ntw_1,354.5,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+198,3394,18,trigger,scalar,1_s_quantifier,382.0,Some of its problems were difficult.,6.0,full,no,yes,scalar
+199,3394,18,trigger,scalar,2_s_ntw_1,370.0,Some of its problems were difficult.,6.0,full,no,yes,scalar
+200,3394,18,trigger,scalar,3_s_ntw_2,413.0,Some of its problems were difficult.,6.0,full,no,yes,scalar
+201,3394,18,continuation,complement,c_anaphor,415.5,The others were straightforward and I feel like I learned a lot.,12.0,full,no,yes,scalar
+202,3394,18,continuation,complement,predicate,382.0,The others were straightforward and I feel like I learned a lot.,12.0,full,no,yes,scalar
+203,3394,18,continuation,complement,clause_boundary,433.0,The others were straightforward and I feel like I learned a lot.,12.0,full,no,yes,scalar
+204,3394,18,continuation,complement,c_ntw_1,363.5,The others were straightforward and I feel like I learned a lot.,12.0,full,no,yes,scalar
+205,3394,5,trigger,scalar,1_s_quantifier,630.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+206,3394,5,trigger,scalar,2_s_ntw_1,1774.0,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+207,3394,5,trigger,scalar,3_s_ntw_2,442.0,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+208,3394,5,continuation,complement,c_anaphor,370.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+209,3394,5,continuation,complement,predicate,673.5,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+210,3394,5,continuation,complement,c_ntw_1,363.5,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+211,3394,12,trigger,scalar,1_s_quantifier,392.5,Some of the dog’s teeth were missing.,7.0,partial,no,yes,scalar
+212,3394,12,trigger,scalar,2_s_ntw_1,351.5,Some of the dog’s teeth were missing.,7.0,partial,no,yes,scalar
+213,3394,12,trigger,scalar,3_s_ntw_2,381.0,Some of the dog’s teeth were missing.,7.0,partial,no,yes,scalar
+214,3394,12,continuation,cancelation,cancelation_1,435.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,partial,no,yes,scalar
+215,3394,12,continuation,cancelation,cancelation_2,370.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,partial,no,yes,scalar
+216,3394,12,continuation,cancelation,cancelation_3,330.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,partial,no,yes,scalar
+217,3394,12,continuation,cancelation,cancelation_4,283.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,partial,no,yes,scalar
+218,3394,16,trigger,scalar,1_s_quantifier,357.0,Some of my new bottles of vodka were opened.,9.0,full,no,yes,scalar
+219,3394,16,trigger,scalar,2_s_ntw_1,260.0,Some of my new bottles of vodka were opened.,9.0,full,no,yes,scalar
+220,3394,16,trigger,scalar,3_s_ntw_2,307.0,Some of my new bottles of vodka were opened.,9.0,full,no,yes,scalar
+221,3394,16,continuation,cancelation,cancelation_1,347.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,full,no,yes,scalar
+222,3394,16,continuation,cancelation,cancelation_2,282.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,full,no,yes,scalar
+223,3394,16,continuation,cancelation,cancelation_3,283.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,full,no,yes,scalar
+224,3394,16,continuation,cancelation,cancelation_4,338.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,full,no,yes,scalar
+225,3394,4,trigger,scalar,1_s_quantifier,242.0,Some of the passengers were still alive.,7.0,partial,no,yes,scalar
+226,3394,4,trigger,scalar,2_s_ntw_1,213.0,Some of the passengers were still alive.,7.0,partial,no,yes,scalar
+227,3394,4,trigger,scalar,3_s_ntw_2,292.5,Some of the passengers were still alive.,7.0,partial,no,yes,scalar
+228,3394,4,continuation,complement,c_anaphor,283.5,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+229,3394,4,continuation,complement,predicate,202.0,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+230,3394,4,continuation,complement,clause_boundary,192.0,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+231,3394,4,continuation,complement,c_ntw_1,204.0,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+232,3394,8,trigger,scalar,1_s_quantifier,276.0,Some of the leather couches had been sold.,8.0,full,no,yes,scalar
+233,3394,8,trigger,scalar,2_s_ntw_1,207.0,Some of the leather couches had been sold.,8.0,full,no,yes,scalar
+234,3394,8,trigger,scalar,3_s_ntw_2,304.5,Some of the leather couches had been sold.,8.0,full,no,yes,scalar
+235,3394,8,continuation,cancelation,cancelation_1,242.5,"In fact, they all had since they were stylish and cheap.",11.0,full,no,yes,scalar
+236,3394,8,continuation,cancelation,cancelation_2,238.5,"In fact, they all had since they were stylish and cheap.",11.0,full,no,yes,scalar
+237,3394,8,continuation,cancelation,cancelation_3,252.0,"In fact, they all had since they were stylish and cheap.",11.0,full,no,yes,scalar
+238,3394,8,continuation,cancelation,cancelation_4,258.0,"In fact, they all had since they were stylish and cheap.",11.0,full,no,yes,scalar
+239,3394,2,trigger,focused,f_particle,375.0,Only some of the residents had evacuated.,7.0,partial,no,no,focused
+240,3394,2,trigger,focused,f_quantifier,281.5,Only some of the residents had evacuated.,7.0,partial,yes,no,focused
+241,3394,2,trigger,focused,f_ntw_1,211.5,Only some of the residents had evacuated.,7.0,partial,no,no,focused
+242,3394,2,trigger,focused,f_ntw_2,262.0,Only some of the residents had evacuated.,7.0,partial,no,no,focused
+243,3394,2,continuation,complement,c_anaphor,270.0,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+244,3394,2,continuation,complement,c_predicate,198.33333333333334,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+245,3394,2,continuation,complement,c_clause_boundary,195.0,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+246,3394,2,continuation,complement,c_ntw_1,202.0,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+247,3394,15,trigger,scalar,1_s_quantifier,205.5,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+248,3394,15,trigger,scalar,2_s_ntw_1,209.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+249,3394,15,trigger,scalar,3_s_ntw_2,324.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+250,3394,15,continuation,complement,c_anaphor,196.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+251,3394,15,continuation,complement,predicate,178.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+252,3394,15,continuation,complement,clause_boundary,175.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+253,3394,15,continuation,complement,c_ntw_1,201.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+254,3394,20,trigger,scalar,1_s_quantifier,205.5,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+255,3394,20,trigger,scalar,2_s_ntw_1,217.5,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+256,3394,20,trigger,scalar,3_s_ntw_2,326.5,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+257,3394,20,continuation,cancelation,cancelation_1,191.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+258,3394,20,continuation,cancelation,cancelation_2,179.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+259,3394,20,continuation,cancelation,cancelation_3,182.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+260,3394,20,continuation,cancelation,cancelation_4,185.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+261,3394,24,trigger,scalar,1_s_quantifier,255.0,Some of my stocks went up.,6.0,full,no,yes,scalar
+262,3394,24,trigger,scalar,2_s_ntw_1,217.5,Some of my stocks went up.,6.0,full,no,yes,scalar
+263,3394,24,trigger,scalar,3_s_ntw_2,252.0,Some of my stocks went up.,6.0,full,no,yes,scalar
+264,3394,24,continuation,cancelation,cancelation_1,226.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+265,3394,24,continuation,cancelation,cancelation_2,201.5,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+266,3394,24,continuation,cancelation,cancelation_3,199.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+267,3394,24,continuation,cancelation,cancelation_4,215.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+268,3394,21,trigger,scalar,1_s_quantifier,243.5,Some of the dictionaries were labeled incorrectly.,7.0,partial,no,yes,scalar
+269,3394,21,trigger,scalar,2_s_ntw_1,243.0,Some of the dictionaries were labeled incorrectly.,7.0,partial,no,yes,scalar
+270,3394,21,trigger,scalar,3_s_ntw_2,299.5,Some of the dictionaries were labeled incorrectly.,7.0,partial,no,yes,scalar
+271,3394,21,continuation,complement,c_anaphor,220.5,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,yes,scalar
+272,3394,21,continuation,complement,c_predicate,205.66666666666666,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,yes,scalar
+273,3394,21,continuation,complement,c_clause_boundary,234.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,yes,scalar
+274,3394,21,continuation,complement,c_ntw_1,268.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,yes,scalar
+275,3394,13,trigger,scalar,1_s_quantifier,185.5,Some of its tires were flat.,6.0,partial,no,yes,scalar
+276,3394,13,trigger,scalar,2_s_ntw_1,192.5,Some of its tires were flat.,6.0,partial,no,yes,scalar
+277,3394,13,trigger,scalar,3_s_ntw_2,184.0,Some of its tires were flat.,6.0,partial,no,yes,scalar
+278,3394,13,continuation,complement,c_anaphor,201.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+279,3394,13,continuation,complement,predicate,203.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+280,3394,13,continuation,complement,clause_boundary,188.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+281,3394,13,continuation,complement,c_ntw_1,190.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+282,3394,19,trigger,focused,f_particle,219.0,"Today, only some of the liquid nitrogen containers needed to be refilled.",12.0,partial,no,no,focused
+283,3394,19,trigger,focused,f_quantifier,204.0,"Today, only some of the liquid nitrogen containers needed to be refilled.",12.0,partial,yes,no,focused
+284,3394,19,trigger,focused,f_ntw_1,208.0,"Today, only some of the liquid nitrogen containers needed to be refilled.",12.0,partial,no,no,focused
+285,3394,19,trigger,focused,f_ntw_2,210.5,"Today, only some of the liquid nitrogen containers needed to be refilled.",12.0,partial,no,no,focused
+286,3394,19,continuation,complement,c_anaphor,204.5,The others were normal but I decided to order more anyway.,11.0,partial,no,no,focused
+287,3394,19,continuation,complement,predicate,197.5,The others were normal but I decided to order more anyway.,11.0,partial,no,no,focused
+288,3394,19,continuation,complement,clause_boundary,220.0,The others were normal but I decided to order more anyway.,11.0,partial,no,no,focused
+289,3394,19,continuation,complement,c_ntw_1,220.0,The others were normal but I decided to order more anyway.,11.0,partial,no,no,focused
+290,3394,22,trigger,focused,f_particle,197.0,Only some of their losses were close.,7.0,partial,no,no,focused
+291,3394,22,trigger,focused,f_quantifier,190.0,Only some of their losses were close.,7.0,partial,yes,no,focused
+292,3394,22,trigger,focused,f_ntw_1,187.5,Only some of their losses were close.,7.0,partial,no,no,focused
+293,3394,22,trigger,focused,f_ntw_2,205.0,Only some of their losses were close.,7.0,partial,no,no,focused
+294,3394,22,continuation,complement,c_anaphor,190.5,The others were blowouts which made the games boring to watch.,11.0,partial,no,no,focused
+295,3394,22,continuation,complement,predicate,209.5,The others were blowouts which made the games boring to watch.,11.0,partial,no,no,focused
+296,3394,22,continuation,complement,clause_boundary,239.0,The others were blowouts which made the games boring to watch.,11.0,partial,no,no,focused
+297,3394,22,continuation,complement,c_ntw_1,371.5,The others were blowouts which made the games boring to watch.,11.0,partial,no,no,focused
+298,3394,7,trigger,focused,f_particle,233.0,Only some of the tourists got soaked by the rain storm.,11.0,full,no,no,focused
+299,3394,7,trigger,focused,f_quantifier,221.5,Only some of the tourists got soaked by the rain storm.,11.0,full,yes,no,focused
+300,3394,7,trigger,focused,f_ntw_1,223.5,Only some of the tourists got soaked by the rain storm.,11.0,full,no,no,focused
+301,3394,7,trigger,focused,f_ntw_2,226.5,Only some of the tourists got soaked by the rain storm.,11.0,full,no,no,focused
+302,3394,7,continuation,complement,c_anaphor,197.5,The rest were dry because they had remembered their umbrellas.,10.0,full,no,no,focused
+303,3394,7,continuation,complement,predicate,205.0,The rest were dry because they had remembered their umbrellas.,10.0,full,no,no,focused
+304,3394,7,continuation,complement,clause_boundary,210.0,The rest were dry because they had remembered their umbrellas.,10.0,full,no,no,focused
+305,3394,7,continuation,complement,c_ntw_1,216.5,The rest were dry because they had remembered their umbrellas.,10.0,full,no,no,focused
+306,3394,14,trigger,scalar,1_s_quantifier,198.0,Some of my predictions were correct.,6.0,partial,no,yes,scalar
+307,3394,14,trigger,scalar,2_s_ntw_1,228.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
+308,3394,14,trigger,scalar,3_s_ntw_2,291.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
+309,3394,14,continuation,cancelation,cancelation_1,185.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+310,3394,14,continuation,cancelation,cancelation_2,184.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+311,3394,14,continuation,cancelation,cancelation_3,180.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+312,3394,14,continuation,cancelation,cancelation_4,158.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+313,3394,6,trigger,focused,f_particle,181.0,Only some of our computers were infected.,7.0,full,no,no,focused
+314,3394,6,trigger,focused,f_quantifier,180.5,Only some of our computers were infected.,7.0,full,yes,no,focused
+315,3394,6,trigger,focused,f_ntw_1,179.5,Only some of our computers were infected.,7.0,full,no,no,focused
+316,3394,6,trigger,focused,f_ntw_2,191.5,Only some of our computers were infected.,7.0,full,no,no,focused
+317,3394,6,continuation,complement,c_anaphor,209.5,The rest were clean because their owners had been very cautious.,11.0,full,no,no,focused
+318,3394,6,continuation,complement,predicate,199.5,The rest were clean because their owners had been very cautious.,11.0,full,no,no,focused
+319,3394,6,continuation,complement,clause_boundary,188.0,The rest were clean because their owners had been very cautious.,11.0,full,no,no,focused
+320,3394,6,continuation,complement,c_ntw_1,197.0,The rest were clean because their owners had been very cautious.,11.0,full,no,no,focused
+321,3394,17,trigger,scalar,1_s_quantifier,213.0,Some of the steps were damaged.,6.0,full,no,yes,scalar
+322,3394,17,trigger,scalar,2_s_ntw_1,208.5,Some of the steps were damaged.,6.0,full,no,yes,scalar
+323,3394,17,trigger,scalar,3_s_ntw_2,232.0,Some of the steps were damaged.,6.0,full,no,yes,scalar
+324,3394,17,continuation,complement,c_anaphor,216.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+325,3394,17,continuation,complement,predicate,221.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+326,3394,17,continuation,complement,clause_boundary,207.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+327,3394,17,continuation,complement,c_ntw_1,212.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+328,3394,1,trigger,scalar,1_s_quantifier,190.0,Some of the gold watches were fakes.,7.0,partial,no,yes,scalar
+329,3394,1,trigger,scalar,2_s_ntw_1,203.5,Some of the gold watches were fakes.,7.0,partial,no,yes,scalar
+330,3394,1,trigger,scalar,3_s_ntw_2,209.5,Some of the gold watches were fakes.,7.0,partial,no,yes,scalar
+331,3394,1,continuation,cancelation,cancelation_1,205.0,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+332,3394,1,continuation,cancelation,cancelation_2,206.5,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+333,3394,1,continuation,cancelation,cancelation_3,212.0,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+334,3394,1,continuation,cancelation,cancelation_4,227.0,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+335,3394,11,trigger,focused,f_particle,195.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
+336,3394,11,trigger,focused,f_quantifier,192.0,Only some of the bottles of Chardonnay were missing.,9.0,full,yes,no,focused
+337,3394,11,trigger,focused,f_ntw_1,200.5,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
+338,3394,11,trigger,focused,f_ntw_2,207.5,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
+339,3394,11,continuation,complement,c_anaphor,203.5,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+340,3394,11,continuation,complement,predicate,209.5,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+341,3394,11,continuation,complement,clause_boundary,215.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+342,3394,11,continuation,complement,c_ntw_1,207.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+343,3394,3,trigger,focused,f_particle,183.0,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+344,3394,3,trigger,focused,f_quantifier,194.5,Only some of the company’s accountants were there.,8.0,full,yes,no,focused
+345,3394,3,trigger,focused,f_ntw_1,179.5,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+346,3394,3,trigger,focused,f_ntw_2,190.0,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+347,3394,3,continuation,complement,c_anaphor,200.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+348,3394,3,continuation,complement,predicate,209.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+349,3394,3,continuation,complement,clause_boundary,184.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+350,3394,3,continuation,complement,c_ntw_1,200.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+351,3384,16,trigger,focused,f_particle,222.0,Only some of my new bottles of vodka were opened.,10.0,partial,no,no,focused
+352,3384,16,trigger,focused,f_quantifier,240.5,Only some of my new bottles of vodka were opened.,10.0,partial,yes,no,focused
+353,3384,16,trigger,focused,f_ntw_1,247.5,Only some of my new bottles of vodka were opened.,10.0,partial,no,no,focused
+354,3384,16,trigger,focused,f_ntw_2,245.0,Only some of my new bottles of vodka were opened.,10.0,partial,no,no,focused
+355,3384,16,continuation,complement,c_anaphor,260.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,no,focused
+356,3384,16,continuation,complement,predicate,243.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,no,focused
+357,3384,16,continuation,complement,clause_boundary,257.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,no,focused
+358,3384,16,continuation,complement,c_ntw_1,251.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,no,focused
+359,3384,18,trigger,scalar,1_s_quantifier,274.0,Some of its problems were difficult.,6.0,full,no,yes,scalar
+360,3384,18,trigger,scalar,2_s_ntw_1,246.0,Some of its problems were difficult.,6.0,full,no,yes,scalar
+361,3384,18,trigger,scalar,3_s_ntw_2,292.5,Some of its problems were difficult.,6.0,full,no,yes,scalar
+362,3384,18,continuation,cancelation,cancelation_1,400.5,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+363,3384,18,continuation,cancelation,cancelation_2,265.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+364,3384,18,continuation,cancelation,cancelation_3,276.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+365,3384,18,continuation,cancelation,cancelation_4,478.0,"In fact, they all were but it received a positive review anyway.",12.0,full,no,yes,scalar
+366,3384,21,trigger,focused,f_particle,228.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
+367,3384,21,trigger,focused,f_quantifier,372.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,yes,no,focused
+368,3384,21,trigger,focused,f_ntw_1,255.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
+369,3384,21,trigger,focused,f_ntw_2,395.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
+370,3384,21,continuation,complement,c_anaphor,242.5,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+371,3384,21,continuation,complement,c_predicate,251.33333333333334,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+372,3384,21,continuation,complement,c_clause_boundary,267.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+373,3384,21,continuation,complement,c_ntw_1,267.5,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+374,3384,17,trigger,scalar,1_s_quantifier,266.5,Some of the steps were damaged.,6.0,partial,no,yes,scalar
+375,3384,17,trigger,scalar,2_s_ntw_1,39.5,Some of the steps were damaged.,6.0,partial,no,yes,scalar
+376,3384,17,trigger,scalar,3_s_ntw_2,31.5,Some of the steps were damaged.,6.0,partial,no,yes,scalar
+377,3384,17,continuation,cancelation,cancelation_1,243.5,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+378,3384,17,continuation,cancelation,cancelation_2,270.5,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+379,3384,17,continuation,cancelation,cancelation_3,242.0,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+380,3384,17,continuation,cancelation,cancelation_4,241.0,"In fact, they all were so they will require extensive repairs.",11.0,partial,no,yes,scalar
+381,3384,13,trigger,focused,f_particle,246.0,Only some of its tires were flat.,7.0,partial,no,no,focused
+382,3384,13,trigger,focused,f_quantifier,254.0,Only some of its tires were flat.,7.0,partial,yes,no,focused
+383,3384,13,trigger,focused,f_ntw_1,270.5,Only some of its tires were flat.,7.0,partial,no,no,focused
+384,3384,13,trigger,focused,f_ntw_2,271.0,Only some of its tires were flat.,7.0,partial,no,no,focused
+385,3384,13,continuation,complement,c_anaphor,241.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,no,focused
+386,3384,13,continuation,complement,predicate,252.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,no,focused
+387,3384,13,continuation,complement,clause_boundary,235.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,no,focused
+388,3384,13,continuation,complement,c_ntw_1,250.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,no,focused
+389,3384,1,trigger,scalar,1_s_quantifier,233.5,Some of the gold watches were fakes.,7.0,partial,no,yes,scalar
+390,3384,1,trigger,scalar,2_s_ntw_1,232.0,Some of the gold watches were fakes.,7.0,partial,no,yes,scalar
+391,3384,1,trigger,scalar,3_s_ntw_2,245.0,Some of the gold watches were fakes.,7.0,partial,no,yes,scalar
+392,3384,1,continuation,cancelation,cancelation_1,256.5,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+393,3384,1,continuation,cancelation,cancelation_2,240.0,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+394,3384,1,continuation,cancelation,cancelation_3,247.0,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+395,3384,1,continuation,cancelation,cancelation_4,267.0,"In fact, they all were, so the company is planning to sue.",12.0,partial,no,yes,scalar
+396,3384,3,trigger,focused,f_particle,241.0,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+397,3384,3,trigger,focused,f_quantifier,241.5,Only some of the company’s accountants were there.,8.0,full,yes,no,focused
+398,3384,3,trigger,focused,f_ntw_1,240.5,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+399,3384,3,trigger,focused,f_ntw_2,246.0,Only some of the company’s accountants were there.,8.0,full,no,no,focused
+400,3384,3,continuation,complement,c_anaphor,230.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+401,3384,3,continuation,complement,predicate,243.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+402,3384,3,continuation,complement,clause_boundary,231.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+403,3384,3,continuation,complement,c_ntw_1,239.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,full,no,no,focused
+404,3384,23,trigger,scalar,1_s_quantifier,243.5,Some of the words sounded like they do in English.,10.0,full,no,yes,scalar
+405,3384,23,trigger,scalar,2_s_ntw_1,252.0,Some of the words sounded like they do in English.,10.0,full,no,yes,scalar
+406,3384,23,trigger,scalar,3_s_ntw_2,252.0,Some of the words sounded like they do in English.,10.0,full,no,yes,scalar
+407,3384,23,continuation,complement,c_anaphor,256.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,full,no,yes,scalar
+408,3384,23,continuation,complement,c_predicate,233.33333333333334,The others were totally unfamiliar which made the test somewhat challenging.,11.0,full,no,yes,scalar
+409,3384,23,continuation,complement,c_clause_boundary,240.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,full,no,yes,scalar
+410,3384,23,continuation,complement,c_ntw_1,251.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,full,no,yes,scalar
+411,3384,5,trigger,scalar,1_s_quantifier,228.0,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+412,3384,5,trigger,scalar,2_s_ntw_1,244.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+413,3384,5,trigger,scalar,3_s_ntw_2,248.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+414,3384,5,continuation,complement,c_anaphor,233.5,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+415,3384,5,continuation,complement,predicate,273.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+416,3384,5,continuation,complement,clause_boundary,455.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+417,3384,5,continuation,complement,c_ntw_1,243.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+418,3384,19,trigger,scalar,1_s_quantifier,260.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+419,3384,19,trigger,scalar,2_s_ntw_1,258.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+420,3384,19,trigger,scalar,3_s_ntw_2,268.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+421,3384,19,continuation,complement,c_anaphor,240.0,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+422,3384,19,continuation,complement,predicate,249.0,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+423,3384,19,continuation,complement,clause_boundary,218.0,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+424,3384,19,continuation,complement,c_ntw_1,250.0,The others were normal but I decided to order more anyway.,11.0,partial,no,yes,scalar
+425,3384,7,trigger,scalar,1_s_quantifier,234.5,Some of the tourists got soaked by the rain storm.,10.0,full,no,yes,scalar
+426,3384,7,trigger,scalar,2_s_ntw_1,236.5,Some of the tourists got soaked by the rain storm.,10.0,full,no,yes,scalar
+427,3384,7,trigger,scalar,3_s_ntw_2,241.5,Some of the tourists got soaked by the rain storm.,10.0,full,no,yes,scalar
+428,3384,7,continuation,cancelation,cancelation_1,241.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,full,no,yes,scalar
+429,3384,7,continuation,cancelation,cancelation_2,251.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,full,no,yes,scalar
+430,3384,7,continuation,cancelation,cancelation_3,290.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,full,no,yes,scalar
+431,3384,7,continuation,cancelation,cancelation_4,238.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,full,no,yes,scalar
+432,3384,14,trigger,focused,f_particle,264.0,Only some of my predictions were correct.,7.0,full,no,no,focused
+433,3384,14,trigger,focused,f_quantifier,283.0,Only some of my predictions were correct.,7.0,full,yes,no,focused
+434,3384,14,trigger,focused,f_ntw_1,264.0,Only some of my predictions were correct.,7.0,full,no,no,focused
+435,3384,14,trigger,focused,f_ntw_2,287.5,Only some of my predictions were correct.,7.0,full,no,no,focused
+436,3384,14,continuation,complement,c_anaphor,261.5,The rest were wrong so my theory must be mistaken.,10.0,full,no,no,focused
+437,3384,14,continuation,complement,predicate,261.0,The rest were wrong so my theory must be mistaken.,10.0,full,no,no,focused
+438,3384,14,continuation,complement,clause_boundary,248.0,The rest were wrong so my theory must be mistaken.,10.0,full,no,no,focused
+439,3384,14,continuation,complement,c_ntw_1,269.0,The rest were wrong so my theory must be mistaken.,10.0,full,no,no,focused
+440,3384,2,trigger,scalar,1_s_quantifier,231.5,Some of the residents had evacuated.,6.0,partial,no,yes,scalar
+441,3384,2,trigger,scalar,2_s_ntw_1,237.5,Some of the residents had evacuated.,6.0,partial,no,yes,scalar
+442,3384,2,trigger,scalar,3_s_ntw_2,218.0,Some of the residents had evacuated.,6.0,partial,no,yes,scalar
+443,3384,2,continuation,cancelation,cancelation_1,219.0,"In fact, they all did and, as a result, they survived the storm.",13.0,partial,no,yes,scalar
+444,3384,2,continuation,cancelation,cancelation_2,235.0,"In fact, they all did and, as a result, they survived the storm.",13.0,partial,no,yes,scalar
+445,3384,2,continuation,cancelation,cancelation_3,234.0,"In fact, they all did and, as a result, they survived the storm.",13.0,partial,no,yes,scalar
+446,3384,2,continuation,cancelation,cancelation_4,246.0,"In fact, they all did and, as a result, they survived the storm.",13.0,partial,no,yes,scalar
+447,3384,9,trigger,scalar,1_s_quantifier,225.5,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+448,3384,9,trigger,scalar,2_s_ntw_1,224.5,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+449,3384,9,trigger,scalar,3_s_ntw_2,249.0,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+450,3384,9,continuation,complement,c_anaphor,234.5,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+451,3384,9,continuation,complement,predicate,243.5,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+452,3384,9,continuation,complement,clause_boundary,213.0,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+453,3384,9,continuation,complement,c_ntw_1,232.0,The rest were mild and I found them to be bland.,11.0,full,no,yes,scalar
+454,3384,6,trigger,scalar,1_s_quantifier,243.0,Some of our computers were infected.,6.0,full,no,yes,scalar
+455,3384,6,trigger,scalar,2_s_ntw_1,248.5,Some of our computers were infected.,6.0,full,no,yes,scalar
+456,3384,6,trigger,scalar,3_s_ntw_2,265.0,Some of our computers were infected.,6.0,full,no,yes,scalar
+457,3384,6,continuation,cancelation,cancelation_1,244.5,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+458,3384,6,continuation,cancelation,cancelation_2,255.5,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+459,3384,6,continuation,cancelation,cancelation_3,265.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+460,3384,6,continuation,cancelation,cancelation_4,226.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+461,3384,8,trigger,focused,f_particle,235.0,Only some of the leather couches had been sold.,9.0,partial,no,no,focused
+462,3384,8,trigger,focused,f_quantifier,263.0,Only some of the leather couches had been sold.,9.0,partial,yes,no,focused
+463,3384,8,trigger,focused,f_ntw_1,267.5,Only some of the leather couches had been sold.,9.0,partial,no,no,focused
+464,3384,8,trigger,focused,f_ntw_2,283.5,Only some of the leather couches had been sold.,9.0,partial,no,no,focused
+465,3384,8,continuation,complement,c_anaphor,245.0,The rest were going to be stored in the warehouse until the following season.,14.0,partial,no,no,focused
+466,3384,8,continuation,complement,predicate,264.625,The rest were going to be stored in the warehouse until the following season.,14.0,partial,no,no,focused
+467,3384,8,continuation,complement,clause_boundary,266.0,The rest were going to be stored in the warehouse until the following season.,14.0,partial,no,no,focused
+468,3384,8,continuation,complement,c_ntw_1,262.0,The rest were going to be stored in the warehouse until the following season.,14.0,partial,no,no,focused
+469,3384,20,trigger,scalar,1_s_quantifier,253.5,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+470,3384,20,trigger,scalar,2_s_ntw_1,271.0,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+471,3384,20,trigger,scalar,3_s_ntw_2,284.0,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+472,3384,20,continuation,cancelation,cancelation_1,320.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+473,3384,20,continuation,cancelation,cancelation_2,327.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+474,3384,20,continuation,cancelation,cancelation_3,274.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+475,3384,20,continuation,cancelation,cancelation_4,595.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,full,no,yes,scalar
+476,3384,12,trigger,scalar,1_s_quantifier,261.5,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
+477,3384,12,trigger,scalar,2_s_ntw_1,308.5,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
+478,3384,12,trigger,scalar,3_s_ntw_2,549.0,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
+479,3384,12,continuation,complement,c_anaphor,343.5,The rest were intact so it should still be able to eat solid food.,14.0,full,no,yes,scalar
+480,3384,12,continuation,complement,predicate,619.5,The rest were intact so it should still be able to eat solid food.,14.0,full,no,yes,scalar
+481,3384,12,continuation,complement,clause_boundary,308.0,The rest were intact so it should still be able to eat solid food.,14.0,full,no,yes,scalar
+482,3384,12,continuation,complement,c_ntw_1,306.0,The rest were intact so it should still be able to eat solid food.,14.0,full,no,yes,scalar
+483,3384,11,trigger,focused,f_particle,235.0,Only some of the bottles of Chardonnay were missing.,9.0,partial,no,no,focused
+484,3384,11,trigger,focused,f_quantifier,208.0,Only some of the bottles of Chardonnay were missing.,9.0,partial,yes,no,focused
+485,3384,11,trigger,focused,f_ntw_1,237.5,Only some of the bottles of Chardonnay were missing.,9.0,partial,no,no,focused
+486,3384,11,trigger,focused,f_ntw_2,234.5,Only some of the bottles of Chardonnay were missing.,9.0,partial,no,no,focused
+487,3384,11,continuation,complement,c_anaphor,231.5,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+488,3384,11,continuation,complement,predicate,324.0,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+489,3384,11,continuation,complement,clause_boundary,230.0,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+490,3384,11,continuation,complement,c_ntw_1,226.0,The rest were safe but I was still extremely upset.,10.0,partial,no,no,focused
+491,3384,15,trigger,scalar,1_s_quantifier,378.5,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
+492,3384,15,trigger,scalar,2_s_ntw_1,241.5,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
+493,3384,15,trigger,scalar,3_s_ntw_2,239.5,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
+494,3384,15,continuation,cancelation,cancelation_1,231.0,"In fact, they all were because my family loves luxurious holidays.",11.0,partial,no,yes,scalar
+495,3384,15,continuation,cancelation,cancelation_2,244.0,"In fact, they all were because my family loves luxurious holidays.",11.0,partial,no,yes,scalar
+496,3384,15,continuation,cancelation,cancelation_3,237.0,"In fact, they all were because my family loves luxurious holidays.",11.0,partial,no,yes,scalar
+497,3384,15,continuation,cancelation,cancelation_4,208.0,"In fact, they all were because my family loves luxurious holidays.",11.0,partial,no,yes,scalar
+498,3384,24,trigger,scalar,1_s_quantifier,264.0,Some of my stocks went up.,6.0,partial,no,yes,scalar
+499,3384,24,trigger,scalar,2_s_ntw_1,240.0,Some of my stocks went up.,6.0,partial,no,yes,scalar
+500,3384,24,trigger,scalar,3_s_ntw_2,255.0,Some of my stocks went up.,6.0,partial,no,yes,scalar
+501,3384,24,continuation,complement,c_anaphor,431.0,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,yes,scalar
+502,3384,24,continuation,complement,c_predicate,238.0,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,yes,scalar
+503,3384,24,continuation,complement,c_clause_boundary,209.0,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,yes,scalar
+504,3384,24,continuation,complement,c_ntw_1,213.0,The others were relatively steady but my portfolio was still down for the year.,14.0,partial,no,yes,scalar
+505,3384,10,trigger,focused,f_particle,245.0,Only some of my favorite rides were still running.,9.0,full,no,no,focused
+506,3384,10,trigger,focused,f_quantifier,204.0,Only some of my favorite rides were still running.,9.0,full,yes,no,focused
+507,3384,10,trigger,focused,f_ntw_1,224.0,Only some of my favorite rides were still running.,9.0,full,no,no,focused
+508,3384,10,trigger,focused,f_ntw_2,221.0,Only some of my favorite rides were still running.,9.0,full,no,no,focused
+509,3384,10,continuation,complement,c_anaphor,221.5,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+510,3384,10,continuation,complement,c_predicate,229.0,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+511,3384,10,continuation,complement,c_clause_boundary,212.0,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+512,3384,10,continuation,complement,c_ntw_1,229.5,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+513,3384,4,trigger,scalar,1_s_quantifier,304.0,Some of the passengers were still alive.,7.0,partial,no,yes,scalar
+514,3384,4,trigger,scalar,2_s_ntw_1,350.0,Some of the passengers were still alive.,7.0,partial,no,yes,scalar
+515,3384,4,trigger,scalar,3_s_ntw_2,394.5,Some of the passengers were still alive.,7.0,partial,no,yes,scalar
+516,3384,4,continuation,complement,c_anaphor,372.5,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+517,3384,4,continuation,complement,predicate,193.0,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+518,3384,4,continuation,complement,clause_boundary,251.0,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+519,3384,4,continuation,complement,c_ntw_1,216.0,The others were killed on impact and there was no opportunity to save them.,14.0,partial,no,yes,scalar
+520,3384,22,trigger,scalar,1_s_quantifier,232.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+521,3384,22,trigger,scalar,2_s_ntw_1,348.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+522,3384,22,trigger,scalar,3_s_ntw_2,267.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+523,3384,22,continuation,complement,c_anaphor,250.0,The others were blowouts which made the games boring to watch.,11.0,partial,no,yes,scalar
+524,3384,22,continuation,complement,predicate,259.5,The others were blowouts which made the games boring to watch.,11.0,partial,no,yes,scalar
+525,3384,22,continuation,complement,c_ntw_1,249.0,The others were blowouts which made the games boring to watch.,11.0,partial,no,yes,scalar
+526,3280,3,trigger,scalar,1_s_quantifier,436.0,Some of the company’s accountants were there.,7.0,partial,no,yes,scalar
+527,3280,3,trigger,scalar,2_s_ntw_1,468.5,Some of the company’s accountants were there.,7.0,partial,no,yes,scalar
+528,3280,3,trigger,scalar,3_s_ntw_2,771.5,Some of the company’s accountants were there.,7.0,partial,no,yes,scalar
+529,3280,3,continuation,complement,c_anaphor,404.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
+530,3280,3,continuation,complement,predicate,547.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
+531,3280,3,continuation,complement,clause_boundary,756.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
+532,3280,3,continuation,complement,c_ntw_1,508.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,yes,scalar
+533,3280,11,trigger,focused,f_particle,453.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
+534,3280,11,trigger,focused,f_quantifier,332.0,Only some of the bottles of Chardonnay were missing.,9.0,full,yes,no,focused
+535,3280,11,trigger,focused,f_ntw_1,312.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
+536,3280,11,trigger,focused,f_ntw_2,352.0,Only some of the bottles of Chardonnay were missing.,9.0,full,no,no,focused
+537,3280,11,continuation,complement,c_anaphor,392.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+538,3280,11,continuation,complement,predicate,372.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+539,3280,11,continuation,complement,clause_boundary,325.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+540,3280,11,continuation,complement,c_ntw_1,348.0,The rest were safe but I was still extremely upset.,10.0,full,no,no,focused
+541,3280,8,trigger,focused,f_particle,413.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
+542,3280,8,trigger,focused,f_quantifier,312.0,Only some of the leather couches had been sold.,9.0,full,yes,no,focused
+543,3280,8,trigger,focused,f_ntw_1,308.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
+544,3280,8,trigger,focused,f_ntw_2,420.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
+545,3280,8,continuation,complement,c_anaphor,260.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+546,3280,8,continuation,complement,predicate,373.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+547,3280,8,continuation,complement,clause_boundary,427.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+548,3280,8,continuation,complement,c_ntw_1,416.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+549,3280,7,trigger,scalar,1_s_quantifier,336.0,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
+550,3280,7,trigger,scalar,2_s_ntw_1,316.0,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
+551,3280,7,trigger,scalar,3_s_ntw_2,339.5,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
+552,3280,7,continuation,cancelation,cancelation_1,300.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
+553,3280,7,continuation,cancelation,cancelation_2,311.5,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
+554,3280,7,continuation,cancelation,cancelation_3,318.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
+555,3280,7,continuation,cancelation,cancelation_4,355.0,"In fact, they all did because they had forgotten their umbrellas.",11.0,partial,no,yes,scalar
+556,3280,5,trigger,focused,f_particle,307.0,Only some of the real estate investments lost money.,9.0,full,no,no,focused
+557,3280,5,trigger,focused,f_quantifier,303.5,Only some of the real estate investments lost money.,9.0,full,yes,no,focused
+558,3280,5,trigger,focused,f_ntw_1,356.0,Only some of the real estate investments lost money.,9.0,full,no,no,focused
+559,3280,5,trigger,focused,f_ntw_2,348.5,Only some of the real estate investments lost money.,9.0,full,no,no,focused
+560,3280,5,continuation,complement,c_anaphor,307.5,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+561,3280,5,continuation,complement,predicate,440.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+562,3280,5,continuation,complement,clause_boundary,388.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+563,3280,5,continuation,complement,c_ntw_1,472.0,The others were successful despite the recent economic downturn.,9.0,full,no,no,focused
+564,3280,14,trigger,focused,f_particle,347.0,Only some of my predictions were correct.,7.0,partial,no,no,focused
+565,3280,14,trigger,focused,f_quantifier,347.5,Only some of my predictions were correct.,7.0,partial,yes,no,focused
+566,3280,14,trigger,focused,f_ntw_1,364.0,Only some of my predictions were correct.,7.0,partial,no,no,focused
+567,3280,14,trigger,focused,f_ntw_2,387.5,Only some of my predictions were correct.,7.0,partial,no,no,focused
+568,3280,14,continuation,complement,c_anaphor,315.5,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
+569,3280,14,continuation,complement,predicate,540.5,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
+570,3280,14,continuation,complement,clause_boundary,341.0,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
+571,3280,14,continuation,complement,c_ntw_1,376.0,The rest were wrong so my theory must be mistaken.,10.0,partial,no,no,focused
+572,3280,1,trigger,scalar,1_s_quantifier,359.5,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+573,3280,1,trigger,scalar,2_s_ntw_1,356.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+574,3280,1,trigger,scalar,3_s_ntw_2,488.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+575,3280,1,continuation,cancelation,cancelation_1,364.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+576,3280,1,continuation,cancelation,cancelation_2,363.5,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+577,3280,1,continuation,cancelation,cancelation_3,357.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+578,3280,1,continuation,cancelation,cancelation_4,347.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+579,3280,18,trigger,scalar,1_s_quantifier,320.0,Some of its problems were difficult.,6.0,partial,no,yes,scalar
+580,3280,18,trigger,scalar,2_s_ntw_1,312.0,Some of its problems were difficult.,6.0,partial,no,yes,scalar
+581,3280,18,trigger,scalar,3_s_ntw_2,504.0,Some of its problems were difficult.,6.0,partial,no,yes,scalar
+582,3280,18,continuation,complement,c_anaphor,312.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
+583,3280,18,continuation,complement,predicate,340.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
+584,3280,18,continuation,complement,clause_boundary,485.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
+585,3280,18,continuation,complement,c_ntw_1,344.0,The others were straightforward and I feel like I learned a lot.,12.0,partial,no,yes,scalar
+586,3280,15,trigger,scalar,1_s_quantifier,352.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+587,3280,15,trigger,scalar,2_s_ntw_1,316.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+588,3280,15,trigger,scalar,3_s_ntw_2,360.0,Some of their hotels were expensive.,6.0,full,no,yes,scalar
+589,3280,15,continuation,complement,c_anaphor,372.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+590,3280,15,continuation,complement,predicate,332.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+591,3280,15,continuation,complement,clause_boundary,293.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+592,3280,15,continuation,complement,c_ntw_1,304.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,full,no,yes,scalar
+593,3280,9,trigger,scalar,1_s_quantifier,284.0,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+594,3280,9,trigger,scalar,2_s_ntw_1,300.0,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+595,3280,9,trigger,scalar,3_s_ntw_2,392.5,Some of the dishes were spicy.,6.0,full,no,yes,scalar
+596,3280,9,continuation,cancelation,cancelation_1,288.5,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
+597,3280,9,continuation,cancelation,cancelation_2,308.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
+598,3280,9,continuation,cancelation,cancelation_3,299.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
+599,3280,9,continuation,cancelation,cancelation_4,285.0,"In fact, they all were but fortunately I love spicy food.",11.0,full,no,yes,scalar
+600,3280,21,trigger,focused,f_particle,307.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,no,no,focused
+601,3280,21,trigger,focused,f_quantifier,284.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,yes,no,focused
+602,3280,21,trigger,focused,f_ntw_1,252.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,no,no,focused
+603,3280,21,trigger,focused,f_ntw_2,364.0,Only some of the dictionaries were labeled incorrectly.,8.0,partial,no,no,focused
+604,3280,21,continuation,complement,c_anaphor,280.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
+605,3280,21,continuation,complement,c_predicate,292.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
+606,3280,21,continuation,complement,c_clause_boundary,412.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
+607,3280,21,continuation,complement,c_ntw_1,480.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,partial,no,no,focused
+608,3280,4,trigger,scalar,1_s_quantifier,332.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+609,3280,4,trigger,scalar,2_s_ntw_1,336.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+610,3280,4,trigger,scalar,3_s_ntw_2,332.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+611,3280,4,continuation,cancelation,cancelation_1,316.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
+612,3280,4,continuation,cancelation,cancelation_2,300.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
+613,3280,4,continuation,cancelation,cancelation_3,309.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
+614,3280,4,continuation,cancelation,cancelation_4,299.0,"In fact, they all were and none were critically injured.",10.0,full,no,yes,scalar
+615,3280,12,trigger,focused,f_particle,332.0,Only some of the dog’s teeth were missing.,8.0,partial,no,no,focused
+616,3280,12,trigger,focused,f_quantifier,344.0,Only some of the dog’s teeth were missing.,8.0,partial,yes,no,focused
+617,3280,12,trigger,focused,f_ntw_1,332.0,Only some of the dog’s teeth were missing.,8.0,partial,no,no,focused
+618,3280,12,trigger,focused,f_ntw_2,340.0,Only some of the dog’s teeth were missing.,8.0,partial,no,no,focused
+619,3280,12,continuation,complement,c_anaphor,336.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
+620,3280,12,continuation,complement,predicate,359.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
+621,3280,12,continuation,complement,clause_boundary,365.0,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
+622,3280,12,continuation,complement,c_ntw_1,371.5,The rest were intact so it should still be able to eat solid food.,14.0,partial,no,no,focused
+623,3280,17,trigger,scalar,1_s_quantifier,339.5,Some of the steps were damaged.,6.0,full,no,yes,scalar
+624,3280,17,trigger,scalar,2_s_ntw_1,316.5,Some of the steps were damaged.,6.0,full,no,yes,scalar
+625,3280,17,trigger,scalar,3_s_ntw_2,311.5,Some of the steps were damaged.,6.0,full,no,yes,scalar
+626,3280,17,continuation,complement,c_anaphor,360.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+627,3280,17,continuation,complement,predicate,348.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+628,3280,17,continuation,complement,clause_boundary,349.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+629,3280,17,continuation,complement,c_ntw_1,336.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,full,no,yes,scalar
+630,3280,6,trigger,scalar,1_s_quantifier,324.0,Some of our computers were infected.,6.0,full,no,yes,scalar
+631,3280,6,trigger,scalar,2_s_ntw_1,384.0,Some of our computers were infected.,6.0,full,no,yes,scalar
+632,3280,6,trigger,scalar,3_s_ntw_2,332.0,Some of our computers were infected.,6.0,full,no,yes,scalar
+633,3280,6,continuation,cancelation,cancelation_1,380.5,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+634,3280,6,continuation,cancelation,cancelation_2,347.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+635,3280,6,continuation,cancelation,cancelation_3,302.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+636,3280,6,continuation,cancelation,cancelation_4,379.0,"In fact, they all were and the virus nearly destroyed the whole system.",13.0,full,no,yes,scalar
+637,3280,20,trigger,scalar,1_s_quantifier,468.0,Some of the honors students received prizes.,7.0,partial,no,yes,scalar
+638,3280,20,trigger,scalar,2_s_ntw_1,500.0,Some of the honors students received prizes.,7.0,partial,no,yes,scalar
+639,3280,20,trigger,scalar,3_s_ntw_2,531.5,Some of the honors students received prizes.,7.0,partial,no,yes,scalar
+640,3280,20,continuation,cancelation,cancelation_1,352.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
+641,3280,20,continuation,cancelation,cancelation_2,299.5,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
+642,3280,20,continuation,cancelation,cancelation_3,316.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
+643,3280,20,continuation,cancelation,cancelation_4,276.0,"In fact, they all did because the teachers didn’t want any of them to feel left out.",17.0,partial,no,yes,scalar
+644,3280,2,trigger,scalar,1_s_quantifier,296.0,Some of the residents had evacuated.,6.0,full,no,yes,scalar
+645,3280,2,trigger,scalar,2_s_ntw_1,308.0,Some of the residents had evacuated.,6.0,full,no,yes,scalar
+646,3280,2,trigger,scalar,3_s_ntw_2,351.5,Some of the residents had evacuated.,6.0,full,no,yes,scalar
+647,3280,2,continuation,complement,c_anaphor,272.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
+648,3280,2,continuation,complement,c_predicate,334.3333333333333,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
+649,3280,2,continuation,complement,c_clause_boundary,293.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
+650,3280,2,continuation,complement,c_ntw_1,400.0,The rest stayed at home and foolishly risked their lives.,10.0,full,no,yes,scalar
+651,3280,24,trigger,focused,f_particle,342.0,Only some of my stocks went up.,7.0,full,no,no,focused
+652,3280,24,trigger,focused,f_quantifier,408.0,Only some of my stocks went up.,7.0,full,yes,no,focused
+653,3280,24,trigger,focused,f_ntw_1,312.0,Only some of my stocks went up.,7.0,full,no,no,focused
+654,3280,24,trigger,focused,f_ntw_2,392.5,Only some of my stocks went up.,7.0,full,no,no,focused
+655,3280,24,continuation,complement,c_anaphor,308.0,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
+656,3280,24,continuation,complement,c_predicate,355.6666666666667,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
+657,3280,24,continuation,complement,c_clause_boundary,608.0,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
+658,3280,24,continuation,complement,c_ntw_1,366.5,The others were relatively steady but my portfolio was still down for the year.,14.0,full,no,no,focused
+659,3280,13,trigger,scalar,1_s_quantifier,280.0,Some of its tires were flat.,6.0,full,no,yes,scalar
+660,3280,13,trigger,scalar,2_s_ntw_1,300.0,Some of its tires were flat.,6.0,full,no,yes,scalar
+661,3280,13,trigger,scalar,3_s_ntw_2,392.0,Some of its tires were flat.,6.0,full,no,yes,scalar
+662,3280,13,continuation,complement,c_anaphor,292.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
+663,3280,13,continuation,complement,predicate,280.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
+664,3280,13,continuation,complement,clause_boundary,331.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
+665,3280,13,continuation,complement,c_ntw_1,288.0,The others were fine so it would not cost too much to fix it.,14.0,full,no,yes,scalar
+666,3280,19,trigger,scalar,1_s_quantifier,356.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+667,3280,19,trigger,scalar,2_s_ntw_1,476.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+668,3280,19,trigger,scalar,3_s_ntw_2,476.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,partial,no,yes,scalar
+669,3280,19,continuation,cancelation,cancelation_1,348.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
+670,3280,19,continuation,cancelation,cancelation_2,272.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
+671,3280,19,continuation,cancelation,cancelation_3,172.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
+672,3280,19,continuation,cancelation,cancelation_4,203.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,partial,no,yes,scalar
+673,3280,16,trigger,scalar,1_s_quantifier,308.0,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
+674,3280,16,trigger,scalar,2_s_ntw_1,255.5,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
+675,3280,16,trigger,scalar,3_s_ntw_2,312.0,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
+676,3280,16,continuation,complement,c_anaphor,328.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
+677,3280,16,continuation,complement,predicate,332.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
+678,3280,16,continuation,complement,clause_boundary,437.0,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
+679,3280,16,continuation,complement,c_ntw_1,312.5,"The others were untouched, but I was still concerned and decided to call her parents.",15.0,partial,no,yes,scalar
+680,3280,23,trigger,focused,f_particle,229.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
+681,3280,23,trigger,focused,f_quantifier,275.5,Only some of the words sounded like they do in English.,11.0,partial,yes,no,focused
+682,3280,23,trigger,focused,f_ntw_1,240.5,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
+683,3280,23,trigger,focused,f_ntw_2,284.0,Only some of the words sounded like they do in English.,11.0,partial,no,no,focused
+684,3280,23,continuation,complement,c_anaphor,231.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+685,3280,23,continuation,complement,c_predicate,246.33333333333334,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+686,3280,23,continuation,complement,c_clause_boundary,294.0,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+687,3280,23,continuation,complement,c_ntw_1,303.5,The others were totally unfamiliar which made the test somewhat challenging.,11.0,partial,no,no,focused
+688,3280,22,trigger,scalar,1_s_quantifier,267.5,Some of their losses were close.,6.0,partial,no,yes,scalar
+689,3280,22,trigger,scalar,2_s_ntw_1,292.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+690,3280,22,trigger,scalar,3_s_ntw_2,332.0,Some of their losses were close.,6.0,partial,no,yes,scalar
+691,3280,22,continuation,cancelation,cancelation_1,264.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+692,3280,22,continuation,cancelation,cancelation_2,272.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+693,3280,22,continuation,cancelation,cancelation_3,267.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+694,3280,22,continuation,cancelation,cancelation_4,253.0,"In fact, they all were which made the games stressful to watch.",12.0,partial,no,yes,scalar
+695,3280,10,trigger,scalar,1_s_quantifier,307.5,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+696,3280,10,trigger,scalar,2_s_ntw_1,312.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+697,3280,10,trigger,scalar,3_s_ntw_2,320.0,Some of my favorite rides were still running.,8.0,partial,no,yes,scalar
+698,3280,10,continuation,complement,c_anaphor,288.0,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+699,3280,10,continuation,complement,c_predicate,292.3333333333333,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+700,3280,10,continuation,complement,c_clause_boundary,333.0,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+701,3280,10,continuation,complement,c_ntw_1,439.5,The rest were shut down since they were no longer popular.,11.0,partial,no,yes,scalar
+702,3279,3,trigger,focused,f_particle,318.0,Only some of the company’s accountants were there.,8.0,partial,no,no,focused
+703,3279,3,trigger,focused,f_quantifier,326.5,Only some of the company’s accountants were there.,8.0,partial,yes,no,focused
+704,3279,3,trigger,focused,f_ntw_1,330.0,Only some of the company’s accountants were there.,8.0,partial,no,no,focused
+705,3279,3,trigger,focused,f_ntw_2,352.0,Only some of the company’s accountants were there.,8.0,partial,no,no,focused
+706,3279,3,continuation,complement,c_anaphor,275.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
+707,3279,3,continuation,complement,predicate,271.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
+708,3279,3,continuation,complement,clause_boundary,251.0,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
+709,3279,3,continuation,complement,c_ntw_1,280.5,The rest were missing because they had to audit the company’s finances before the end of the quarter.,18.0,partial,no,no,focused
+710,3279,7,trigger,scalar,1_s_quantifier,306.0,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
+711,3279,7,trigger,scalar,2_s_ntw_1,295.5,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
+712,3279,7,trigger,scalar,3_s_ntw_2,311.5,Some of the tourists got soaked by the rain storm.,10.0,partial,no,yes,scalar
+713,3279,7,continuation,complement,c_anaphor,278.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
+714,3279,7,continuation,complement,predicate,300.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
+715,3279,7,continuation,complement,clause_boundary,291.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
+716,3279,7,continuation,complement,c_ntw_1,300.0,The rest were dry because they had remembered their umbrellas.,10.0,partial,no,yes,scalar
+717,3279,11,trigger,scalar,1_s_quantifier,321.5,Some of the bottles of Chardonnay were missing.,8.0,partial,no,yes,scalar
+718,3279,11,trigger,scalar,2_s_ntw_1,323.5,Some of the bottles of Chardonnay were missing.,8.0,partial,no,yes,scalar
+719,3279,11,trigger,scalar,3_s_ntw_2,344.0,Some of the bottles of Chardonnay were missing.,8.0,partial,no,yes,scalar
+720,3279,11,continuation,complement,c_anaphor,284.5,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
+721,3279,11,continuation,complement,predicate,308.5,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
+722,3279,11,continuation,complement,clause_boundary,291.0,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
+723,3279,11,continuation,complement,c_ntw_1,280.0,The rest were safe but I was still extremely upset.,10.0,partial,no,yes,scalar
+724,3279,2,trigger,focused,f_particle,284.0,Only some of the residents had evacuated.,7.0,partial,no,no,focused
+725,3279,2,trigger,focused,f_quantifier,314.5,Only some of the residents had evacuated.,7.0,partial,yes,no,focused
+726,3279,2,trigger,focused,f_ntw_1,297.5,Only some of the residents had evacuated.,7.0,partial,no,no,focused
+727,3279,2,trigger,focused,f_ntw_2,310.0,Only some of the residents had evacuated.,7.0,partial,no,no,focused
+728,3279,2,continuation,complement,c_anaphor,278.5,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+729,3279,2,continuation,complement,c_predicate,274.3333333333333,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+730,3279,2,continuation,complement,c_clause_boundary,284.0,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+731,3279,2,continuation,complement,c_ntw_1,315.5,The rest stayed at home and foolishly risked their lives.,10.0,partial,no,no,focused
+732,3279,5,trigger,scalar,1_s_quantifier,283.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+733,3279,5,trigger,scalar,2_s_ntw_1,287.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+734,3279,5,trigger,scalar,3_s_ntw_2,285.5,Some of the real estate investments lost money.,8.0,full,no,yes,scalar
+735,3279,5,continuation,complement,c_anaphor,282.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+736,3279,5,continuation,complement,predicate,465.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+737,3279,5,continuation,complement,clause_boundary,313.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+738,3279,5,continuation,complement,c_ntw_1,337.0,The others were successful despite the recent economic downturn.,9.0,full,no,yes,scalar
+739,3279,19,trigger,scalar,1_s_quantifier,289.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,no,yes,scalar
+740,3279,19,trigger,scalar,2_s_ntw_1,266.5,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,no,yes,scalar
+741,3279,19,trigger,scalar,3_s_ntw_2,300.0,"Today, some of the liquid nitrogen containers needed to be refilled.",11.0,full,no,yes,scalar
+742,3279,19,continuation,cancelation,cancelation_1,262.5,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
+743,3279,19,continuation,cancelation,cancelation_2,296.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
+744,3279,19,continuation,cancelation,cancelation_3,274.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
+745,3279,19,continuation,cancelation,cancelation_4,280.0,"In fact, they all did which confused me because we hadn’t used a lot this morning.",16.0,full,no,yes,scalar
+746,3279,22,trigger,scalar,1_s_quantifier,291.5,Some of their losses were close.,6.0,full,no,yes,scalar
+747,3279,22,trigger,scalar,2_s_ntw_1,307.0,Some of their losses were close.,6.0,full,no,yes,scalar
+748,3279,22,trigger,scalar,3_s_ntw_2,301.0,Some of their losses were close.,6.0,full,no,yes,scalar
+749,3279,22,continuation,complement,c_anaphor,366.5,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
+750,3279,22,continuation,complement,predicate,320.5,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
+751,3279,22,continuation,complement,clause_boundary,322.0,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
+752,3279,22,continuation,complement,c_ntw_1,314.5,The others were blowouts which made the games boring to watch.,11.0,full,no,yes,scalar
+753,3279,13,trigger,scalar,1_s_quantifier,271.0,Some of its tires were flat.,6.0,partial,no,yes,scalar
+754,3279,13,trigger,scalar,2_s_ntw_1,345.0,Some of its tires were flat.,6.0,partial,no,yes,scalar
+755,3279,13,trigger,scalar,3_s_ntw_2,307.5,Some of its tires were flat.,6.0,partial,no,yes,scalar
+756,3279,13,continuation,complement,c_anaphor,447.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+757,3279,13,continuation,complement,predicate,320.5,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+758,3279,13,continuation,complement,clause_boundary,335.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+759,3279,13,continuation,complement,c_ntw_1,320.0,The others were fine so it would not cost too much to fix it.,14.0,partial,no,yes,scalar
+760,3279,9,trigger,scalar,1_s_quantifier,268.0,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
+761,3279,9,trigger,scalar,2_s_ntw_1,268.0,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
+762,3279,9,trigger,scalar,3_s_ntw_2,266.0,Some of the dishes were spicy.,6.0,partial,no,yes,scalar
+763,3279,9,continuation,cancelation,cancelation_1,245.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+764,3279,9,continuation,cancelation,cancelation_2,239.5,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+765,3279,9,continuation,cancelation,cancelation_3,268.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+766,3279,9,continuation,cancelation,cancelation_4,285.0,"In fact, they all were but fortunately I love spicy food.",11.0,partial,no,yes,scalar
+767,3279,24,trigger,scalar,1_s_quantifier,248.0,Some of my stocks went up.,6.0,full,no,yes,scalar
+768,3279,24,trigger,scalar,2_s_ntw_1,259.0,Some of my stocks went up.,6.0,full,no,yes,scalar
+769,3279,24,trigger,scalar,3_s_ntw_2,283.0,Some of my stocks went up.,6.0,full,no,yes,scalar
+770,3279,24,continuation,cancelation,cancelation_1,266.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+771,3279,24,continuation,cancelation,cancelation_2,285.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+772,3279,24,continuation,cancelation,cancelation_3,270.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+773,3279,24,continuation,cancelation,cancelation_4,278.0,"In fact, they all did but my portfolio was still down for the year.",14.0,full,no,yes,scalar
+774,3279,4,trigger,scalar,1_s_quantifier,283.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+775,3279,4,trigger,scalar,2_s_ntw_1,338.5,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+776,3279,4,trigger,scalar,3_s_ntw_2,341.0,Some of the passengers were still alive.,7.0,full,no,yes,scalar
+777,3279,4,continuation,complement,c_anaphor,287.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+778,3279,4,continuation,complement,predicate,332.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+779,3279,4,continuation,complement,clause_boundary,352.0,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+780,3279,4,continuation,complement,c_ntw_1,360.5,The others were killed on impact and there was no opportunity to save them.,14.0,full,no,yes,scalar
+781,3279,8,trigger,focused,f_particle,245.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
+782,3279,8,trigger,focused,f_quantifier,264.0,Only some of the leather couches had been sold.,9.0,full,yes,no,focused
+783,3279,8,trigger,focused,f_ntw_1,249.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
+784,3279,8,trigger,focused,f_ntw_2,265.0,Only some of the leather couches had been sold.,9.0,full,no,no,focused
+785,3279,8,continuation,complement,c_anaphor,269.5,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+786,3279,8,continuation,complement,predicate,312.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+787,3279,8,continuation,complement,clause_boundary,308.0,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+788,3279,8,continuation,complement,c_ntw_1,289.5,The rest were going to be stored in the warehouse until the following season.,14.0,full,no,no,focused
+789,3279,1,trigger,scalar,1_s_quantifier,245.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+790,3279,1,trigger,scalar,2_s_ntw_1,241.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+791,3279,1,trigger,scalar,3_s_ntw_2,242.0,Some of the gold watches were fakes.,7.0,full,no,yes,scalar
+792,3279,1,continuation,cancelation,cancelation_1,256.5,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+793,3279,1,continuation,cancelation,cancelation_2,247.5,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+794,3279,1,continuation,cancelation,cancelation_3,319.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+795,3279,1,continuation,cancelation,cancelation_4,585.0,"In fact, they all were, so the company is planning to sue.",12.0,full,no,yes,scalar
+796,3279,20,trigger,scalar,1_s_quantifier,258.0,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+797,3279,20,trigger,scalar,2_s_ntw_1,248.5,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+798,3279,20,trigger,scalar,3_s_ntw_2,254.0,Some of the honors students received prizes.,7.0,full,no,yes,scalar
+799,3279,20,continuation,complement,c_anaphor,311.5,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
+800,3279,20,continuation,complement,predicate,312.6,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
+801,3279,20,continuation,complement,clause_boundary,283.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
+802,3279,20,continuation,complement,c_ntw_1,274.0,The others were not invited to attend because the teachers didn’t want anyone to feel left out.,17.0,full,no,yes,scalar
+803,3279,10,trigger,focused,f_particle,252.0,Only some of my favorite rides were still running.,9.0,full,no,no,focused
+804,3279,10,trigger,focused,f_quantifier,222.5,Only some of my favorite rides were still running.,9.0,full,yes,no,focused
+805,3279,10,trigger,focused,f_ntw_1,248.5,Only some of my favorite rides were still running.,9.0,full,no,no,focused
+806,3279,10,trigger,focused,f_ntw_2,250.5,Only some of my favorite rides were still running.,9.0,full,no,no,focused
+807,3279,10,continuation,complement,c_anaphor,250.5,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+808,3279,10,continuation,complement,c_predicate,249.66666666666666,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+809,3279,10,continuation,complement,c_clause_boundary,258.0,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+810,3279,10,continuation,complement,c_ntw_1,249.5,The rest were shut down since they were no longer popular.,11.0,full,no,no,focused
+811,3279,17,trigger,focused,f_particle,229.0,Only some of the steps were damaged.,7.0,partial,no,no,focused
+812,3279,17,trigger,focused,f_quantifier,232.5,Only some of the steps were damaged.,7.0,partial,yes,no,focused
+813,3279,17,trigger,focused,f_ntw_1,235.5,Only some of the steps were damaged.,7.0,partial,no,no,focused
+814,3279,17,trigger,focused,f_ntw_2,259.5,Only some of the steps were damaged.,7.0,partial,no,no,focused
+815,3279,17,continuation,complement,c_anaphor,238.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
+816,3279,17,continuation,complement,predicate,239.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
+817,3279,17,continuation,complement,clause_boundary,269.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
+818,3279,17,continuation,complement,c_ntw_1,286.0,The others were fine so the repairs shouldn’t be too expensive.,11.0,partial,no,no,focused
+819,3279,21,trigger,focused,f_particle,230.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
+820,3279,21,trigger,focused,f_quantifier,264.0,Only some of the dictionaries were labeled incorrectly.,8.0,full,yes,no,focused
+821,3279,21,trigger,focused,f_ntw_1,262.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
+822,3279,21,trigger,focused,f_ntw_2,289.5,Only some of the dictionaries were labeled incorrectly.,8.0,full,no,no,focused
+823,3279,21,continuation,complement,c_anaphor,409.5,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+824,3279,21,continuation,complement,c_predicate,281.6666666666667,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+825,3279,21,continuation,complement,c_clause_boundary,327.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+826,3279,21,continuation,complement,c_ntw_1,321.0,The others were labeled appropriately though a few of them had been shelved in the wrong place.,17.0,full,no,no,focused
+827,3279,12,trigger,scalar,1_s_quantifier,373.0,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
+828,3279,12,trigger,scalar,2_s_ntw_1,226.0,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
+829,3279,12,trigger,scalar,3_s_ntw_2,231.5,Some of the dog’s teeth were missing.,7.0,full,no,yes,scalar
+830,3279,12,continuation,cancelation,cancelation_1,239.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
+831,3279,12,continuation,cancelation,cancelation_2,352.5,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
+832,3279,12,continuation,cancelation,cancelation_3,236.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
+833,3279,12,continuation,cancelation,cancelation_4,240.0,"In fact, they all were because its owners completely neglected its oral hygiene.",13.0,full,no,yes,scalar
+834,3279,16,trigger,scalar,1_s_quantifier,225.0,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
+835,3279,16,trigger,scalar,2_s_ntw_1,239.0,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
+836,3279,16,trigger,scalar,3_s_ntw_2,238.5,Some of my new bottles of vodka were opened.,9.0,partial,no,yes,scalar
+837,3279,16,continuation,cancelation,cancelation_1,261.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
+838,3279,16,continuation,cancelation,cancelation_2,238.5,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
+839,3279,16,continuation,cancelation,cancelation_3,234.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
+840,3279,16,continuation,cancelation,cancelation_4,227.0,"In fact, they all were but I decided not to call her parents because it was so hard to find a babysitter.",22.0,partial,no,yes,scalar
+841,3279,15,trigger,scalar,1_s_quantifier,262.0,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
+842,3279,15,trigger,scalar,2_s_ntw_1,272.0,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
+843,3279,15,trigger,scalar,3_s_ntw_2,311.5,Some of their hotels were expensive.,6.0,partial,no,yes,scalar
+844,3279,15,continuation,complement,c_anaphor,241.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
+845,3279,15,continuation,complement,predicate,225.5,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
+846,3279,15,continuation,complement,clause_boundary,255.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
+847,3279,15,continuation,complement,c_ntw_1,243.0,The rest were cheap despite my family’s love for luxurious holidays.,11.0,partial,no,yes,scalar
+848,3279,23,trigger,scalar,1_s_quantifier,240.0,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
+849,3279,23,trigger,scalar,2_s_ntw_1,257.0,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
+850,3279,23,trigger,scalar,3_s_ntw_2,257.5,Some of the words sounded like they do in English.,10.0,partial,no,yes,scalar
+851,3279,23,continuation,cancelation,cancelation_1,269.5,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
+852,3279,23,continuation,cancelation,cancelation_2,238.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
+853,3279,23,continuation,cancelation,cancelation_3,256.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
+854,3279,23,continuation,cancelation,cancelation_4,232.0,"In fact, they all did which made the test somewhat easier.",11.0,partial,no,yes,scalar
+855,3279,6,trigger,focused,f_particle,229.0,Only some of our computers were infected.,7.0,partial,no,no,focused
+856,3279,6,trigger,focused,f_quantifier,209.0,Only some of our computers were infected.,7.0,partial,yes,no,focused
+857,3279,6,trigger,focused,f_ntw_1,200.0,Only some of our computers were infected.,7.0,partial,no,no,focused
+858,3279,6,trigger,focused,f_ntw_2,232.5,Only some of our computers were infected.,7.0,partial,no,no,focused
+859,3279,6,continuation,complement,c_anaphor,220.5,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
+860,3279,6,continuation,complement,predicate,312.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
+861,3279,6,continuation,complement,clause_boundary,233.0,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
+862,3279,6,continuation,complement,c_ntw_1,513.5,The rest were clean because their owners had been very cautious.,11.0,partial,no,no,focused
+863,3279,14,trigger,scalar,1_s_quantifier,227.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
+864,3279,14,trigger,scalar,2_s_ntw_1,318.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
+865,3279,14,trigger,scalar,3_s_ntw_2,268.5,Some of my predictions were correct.,6.0,partial,no,yes,scalar
+866,3279,14,continuation,cancelation,cancelation_1,237.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+867,3279,14,continuation,cancelation,cancelation_2,234.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+868,3279,14,continuation,cancelation,cancelation_3,250.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+869,3279,14,continuation,cancelation,cancelation_4,241.0,"In fact, they all were so I should be able to publish the results.",14.0,partial,no,yes,scalar
+870,3279,18,trigger,focused,f_particle,234.0,Only some of its problems were difficult.,7.0,full,no,no,focused
+871,3279,18,trigger,focused,f_quantifier,227.5,Only some of its problems were difficult.,7.0,full,yes,no,focused
+872,3279,18,trigger,focused,f_ntw_1,249.0,Only some of its problems were difficult.,7.0,full,no,no,focused
+873,3279,18,trigger,focused,f_ntw_2,256.5,Only some of its problems were difficult.,7.0,full,no,no,focused
+874,3279,18,continuation,complement,c_anaphor,238.5,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
+875,3279,18,continuation,complement,predicate,223.0,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
+876,3279,18,continuation,complement,clause_boundary,277.0,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
+877,3279,18,continuation,complement,c_ntw_1,265.5,The others were straightforward and I feel like I learned a lot.,12.0,full,no,no,focused
