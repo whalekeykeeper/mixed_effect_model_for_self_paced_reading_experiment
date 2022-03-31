@@ -107,7 +107,7 @@ coef(model.2)
 # Scalar trigger data
 # Quantifier
 data <- df %>%
-  filter(setting == "scalar", region == "s_quantifier" | region == "f_quantifier")
+  filter(setting == "scalar", region == "s_quantifier")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -132,7 +132,7 @@ coef(model.2)
 # Scalar trigger data
 # Region 2
 data <- df %>%
-  filter(setting == "scalar", region == "f_ntw_1" | region == "s_ntw_1")
+  filter(setting == "scalar", region == "s_ntw_1")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -158,7 +158,7 @@ coef(model.2)
 # Scalar trigger data
 # Region 3
 data <- df %>%
-  filter(setting == "scalar", region == "f_ntw_2" | region == "s_ntw_2")
+  filter(setting == "scalar", region == "s_ntw_2")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -184,7 +184,7 @@ coef(model.2)
 # Focused trigger data
 # Focus: Only
 data <- df %>%
-  filter(setting == "scalar", region == "f_particle")
+  filter(setting == "focused", region == "f_particle")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -210,7 +210,7 @@ coef(model.2)
 # Focused trigger data
 # Quantifier
 data <- df %>%
-  filter(setting == "scalar", region == "s_quantifier" | region == "f_quantifier")
+  filter(setting == "focused", region == "f_quantifier")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -236,7 +236,7 @@ coef(model.2)
 # Focused trigger data
 # Region 2
 data <- df %>%
-  filter(setting == "scalar", region == "f_ntw_1" | region == "s_ntw_1")
+  filter(setting == "focused", region == "f_ntw_1")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -263,7 +263,7 @@ coef(model.2)
 # Focused trigger data
 # Region 3
 data <- df %>%
-  filter(setting == "scalar", region == "f_ntw_2" | region == "s_ntw_2")
+  filter(setting == "focused", region == "f_ntw_2")
 head(data)
 
 boxplot(avg_rt ~ speakerKnowledge,
@@ -703,58 +703,6 @@ summary(model.2)
 # anova(model.1, model.2)
 coef(model.1)
 coef(model.2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
