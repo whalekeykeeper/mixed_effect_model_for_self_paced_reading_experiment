@@ -115,47 +115,47 @@ def create_region(df):
 
         elif row['setting'] == 'complement':
             if row['word_number'] in [1, 2]:
-                df.at[i, 'region'] = 'c_anaphor'
+                df.at[i, 'region'] = '1_anaphor'
 
             if row['itemID'] in [2, 10, 21, 23, 24]:
                 if row['word_number'] in [3, 4, 5]:
-                    df.at[i, 'region'] = 'c_predicate'
+                    df.at[i, 'region'] = '2_predicate'
                 elif row['word_number'] == 6:
-                    df.at[i, 'region'] = 'c_clause_boundary'
+                    df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [7, 8]:
-                    df.at[i, 'region'] = 'c_ntw_1'
+                    df.at[i, 'region'] = '4_c_ntw_1'
 
             elif row['itemID'] == 4:
                 if row['word_number'] in [3, 4, 5, 6]:
-                    df.at[i, 'region'] = 'predicate'
+                    df.at[i, 'region'] = '2_predicate'
                 elif row['word_number'] == 7:
-                    df.at[i, 'region'] = 'clause_boundary'
+                    df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [8, 9]:
-                    df.at[i, 'region'] = 'c_ntw_1'
+                    df.at[i, 'region'] = '4_c_ntw_1'
 
             elif row['itemID'] == 8:
                 if row['word_number'] in [3, 4, 5, 6, 7, 8, 9, 10]:
-                    df.at[i, 'region'] = 'predicate'
+                    df.at[i, 'region'] = '2_predicate'
                 elif row['word_number'] == 11:
-                    df.at[i, 'region'] = 'clause_boundary'
+                    df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [12, 13]:
-                    df.at[i, 'region'] = 'c_ntw_1'
+                    df.at[i, 'region'] = '4_c_ntw_1'
 
             elif row['itemID'] == 20:
                 if row['word_number'] in [3, 4, 5, 6, 7]:
-                    df.at[i, 'region'] = 'predicate'
+                    df.at[i, 'region'] = '2_predicate'
                 elif row['word_number'] == 8:
-                    df.at[i, 'region'] = 'clause_boundary'
+                    df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [9, 10]:
-                    df.at[i, 'region'] = 'c_ntw_1'
+                    df.at[i, 'region'] = '4_c_ntw_1'
 
             else:
                 if row['word_number'] in [3, 4]:
-                    df.at[i, 'region'] = 'predicate'
+                    df.at[i, 'region'] = '2_predicate'
                 elif row['word_number'] == 5:
-                    df.at[i, 'region'] = 'clause_boundary'
+                    df.at[i, 'region'] = '3_clause_boundary'
                 elif row['word_number'] in [6, 7]:
-                    df.at[i, 'region'] = 'c_ntw_1'
+                    df.at[i, 'region'] = '4_c_ntw_1'
 
     return df
 
