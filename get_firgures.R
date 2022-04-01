@@ -16,7 +16,9 @@ head(scalar_trigger_sentences)
 scalar_trigger_sentences %>%
   ggplot( aes(x=region, y=m, group=speakerKnowledge, color=speakerKnowledge)) +
   geom_line(aes(linetype=speakerKnowledge)) + geom_point()+
-  scale_y_continuous(breaks = pretty(scalar_trigger_sentences$m, n = 10))
+  scale_y_continuous(breaks = pretty(scalar_trigger_sentences$m, n = 10)) +
+  ggtitle("scalar trigger sentences") +
+  xlab("reggion") + ylab("Reading time (ms per word) ")
 
 
 # Firgure 2
@@ -29,7 +31,8 @@ head(focused_trigger_sentences)
 focused_trigger_sentences %>%
   ggplot( aes(x=region, y=m, group=speakerKnowledge, color=speakerKnowledge)) +
   geom_line(aes(linetype=speakerKnowledge)) + geom_point()+
-  scale_y_continuous(breaks = pretty(focused_trigger_sentences$m, n = 10))
+  scale_y_continuous(breaks = pretty(focused_trigger_sentences$m, n = 10)) +
+  ggtitle("focused trigger sentences")
 
 
 # Firgure 3
@@ -42,7 +45,8 @@ head(complement_with_scalar_trigger)
 complement_with_scalar_trigger %>%
   ggplot( aes(x=region, y=m, group=speakerKnowledge, color=speakerKnowledge)) +
   geom_line(aes(linetype=speakerKnowledge)) + geom_point()+
-  scale_y_continuous(breaks = pretty(complement_with_scalar_trigger$m, n = 10))
+  scale_y_continuous(breaks = pretty(complement_with_scalar_trigger$m, n = 10)) +
+  ggtitle("complement sentences with scalar trigger")
 
 
 # Firgure 4
@@ -55,7 +59,8 @@ head(complement_with_focused_trigger)
 complement_with_focused_trigger %>%
   ggplot( aes(x=region, y=m, group=speakerKnowledge, color=speakerKnowledge)) +
   geom_line(aes(linetype=speakerKnowledge)) + geom_point() +
-  scale_y_continuous(breaks = pretty(complement_with_focused_trigger$m, n = 10))
+  scale_y_continuous(breaks = pretty(complement_with_focused_trigger$m, n = 10)) +
+  ggtitle("complement sentences with focused trigger")
 
 
 # Firgure 5
@@ -68,5 +73,6 @@ head(cancelation)
 cancelation %>%
   ggplot( aes(x=region, y=m, group=speakerKnowledge, color=speakerKnowledge)) +
   geom_line(aes(linetype=speakerKnowledge)) + geom_point() +
-  scale_y_continuous(breaks = pretty(cancelation$m, n = 10))
+  scale_y_continuous(breaks = pretty(cancelation$m, n = 10)) +
+  ggtitle("cancellation sentences")
 
