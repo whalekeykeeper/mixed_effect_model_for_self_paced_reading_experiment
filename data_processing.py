@@ -3,9 +3,6 @@ import pandas as pd
 
 def read_csv(path):
     df = pd.read_csv(path)
-    # print(df)
-    # print(df.columns)
-    # print(df.submission_id.unique())
     return df
 
 
