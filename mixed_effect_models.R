@@ -1,16 +1,13 @@
 library(dplyr)
 library(lme4)
+library(performance)
 
 # read data
 df = read.csv("https://raw.githubusercontent.com/whalekeykeeper/mixed_effect_model_for_self_paced_reading_experiment/main/data_processed.csv")
 
-
-
 # Log-transform data
 df$avg_rt=log(df$avg_rt)
 head(df)
-
-
 
 # Create a simple linear regression model and use residual plots to check assumptions for a linear regression model
 xmdl= lm(avg_rt ~ speakerKnowledge, df)
@@ -46,6 +43,7 @@ summary(model.2)
 # anova(model.1, model.2)
 coef(model.1)
 coef(model.2)
+
 # Plots
 plot(fitted(model.1), residuals(model.1))
 hist(residuals(model.1)) 
@@ -65,16 +63,16 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.3 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge*triggerType |submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.4 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + triggerType |itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.3)
+summary(model.4)
+coef(model.3)
+coef(model.4)
+
 
 
 # Trigger Sentences
@@ -90,16 +88,17 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.5 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.6 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.5)
+summary(model.6)
+coef(model.5)
+coef(model.6)
+r2_nakagawa(model.5, by_group = FALSE, tolerance = 1e-05)
+r2_nakagawa(model.6, by_group = FALSE, tolerance = 1e-05)
 
 
 # """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -116,16 +115,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.7 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.8 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.7)
+summary(model.8)
+coef(model.7)
+coef(model.8)
 
 
 # Trigger Sentences
@@ -141,16 +139,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.9 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.10 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.9)
+summary(model.10)
+coef(model.9)
+coef(model.10)
 
 
 
@@ -167,16 +164,16 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.11 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.12 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
+summary(model.11)
+summary(model.12)
 # anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+coef(model.11)
+coef(model.12)
 
 
 # """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -193,16 +190,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.13 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.14 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.13)
+summary(model.14)
+coef(model.13)
+coef(model.14)
 
 
 
@@ -219,16 +215,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.15 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.16 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.15)
+summary(model.16)
+coef(model.15)
+coef(model.16)
 
 
 
@@ -245,16 +240,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.17 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.18 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.17)
+summary(model.18)
+coef(model.17)
+coef(model.18)
 
 
 
@@ -272,16 +266,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.19 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.20 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.19)
+summary(model.20)
+coef(model.19)
+coef(model.20)
 
 
 
@@ -300,16 +293,17 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.21 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.22 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.21)
+summary(model.22)
+coef(model.21)
+coef(model.22)
+r2_nakagawa(model.21, by_group = FALSE, tolerance = 1e-05)
+r2_nakagawa(model.22, by_group = FALSE, tolerance = 1e-05)
 
 
 
@@ -326,17 +320,16 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.23 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge*triggerType|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.24 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge + triggerType|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
-
+summary(model.23)
+summary(model.24)
+coef(model.23)
+coef(model.24)
+r2_nakagawa(model.24, by_group = FALSE, tolerance = 1e-05)
 
 
 
@@ -353,16 +346,17 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.25 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.26 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.25)
+summary(model.26)
+coef(model.25)
+coef(model.26)
+r2_nakagawa(model.25, by_group = FALSE, tolerance = 1e-05)
+r2_nakagawa(model.26, by_group = FALSE, tolerance = 1e-05)
 
 
 
@@ -380,16 +374,19 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.27 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.28 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
+summary(model.27)
+summary(model.28)
 # anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+coef(model.27)
+coef(model.28)
+r2_nakagawa(model.27, by_group = FALSE, tolerance = 1e-05)
+r2_nakagawa(model.28, by_group = FALSE, tolerance = 1e-05)
+
 
 
 # """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -406,16 +403,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.29 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.30 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.29)
+summary(model.30)
+coef(model.29)
+coef(model.30)
 
 
 # Complement Sentences
@@ -431,16 +427,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.31 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.32 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.31)
+summary(model.32)
+coef(model.31)
+coef(model.32)
 
 
 # Complement Sentences
@@ -456,16 +451,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.33 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.34 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.33)
+summary(model.34)
+coef(model.33)
+coef(model.34)
 
 
 # Complement Sentences
@@ -481,16 +475,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.35 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.36 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.35)
+summary(model.36)
+coef(model.35)
+coef(model.36)
 
 
 # """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -508,16 +501,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.37 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.38 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.37)
+summary(model.38)
+coef(model.37)
+coef(model.38)
 
 
 
@@ -534,16 +526,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.39 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.40 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.39)
+summary(model.40)
+coef(model.39)
+coef(model.40)
 
 
 # Complement Sentences
@@ -559,16 +550,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.41 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.42 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.41)
+summary(model.42)
+coef(model.41)
+coef(model.42)
 
 
 
@@ -586,19 +576,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.43 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.44 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
-
-
-
+summary(model.43)
+summary(model.44)
+coef(model.43)
+coef(model.44)
 
 
 
@@ -618,16 +604,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.45 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.46 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.45)
+summary(model.46)
+coef(model.45)
+coef(model.46)
 
 
 # Cancelation Sentences
@@ -643,16 +628,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.47 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.48 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.47)
+summary(model.48)
+coef(model.47)
+coef(model.48)
 
 
 # Cancelation Sentences
@@ -668,16 +652,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.49 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.50 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.49)
+summary(model.50)
+coef(model.49)
+coef(model.50)
 
 
 # Cancelation Sentences
@@ -693,16 +676,15 @@ boxplot(avg_rt ~ setting,
         col=c("lightblue"),data)
 
 # Participants
-model.1 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.51 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1|submission_id), data=data, REML=FALSE)
 # Items
-model.2 = lmer(avg_rt ~ speakerKnowledge*triggerType +
+model.52 = lmer(avg_rt ~ speakerKnowledge*triggerType +
                  (1 + speakerKnowledge|itemID), data=data, REML=FALSE)
-summary(model.1)
-summary(model.2)
-# anova(model.1, model.2)
-coef(model.1)
-coef(model.2)
+summary(model.51)
+summary(model.52)
+coef(model.51)
+coef(model.52)
 
 
 
